@@ -1,0 +1,224 @@
+
+.contact-section {
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+  color: #fff;
+  padding: 100px 6%;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNhcnxlbnwwfHwwfHx8MA%3D%3D ")
+    center/cover no-repeat;
+  opacity: 0.12;
+  z-index: 0;
+}
+
+.contact-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffb703;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contact-intro {
+  text-align: center;
+  color: #ddd;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  line-height: 1.6;
+}
+
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  animation: fadeInLeft 0.8s ease;
+}
+
+.contact-info h3 {
+  color: #ffb703;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+}
+
+.contact-info strong {
+  color: #ffb703;
+}
+
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffb703;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.social-links a:hover {
+  background: #ffb703;
+  color: #0d1b2a;
+  transform: translateY(-3px);
+}
+
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  animation: fadeInRight 0.8s ease;
+}
+
+.contact-form h3 {
+  color: #ffb703;
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 0.95rem;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #bbb;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 8px rgba(255, 183, 3, 0.4);
+}
+
+.contact-form button {
+  background: linear-gradient(90deg, #ffb703, #fca311);
+  color: #0d1b2a;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(255, 183, 3, 0.4);
+}
+
+
+.map-container iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25);
+  animation: fadeInUp 1s ease;
+}
+
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact-info,
+  .contact-form {
+    animation: none;
+  }
+
+  .map-container iframe {
+    height: 320px;
+  }
+}

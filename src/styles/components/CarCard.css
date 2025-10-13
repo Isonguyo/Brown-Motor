@@ -1,0 +1,116 @@
+/* ================================
+   INDIVIDUAL CAR CARD DESIGN
+=================================== */
+.car-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 14px;
+  color: #111;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden; /* prevents button or text overflow */
+}
+
+.car-cards:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(10, 31, 68, 0.3);
+}
+
+/* ================================
+   IMAGE AREA
+=================================== */
+.car-cards-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #f2f4f7;
+  transition: transform 0.4s ease;
+}
+
+.car-cards:hover .car-cards-image {
+  transform: scale(1.05);
+}
+
+/* ================================
+   CARD BODY
+=================================== */
+.car-cards-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.car-cards-body h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1f1f1f;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.muted {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.price {
+  margin-top: 4px;
+  font-weight: 700;
+  color: #0a1f44;
+  font-size: 1.05rem;
+}
+
+/* ================================
+   VIEW BUTTON
+=================================== */
+.view-btn {
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  background: #ffb703;
+  color: #0a1f44;
+  padding: 0.7rem 0;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.view-btn:hover {
+  background: #e63c21;
+  color: #fff;
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+=================================== */
+@media (min-width: 700px) {
+  .car-cards {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .car-cards-image {
+    width: 180px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 12px;
+  }
+
+  .car-cards-body {
+    flex: 1;
+    padding-left: 16px;
+  }
+}

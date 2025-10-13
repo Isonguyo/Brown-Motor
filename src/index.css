@@ -1,0 +1,60 @@
+/* =========================
+   Root Index Styles
+========================= */
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Improve text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+/* Code styling (for any snippets/debug) */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Root mounting point */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* 🌍 Universal font setup */
+html {
+  font-size: 16px; /* Base desktop font size */
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* Mobile font base */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 15px; /* Slightly larger for small screens */
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: #222;
+}

@@ -1,0 +1,212 @@
+/* ================================
+   CAR DETAIL PAGE — BRAND STYLED
+   (Dark elegant theme with yellow accent)
+================================= */
+.car-detail {
+  padding: 4rem 2rem;
+  background: linear-gradient(90deg, #0d1b2a 0%, #1b263b 100%);
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* ================================
+   BACK BUTTON
+================================= */
+.back-btn {
+  display: inline-block;
+  margin-bottom: 2rem;
+  background: #ffb703;
+  color: #0d1b2a;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #e6a000;
+  transform: translateY(-2px);
+}
+
+/* ================================
+   MAIN TITLE
+================================= */
+.car-detail h1 {
+  font-size: 2.4rem;
+  color: #ffb703;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  position: relative;
+  text-shadow: 0 0 10px rgba(255, 183, 3, 0.4);
+}
+
+.car-detail h1::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #ffb703;
+  display: block;
+  margin: 0.6rem auto 0;
+  border-radius: 2px;
+}
+
+/* ================================
+   MAIN IMAGE
+================================= */
+.main-image {
+  display: block;
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  margin: 1.5rem 0 2.5rem;
+  border: 2px solid rgba(255, 183, 3, 0.3);
+}
+
+/* ================================
+   DETAILS GRID
+================================= */
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2.5rem;
+  border: 1px solid rgba(255, 183, 3, 0.2);
+}
+
+.details-grid p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+}
+
+.details-grid strong {
+  color: #ffb703;
+}
+
+/* ================================
+   DESCRIPTION & FEATURES
+================================= */
+.car-detail h3 {
+  color: #ffb703;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.car-detail p {
+  font-size: 1rem;
+  color: #f0f0f0;
+  line-height: 1.7;
+}
+
+.car-detail ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.6rem 1rem;
+}
+
+.car-detail ul li {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  font-size: 0.95rem;
+  color: #fff;
+  transition: 0.3s ease;
+  border: 1px solid rgba(255, 183, 3, 0.15);
+}
+
+.car-detail ul li:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 183, 3, 0.1);
+  border-color: #ffb703;
+}
+
+/* ================================
+   IMAGE GALLERY
+================================= */
+.gallery {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 200px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  border-color: #ffb703;
+  box-shadow: 0 10px 25px rgba(255, 183, 3, 0.3);
+}
+
+/* ================================
+   VIDEO SECTION
+================================= */
+.car-video {
+  margin-top: 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 183, 3, 0.2);
+}
+
+.car-video h3 {
+  margin-bottom: 1rem;
+  color: #ffb703;
+}
+
+.car-video video {
+  border-radius: 10px;
+  width: 100%;
+  outline: none;
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+================================= */
+@media (max-width: 768px) {
+  .car-detail {
+    padding: 3rem 1rem;
+  }
+
+  .main-image {
+    max-height: 320px;
+  }
+
+  .car-detail h1 {
+    font-size: 1.8rem;
+  }
+
+  .details-grid {
+    padding: 1.5rem;
+  }
+
+  .gallery img {
+    height: 180px;
+  }
+}
