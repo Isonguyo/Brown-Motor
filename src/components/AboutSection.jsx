@@ -64,7 +64,7 @@ const AboutSection = () => {
       <div className="owner-section">
         <div className="owner-image">
           <img
-            src="/assets/images/ghbc9.jpg"
+            src="./assets/images/ghbc9.jpg"
             alt="Founder of Brown Motors"
           />
         </div>
