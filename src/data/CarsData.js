@@ -18,7 +18,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "/assets/images/venza2012.jpg",
+  mainImg: "./assets/images/venza2012.jpg",
   description:
     "Spacious and versatile 2012 Toyota Venza, combining the comfort of a sedan with the capability of an SUV. Features smooth automatic transmission, reliable 2.7L or 3.5L engine options, and a premium, roomy interior — perfect for family and long-distance trips.",
   features: [
@@ -32,12 +32,12 @@ const carsData = [
     "Touchscreen Infotainment System",
   ],
   gallery: [
-    "/assets/images/venza2012-1.jpg",
-    "/assets/images/venza2012-2.jpg",
-    "/assets/images/venza2012-3.jpg",
-    "/assets/images/venza2012-4.jpg",
+    "./assets/images/venza2012-1.jpg",
+    "./assets/images/venza2012-2.jpg",
+    "./assets/images/venza2012-3.jpg",
+    "./assets/images/venza2012-4.jpg",
   ],
-  video: "/assets/videos/venza2012.mp4",
+  video: "./assets/videos/venza2012.mp4",
 },
 {
   id: 2,
@@ -57,7 +57,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "/assets/images/Benz-c300.jpg",
+  mainImg: "./assets/images/Benz-c300.jpg",
   description:
     "This 2013 Mercedes-Benz C300 blends luxury, power, and comfort. With its refined V6 engine, smooth automatic transmission, and premium black exterior, it delivers a truly executive driving experience. The cabin is quiet and elegant, making it ideal for both city cruising and long-distance trips.",
   features: [
@@ -72,15 +72,15 @@ const carsData = [
     "Premium Sound System"
   ],
   gallery: [
-    "/assets/images/Benz-c300-1.jpg",
-    "/assets/images/Benz-c300-2.jpg",
-    "/assets/images/Benz-c300-3.jpg",
-    "/assets/images/Benz-c300-4.jpg",
-    "/assets/images/Benz-c300-5.jpg",
-    "/assets/images/Benz-c300-6.jpg",
-    "/assets/images/Benz-c300-7.jpg",
+    "./assets/images/Benz-c300-1.jpg",
+    "./assets/images/Benz-c300-2.jpg",
+    "./assets/images/Benz-c300-3.jpg",
+    "./assets/images/Benz-c300-4.jpg",
+    "./assets/images/Benz-c300-5.jpg",
+    "./assets/images/Benz-c300-6.jpg",
+    "./assets/images/Benz-c300-7.jpg",
   ],
-  video: "/assets/videos/Benz-c300.mp4"
+  video: "./assets/videos/Benz-c300.mp4"
 },
 {
   id: 3,
@@ -100,7 +100,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "/assets/images/Mercedes-Benz C300 2017.jpg",
+  mainImg: "./assets/images/Mercedes-Benz C300 2017.jpg",
   description:
     "A sleek 2017 Mercedes-Benz C300 that combines performance, luxury, and technology. Equipped with a turbocharged 2.0L engine, elegant design, and refined interior, it offers smooth handling and exceptional comfort for modern drivers.",
   features: [
@@ -116,14 +116,14 @@ const carsData = [
     "Navigation System"
   ],
   gallery: [
-    "/assets/images/Mercedes-Benz C300 2017-1.jpg",
-    "/assets/images/Mercedes-Benz C300 2017-2.jpg",
-    "/assets/images/Mercedes-Benz C300 2017-3.jpg",
-    "/assets/images/Mercedes-Benz C300 2017-4.jpg",
-    "/assets/images/Mercedes-Benz C300 2017-5.jpg",
+    "./assets/images/Mercedes-Benz C300 2017-1.jpg",
+    "./assets/images/Mercedes-Benz C300 2017-2.jpg",
+    "./assets/images/Mercedes-Benz C300 2017-3.jpg",
+    "./assets/images/Mercedes-Benz C300 2017-4.jpg",
+    "./assets/images/Mercedes-Benz C300 2017-5.jpg",
 
   ],
-  video: "/assets/videos/Mercedes-Benz C300 2017.mp4"
+  video: "./assets/videos/Mercedes-Benz C300 2017.mp4"
 },
 {
   id: 4,
@@ -143,7 +143,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "/assets/images/Highlander2012.jpg",
+  mainImg: "./assets/images/Highlander2012.jpg",
   description:
     "This 2012 Toyota Highlander delivers durability, comfort, and space. With a powerful V6 engine, smooth ride quality, and premium interior, it’s perfect for families or anyone who values reliability and performance in one stylish SUV.",
   features: [
@@ -159,11 +159,11 @@ const carsData = [
     "Premium Sound System"
   ],
   gallery: [
-    "/assets/images/Highlander2012-1.jpg",
-    "/assets/images/Highlander2012-2.jpg",
-    "/assets/images/Highlander2012-3.jpg",
-    "/assets/images/Highlander2012-4.jpg",
-    "/assets/images/Highlander2012-5.jpg"
+    "./assets/images/Highlander2012-1.jpg",
+    "./assets/images/Highlander2012-2.jpg",
+    "./assets/images/Highlander2012-3.jpg",
+    "./assets/images/Highlander2012-4.jpg",
+    "./assets/images/Highlander2012-5.jpg"
   ],
   video: "/assets/videos/Highlander2012.mp4"
 },
@@ -185,7 +185,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "/assets/images/Highlander2015.jpg",
+  mainImg: "./assets/images/Highlander2015.jpg",
   description:
     "This 2015 Toyota Highlander combines luxury, strength, and space. Powered by a smooth V6 engine with all-wheel drive, it’s perfect for both city driving and long trips. The modern cabin features premium materials, smart tech, and comfort for the whole family.",
   features: [
@@ -203,14 +203,14 @@ const carsData = [
     "Cruise Control"
   ],
   gallery: [
-    "/assets/images/Highlander2015-1.jpg",
-    "/assets/images/Highlander2015-2.jpg",
-    "/assets/images/Highlander2015-3.jpg",
-    "/assets/images/Highlander2015-4.jpg",
-    "/assets/images/Highlander2015-5.jpg",
-    "/assets/images/Highlander2015-6.jpg"
+    "./assets/images/Highlander2015-1.jpg",
+    "./assets/images/Highlander2015-2.jpg",
+    "./assets/images/Highlander2015-3.jpg",
+    "./assets/images/Highlander2015-4.jpg",
+    "./assets/images/Highlander2015-5.jpg",
+    "./assets/images/Highlander2015-6.jpg"
   ],
-  video: "/assets/videos/Highlander2015.mp4"
+  video: "./assets/videos/Highlander2015.mp4"
 },
 {
   id: 6,
@@ -230,7 +230,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "/assets/images/corolla2015.jpg",
+  mainImg: "./assets/images/corolla2015.jpg",
   description:
     "The 2015 Toyota Corolla Sport offers sporty styling, fuel efficiency, and a smooth drive. With its sharp red finish and reliable engine, this car blends comfort, performance, and modern design — ideal for both city drives and long journeys.",
   features: [
@@ -246,13 +246,13 @@ const carsData = [
     "Automatic Climate Control"
   ],
   gallery: [
-    "/assets/images/corolla2015-1.jpg",
-    "/assets/images/corolla2015-2.jpg",
-    "/assets/images/corolla2015-3.jpg",
-    "/assets/images/corolla2015-4.jpg",
-    "/assets/images/corolla2015-5.jpg"
+    "./assets/images/corolla2015-1.jpg",
+    "./assets/images/corolla2015-2.jpg",
+    "./assets/images/corolla2015-3.jpg",
+    "./assets/images/corolla2015-4.jpg",
+    "./assets/images/corolla2015-5.jpg"
   ],
-  video: "/assets/videos/corolla2015.mp4"
+  video: "./assets/videos/corolla2015.mp4"
 },
 {
   id: 7,
@@ -272,7 +272,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Lagos",
   availability: "Available",
-  mainImg: "/assets/images/camry2014.jpg",
+  mainImg: "./assets/images/camry2014.jpg",
   description:
     "The 2014 Toyota Camry combines reliability, comfort, and refined style. With its sleek design, efficient 2.5L engine, and smooth automatic transmission, it’s built for those who value performance and elegance in one package. Ideal for both daily commuting and long road trips.",
   features: [
@@ -288,13 +288,13 @@ const carsData = [
     "ABS with EBD"
   ],
   gallery: [
-    "/assets/images/camry2014-1.jpg",
-    "/assets/images/camry2014-2.jpg",
-    "/assets/images/camry2014-3.jpg",
-    "/assets/images/camry2014-4.jpg",
-    "/assets/images/camry2014-5.jpg"
+    "./assets/images/camry2014-1.jpg",
+    "./assets/images/camry2014-2.jpg",
+    "./assets/images/camry2014-3.jpg",
+    "./assets/images/camry2014-4.jpg",
+    "./assets/images/camry2014-5.jpg"
   ],
-  video: "/assets/videos/camry2014.mp4"
+  video: "./assets/videos/camry2014.mp4"
 },
 
 
