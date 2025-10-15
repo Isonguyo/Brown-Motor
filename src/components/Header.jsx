@@ -18,7 +18,7 @@ const Header = () => {
       <div className="header-inner">
         {/* Logo */}
         <div className="logo fade-slide">
-          <img src="/assets/images/car-logo.png" alt="Brown Motors Logo" />
+          <img src="./assets/images/car-logo.png" alt="Brown Motors Logo" />
           <span className="logo-text">Brown Motors</span>
         </div>
 
