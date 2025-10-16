@@ -18,7 +18,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "./assets/images/venza2012.jpg",
+  mainImg: "https://brown-motors.netlify.app/assets/images/venza2012.jpg",
   description:
     "Spacious and versatile 2012 Toyota Venza, combining the comfort of a sedan with the capability of an SUV. Features smooth automatic transmission, reliable 2.7L or 3.5L engine options, and a premium, roomy interior — perfect for family and long-distance trips.",
   features: [
