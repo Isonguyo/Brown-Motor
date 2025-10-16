@@ -9,9 +9,10 @@
 .cars-page {
   padding: 5rem 2rem;
   background: linear-gradient(90deg, #0d1b2a 0%, #1b263b 100%);
-  min-height: 100vh;
+ min-height: auto;
   font-family: "Poppins", sans-serif;
   color: #fff;
+    padding-bottom: 6rem;
 }
 
 /* ================================
