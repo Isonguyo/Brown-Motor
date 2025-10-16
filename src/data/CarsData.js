@@ -32,12 +32,12 @@ const carsData = [
     "Touchscreen Infotainment System",
   ],
   gallery: [
-    "./assets/images/venza2012-1.jpg",
-    "./assets/images/venza2012-2.jpg",
-    "./assets/images/venza2012-3.jpg",
-    "./assets/images/venza2012-4.jpg",
+    "https://brown-motors.netlify.app/cars/assets/images/venza2012-1.jpg",
+    "https://brown-motors.netlify.app/cars/assets/images/venza2012-2.jpg",
+    "https://brown-motors.netlify.app/cars/assets/images/venza2012-3.jpg",
+    ".https://brown-motors.netlify.app/cars/assets/images/venza2012-4.jpg",
   ],
-  video: "./assets/videos/venza2012.mp4",
+  video: "https://brown-motors.netlify.app/cars/assets/videos/venza2012.mp4",
 },
 {
   id: 2,
