@@ -18,7 +18,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://brown-motors.netlify.app/assets/images/venza2012.jpg",
+  mainImg: "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/563448024_122152357808741789_4300403681177610439_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEEpnThJYn_SAXoOsL_Ky2TikevZzVJHu6KR69nNUke7tetsdpXN3pPIksO_GTRsIn3VNPqyqj-NaIhDaUSvIuv&_nc_ohc=iLbVssG6F9cQ7kNvwED4ERT&_nc_oc=Adkml2iIAaHY48jlKoXzhtd_00xW6lnxSg_-AG29coMZnjzKV-TTXn97x9aFzfnq9-k&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=chYGImLNMpU5KyQgaUC-GA&oh=00_Afcd6WV5etHSQqXtKOQcZSR2IQELoLa2FKFQzCKCb7nBXg&oe=68F73EB2",
   description:
     "Spacious and versatile 2012 Toyota Venza, combining the comfort of a sedan with the capability of an SUV. Features smooth automatic transmission, reliable 2.7L or 3.5L engine options, and a premium, roomy interior — perfect for family and long-distance trips.",
   features: [
@@ -32,12 +32,12 @@ const carsData = [
     "Touchscreen Infotainment System",
   ],
   gallery: [
-    "https://brown-motors.netlify.app/cars/assets/images/venza2012-1.jpg",
-    "https://brown-motors.netlify.app/cars/assets/images/venza2012-2.jpg",
-    "https://brown-motors.netlify.app/cars/assets/images/venza2012-3.jpg",
-    ".https://brown-motors.netlify.app/cars/assets/images/venza2012-4.jpg",
+    // "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561389932_122152358516741789_1372282255959220040_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEZkEh4RFUh5FgsHrftdB5nEnD9YgD1JXMScP1iAPUlcxdUoFRLfiSGKplD0HZWeAmpIjCugt1lHX30gO9Lb-JA&_nc_ohc=ysr0VLP2V2YQ7kNvwH1YNlJ&_nc_oc=AdnkDBe5hT4POOrVNR7IseJ-Kqwt0UVOd6t-L3fn4-_KHHsLlK1lGKKR9Nu5ebMKELg&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=Qn3c9dS7J6JJ7hp4hAptEg&oh=00_AffrIimJuWfjNR-2Ml5N2ueta78X7bp9JfEUpXmhmV2uuw&oe=68F74B54",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/564004987_122152358198741789_2928538927601928923_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG3DnJrgSnyoF0fNz3KfpBAM1tuv7ifi7AzW26_uJ-LsI2mzKe1w8Owd0VsnGnDGszPI6Bl8hWD6IxftZctx9Ty&_nc_ohc=yrHDzmYx2lQQ7kNvwGIZIPO&_nc_oc=Adk6wXIkeaYiPtCI5bNgIpXGPaNiIivXRrEDwnjM9TdHo4GpN3EABQDnv1jtsr5m5_E&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=BtjkVynezI4Zb5plIa5x3Q&oh=00_AfewQYJ4b5Of56kD0y2RJUwz7xadrKDv1Oj3YKnjGV4bQA&oe=68F724BA",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/563992487_122152358666741789_6642893230880413765_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFEL_tEWKYon2XQnYgjJuA9Se-HPs0WrqdJ74c-zRaup4tnaQCQIqH6EcQILhLLKAZg1RJSrLqO7kyGEVIMnIP4&_nc_ohc=L0-pAjB--nAQ7kNvwHhPvZV&_nc_oc=AdmaIz4ZOg8gQpAwwdskNwTC7Y-UpMWhzoMNC_uninvYBAArsNZ-kA9c_UClLXddT7Q&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=qI224UlDJgsKYwP6w-Ng6Q&oh=00_AffU4J8fqVxjWnY4ZqMQs7hCgtNi1Izq9KgtQeilwHlbzA&oe=68F73DAA",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561290596_122152357676741789_1725403063059606534_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHjdfzBu2hkERhJpORWJprw5V7XvMy48hrlXte8zLjyGkEQ_hS5Q-p-kz8Q-176NBRRylhC-_XzMH1c7-cHXeeR&_nc_ohc=nZr09Y2zxjEQ7kNvwHNG83b&_nc_oc=AdnjjNY0clBYF2iXzgx4oV051T_LJaoLWQQiNuF5BfMW3tSwSCxdTItDVuSGcx-Hq9k&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=_5wntKKU1x_v73_AJSfmLw&oh=00_Afd7OGiKSxPyuNRXv2HK_E1_BMb7VGBynHDl_2uEga8jEQ&oe=68F72A6F",
   ],
-  video: "https://brown-motors.netlify.app/cars/assets/videos/venza2012.mp4",
+  video: "https://www.tiktok.com/@khid_chaos/video/7561950974596615442?is_from_webapp=1&sender_device=pc&web_id=7561951190910682632",
 },
 {
   id: 2,
@@ -57,7 +57,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "./assets/images/Benz-c300.jpg",
+  mainImg: "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561373630_122152360322741789_4313983276170492471_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH7NhvinXtMhoTHwakxDt64ZpfHfdfX7Ulml8d919ftSdFoNwolmLIGIfa7DO9CCy19CNKaWBEyoAfjdsdBe0RX&_nc_ohc=9eiXVrL8aVcQ7kNvwGJ_6tF&_nc_oc=AdkTAqpEVud-yBtXHvLPRVnyjNSuHY80AKzMDmZslGGcGaIgpSjYP9g-a87wi28B-hE&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=RgSFnHJiWuyeCACT43mMbQ&oh=00_Afd3QiNKp-e9F46omhJxTuc2oJjzo9I0MjMTuWDiNaVHyQ&oe=68F74C7F",
   description:
     "This 2013 Mercedes-Benz C300 blends luxury, power, and comfort. With its refined V6 engine, smooth automatic transmission, and premium black exterior, it delivers a truly executive driving experience. The cabin is quiet and elegant, making it ideal for both city cruising and long-distance trips.",
   features: [
@@ -72,15 +72,15 @@ const carsData = [
     "Premium Sound System"
   ],
   gallery: [
-    "./assets/images/Benz-c300-1.jpg",
-    "./assets/images/Benz-c300-2.jpg",
-    "./assets/images/Benz-c300-3.jpg",
-    "./assets/images/Benz-c300-4.jpg",
-    "./assets/images/Benz-c300-5.jpg",
-    "./assets/images/Benz-c300-6.jpg",
-    "./assets/images/Benz-c300-7.jpg",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/560607200_122152360070741789_2630261488103352577_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGqky22dj9pdjY_47LFtvH380If3svjBMPzQh_ey-MEwyR388rUPFj3vefHUpQ3PRaE3H8NaosM4u4wjs-cb4OQ&_nc_ohc=v2lVngse5BAQ7kNvwFoNDJN&_nc_oc=Adl_fsK9eN4XQ40DVpQgzpin1Sbviee0V_fHk5jlJ1p3j0oMmA6NuZ1wh4UB-yY2WnM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=lKHLWEzTA2KZ9Cbz1qfWkQ&oh=00_AfdTjauqVTElw7l1840uMC9u1KNhc_02900nkguQdWDT4Q&oe=68F7390B",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565639388_122152359938741789_6152400525692040161_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGDxr1YaCW1NBHoBS0EJthWpW79KN4Le1-lbv0o3gt7X8JO5JNLwT-S0ME6OMvhzdwHI5Y1qgB42GSE6QbXsxlr&_nc_ohc=bIh76GLOVaQQ7kNvwF7gekz&_nc_oc=Adkz8UhYAn2fw6NRayKGBTF7U2qUxd3p6wn0UnRX0jtpnSN52em4pRmkuFAng1ji068&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=_RZzB7pU3fhhwZoxr6Za-w&oh=00_AfepJIEyPaFqLSBHHUwFowIOXaxLfG57Xn3Lpmw5e9ymFw&oe=68F751CC",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561193731_122152359902741789_6942860122453230518_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF4QD2_XaQoN-TOLWSR9nBCS6Ur5JpIo3lLpSvkmkijee6XUZmmq0wTWocLB1-gRaElaetkHirFzv9MSB54Iy-k&_nc_ohc=JcqA3Vebr8MQ7kNvwEBGXFj&_nc_oc=AdmSXC2yd8aitEdy_0q227BP7752AWSQE2t8wx3CdEgO-W2UfX6gdcP6k-WcuTWmemw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=bvGlKqDrml9p076bKJ4VwA&oh=00_Afc1rsRzi1FNmJ3uCvb5O5H87uzlTRDzNufE80aVzsuWXQ&oe=68F73A2C",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561264235_122152359770741789_5815099643741549626_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFzI2H5RAhhZCNCIGvjEgyR3ae1s_tXuRXdp7Wz-1e5FQGmrB8du6oLXqcCcHGK1T3pQdCemOOB0k0dbaGbys7v&_nc_ohc=cCMLexv75wgQ7kNvwEg-Idi&_nc_oc=AdkCZcmd2o2scZPEtSWdBM6z4wJdGRqR03hHHW1mpT824whUsKRagIx9Cld_XAsoDjw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=Feai9uCtbUXMrDz5YztCXQ&oh=00_AfeXxQfD4imsuAYpogS6CuneJBpR5-39zr-H6BJe8MXLYQ&oe=68F72772",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561192623_122152359680741789_6252929401669726620_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFWXknl-xVpaS8bzfIF0wC0izcJjR6-rb6LNwmNHr6tvrKMtjP7EDoGRnbwI1j6Whq0bR785rBiEsLtEQwXl8ni&_nc_ohc=oGRmUPVj26wQ7kNvwF--o0V&_nc_oc=AdmuMfjgPMG6pQoNZvOjpNTd-ZMrFQgJAgrZeFCVUVY2u-94ShJeXmg7fh6hOCu6AeQ&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=3-nWGuwWy8j1TckcqV6mZw&oh=00_Afc5kw0XoDrS3Jn9_3Vvzo6RYF7sf-5vsKzM9_M891w6BA&oe=68F73ABF",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561322829_122152360034741789_6108212989089403691_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHXy_ucGEqJUeu1NhZ7S5Ow72HoAdlpyZvvYegB2WnJm4fhDXkHE-reJ4u4giBSYj2VFPQcFaIP4W3CWPVBsvPe&_nc_ohc=kWhOgwZPIjYQ7kNvwEwRcIT&_nc_oc=Adlogr7ePXKN6s6xxjQb3eVWBTY0T-IAElOMNdnSH6uhUUUn1U8MgA_oXULuC5akogo&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=uQDP4Y-1Lj9IBIBqqwJoDQ&oh=00_AfdmlVbiBahyg9N4nKl__brTPMBYK3jWd2rXO1iRDm81FA&oe=68F7279D",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561193854_122152359980741789_2998913813725663856_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-Afr28AgpK7raYdPmYtI9Pmt_5E7O75M-a3_kTs7vk4Pk06XRZHcKOL_kCjJSDIpcaA9GbQWhdlbbjrTQy_Og&_nc_ohc=ZNFaOpitNmUQ7kNvwHwtLaF&_nc_oc=AdlRbd1-Ob2OHaGpLk2p6ctTG18-w47nYz5xkw66rO__On1FAbfhiEPPb8PG1NdbQHg&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=yn-vJHnZG6GM6KBKflm0gw&oh=00_AfdkS9wrPAT5sjT3OV2OHKEvKcgjwG0o7nP2PI_gGV7MLA&oe=68F734A5",
   ],
-  video: "./assets/videos/Benz-c300.mp4"
+  video: "https://www.tiktok.com/@khid_chaos/video/7561953278049766664?is_from_webapp=1&sender_device=pc&web_id=7561951190910682632"
 },
 {
   id: 3,
@@ -100,7 +100,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "./assets/images/Mercedes-Benz C300 2017.jpg",
+  mainImg: "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561234885_122152358120741789_2510615622780251692_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE1gfA7gWFr1OQrdPcxFb-lZvjn9YUFjDxm-Of1hQWMPA0DosvOnuBvjKeI9-fj5FfOmaW_v_pzkp58-sQKpm5N&_nc_ohc=7wy59-RCfFUQ7kNvwFkhZ2y&_nc_oc=AdkYkr0klW6VNfgpBM1dLpcwKvHyITUOQx4AfmQ7NpyxfUJeTlW0XOJPWvoJpTgKcx4&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=Oiheuh-V8iTbmBfjkMoOtA&oh=00_AfdHXcvV4IQIJ6PFFgeOMsjLiVlQaPLDQWYDKV0mTeVXaQ&oe=68F73822",
   description:
     "A sleek 2017 Mercedes-Benz C300 that combines performance, luxury, and technology. Equipped with a turbocharged 2.0L engine, elegant design, and refined interior, it offers smooth handling and exceptional comfort for modern drivers.",
   features: [
@@ -116,14 +116,14 @@ const carsData = [
     "Navigation System"
   ],
   gallery: [
-    "./assets/images/Mercedes-Benz C300 2017-1.jpg",
-    "./assets/images/Mercedes-Benz C300 2017-2.jpg",
-    "./assets/images/Mercedes-Benz C300 2017-3.jpg",
-    "./assets/images/Mercedes-Benz C300 2017-4.jpg",
-    "./assets/images/Mercedes-Benz C300 2017-5.jpg",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561720220_122152358234741789_2379642919516487928_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHiYJVol-xAjS89wxrFqdMu9QpK4RNfLo_1CkrhE18ujzKmpdwexSkFpAJPoYvSeCXiJpc7ErBTYGB80OCbywug&_nc_ohc=nWaxgpSVlrAQ7kNvwGA-2vX&_nc_oc=AdnU3jnINZ59-3xguXc-CdTDhq5LKBZ6kmK2pRC-FtBFo7JMQYILHsd_rdB66C-6wmg&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=H3arMyLSn_oKtNpwGjDPXg&oh=00_AfdHyC8xsOf86cIzPiTwQM8PSpHZ-8DLqTAY4LDnU5xLzA&oe=68F7208D",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565122019_122152357526741789_5061775447635084682_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEowNP4_qpMZQo_wb8tjp_SCSXMJsTS7EIJJcwmxNLsQvhdlroY5SDlgY37ZWnEU6q0kRgV8K6OHzJocYoFwbIP&_nc_ohc=iJ3YFpC5kRoQ7kNvwF-BqwD&_nc_oc=AdkibpBHDux2qzWaO9LTVl4qEYynThirjW05i8MBZl4_uWhXb6Wme1PLh4cLUKNtcZw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=awoxtvlZQ8UU8MX_be1SSA&oh=00_AfcbL5JmIj63sISTt_loJTsmMHN0JBvNlih9GAn6wmQhdA&oe=68F758F4",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561834438_122152357550741789_2530829279992420868_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHCYtk9zVcOJ_8qBI1uLDguk3ydgg6V1R2TfJ2CDpXVHQUQQQFJy9eiVOFI_vtaNjcv4eL7QJjwHs79i_BYMWRs&_nc_ohc=E0yQTlOt_bIQ7kNvwFbn5OI&_nc_oc=Adnye9yBg7ee6SQcxNpbEzk0RBMC1fSXwk_nNcc_vuR36YcDz0w84a6PNAas5BRYQbw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=9ZMVROpyPOr1hnsiwqgUlg&oh=00_AffwUHc8m_3up_K_yslXQNVJkv9OxncwdQhqN14_yGZtcA&oe=68F733CB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/560880071_122152358030741789_8205554410515323352_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGmbdqiSvw_ll8smV3x8eHvnE2uqq3XdDqcTa6qrdd0OsJoqCunzKi83Uf-ckXqF6HZNaqJnfvbDHX3c9xzgL9K&_nc_ohc=UlbZc6TIcL0Q7kNvwFrflZm&_nc_oc=AdmzIK3HSpI11EuA0DPQ8ZiGx-ZK_0XThuSCUZjwHXnUqhqbcb-lWKNKNFLwMWefhS8&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=naxiir12sM8NmSPP02mdGA&oh=00_AfeGs2y7KCuLEXjFCnd-c1vhyRV3SmjKwU4ymuXoAFmvQQ&oe=68F7411C",
+    
 
   ],
-  video: "./assets/videos/Mercedes-Benz C300 2017.mp4"
+  video: "https://www.tiktok.com/@khid_chaos/video/7561954620294057234?is_from_webapp=1&sender_device=pc&web_id=7561951190910682632"
 },
 {
   id: 4,
@@ -143,7 +143,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "./assets/images/Highlander2012.jpg",
+  mainImg: "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/564005518_122152358156741789_5220314672861857406_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG5FyJUJmG5Syqlpx3VZXT907z-6btLDjfTvP7pu0sONzpdbWvbY3Re-Wq8zzQYHG5ktFGhXNzsPguhEoWZEjGj&_nc_ohc=OEmT-zQTujgQ7kNvwFeVDeY&_nc_oc=Adn_3mCmbHaU0E0qe_bC3XpSA9hRMQcAVgeAA0pKKIWuAEDgovGOSHpsZF0hm7TgNaA&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=k6GcPFHsQOnQDtKfZgO90A&oh=00_Aff21rups16veaHQjEgrPRIh70ZRBhvCixnhEaFuCGZsJg&oe=68F76243",
   description:
     "This 2012 Toyota Highlander delivers durability, comfort, and space. With a powerful V6 engine, smooth ride quality, and premium interior, it’s perfect for families or anyone who values reliability and performance in one stylish SUV.",
   features: [
@@ -159,13 +159,15 @@ const carsData = [
     "Premium Sound System"
   ],
   gallery: [
-    "./assets/images/Highlander2012-1.jpg",
-    "./assets/images/Highlander2012-2.jpg",
-    "./assets/images/Highlander2012-3.jpg",
-    "./assets/images/Highlander2012-4.jpg",
-    "./assets/images/Highlander2012-5.jpg"
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561511453_122152358372741789_5874383231115551885_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_EmofTTIa-AUjOJ78CzUgOmi4R0ioC6k6aLhHSKgLqSYPKy_0PJShfXu-BAsWiKaH9eC06R6zQz6QPmEbt5Qx&_nc_ohc=OBntb0bGyNkQ7kNvwE-fXlo&_nc_oc=AdmgDqigaVSMkRr3SkW3K3uDKsnEKqm4eLD-l2DTP8MgMw78vCWF8H65jxqhHbeC-z0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=IVJwUzr1xKzNXpLwJK_rGw&oh=00_AffOGCU1JDisbMxJ_tXCe3xBO8FD2Lcs-DsfCmJvd_Z3Qg&oe=68F75251",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565202250_122152357748741789_172493216983540463_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGjS4KQ32AGX2dGXSikYqC76x48VCRqdfXrHjxUJGp19TtAhSxp6JAUD5vwdQAtlpkrZk6mAMCfie4PxxuqQ9ec&_nc_ohc=N13DI-OEid8Q7kNvwFvoiiG&_nc_oc=AdniPv1GEfb6zYAV7T8nsXwMeiyzK1JCVqs74QxKlZdbBS0cyp1Q6aZpvl7VwcHt8yg&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ofaNH6SUz1ZfdIl23JEzFA&oh=00_Afdh3Jrtoz7rFAEz6Hn7mAbRyBl_ku8FsJ3crP_7eW2VnQ&oe=68F7447D",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561786647_122152358462741789_5502341014822063837_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEf1Zjs6Q2hDtpBdFeMDIOiNKWm10__xZI0pabXT__FkgFVjtj9fHWfRuXO9bEpKlbrCxcdPq8NIMgssXUdAvyY&_nc_ohc=ZKJizfzbkCsQ7kNvwHQf5fW&_nc_oc=AdmIXGOF3WQr0-iIP1QUZo9DvsSNsNbqgwTGRUv7CmxnRcZdjzcgTJm8yytsOJBEgOE&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=8DnxEPwlowt34fdxyYxc_Q&oh=00_Aff1OkgoOdFa6Wv6mZzg-hs9XfDY2y2IUa6GsbeaZXhroA&oe=68F74BF2",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561608525_122152358318741789_1052188229142947426_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFDJtQnpzTRfKVNGy2ZK3XrqKef6zMQmJqop5_rMxCYmjVMVn5qzuZDJ_MWUwVaq2wAohQYi-9CeGfwVUs7s0gJ&_nc_ohc=01p--MfcPK0Q7kNvwFKx5uT&_nc_oc=AdlMTiBT8bS9UKr-B1aDOtN5HFvU8anJz9UkXpCkjzwwOJcqZmhiyn-lBNoAvpFUARI&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=0SF0YSynfdkWE-7rXzSDUw&oh=00_AfcwGAWwj_RSw6bxa7rVuN-6kX1Rxlajwi6Zs0OCWkB0dA&oe=68F7609E",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565140540_122152358426741789_6109774957827997581_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE0OIa8lgE66egVn_Y2jVuO0i83sP1mQK7SLzew_WZArjohh_4m4s72SIxTWOMIWlZQV84IkFtoiEfCyzWrTnIm&_nc_ohc=bxKt2PmSbmYQ7kNvwE9DG0e&_nc_oc=Adn_TM9ajnFp8ABmi3rADYvA4YjVZpQWzpyVLnb7MT_MihJ0P8C2ovhBVAvWZ00qgN0&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=t0bilANQjG39OOzLCkSwoA&oh=00_AffF6-TjDnu8W5h52eFCYgNfV4lbftt5WAQJ6sCg6h6agA&oe=68F74197",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/560909325_122152357946741789_5035553148452057291_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEus_njAHWwFRTFK3aHEHFEw0neutm7lT_DSd662buVP8PD2K3-56p9S4GqnDiaYf2jMIqq0azKkThrbusjEJsf&_nc_ohc=Dt_zDPAI0IkQ7kNvwFKG2lY&_nc_oc=Adk12qY2pF4zwHbNrdFsqv_HoeQoxaXmFQTDMyLj797pdlGyLd9SJT3DKJE7npTp01I&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=eXBln9KZlYH7V_OIzAOMow&oh=00_AfeSxoMwfLKBpQdHv4PxhW6YxlCMBJXfBnKh1l6fIABzWw&oe=68F7595D",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561998229_122152357898741789_4164758644191841110_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHrWHHW8_GdAiZeW0V84nn_tkTuD1T1l1C2RO4PVPWXULfuAyduwZNK6_dgQlw6vWArQbgBgUN5NaBN7r62K_mT&_nc_ohc=qXxZdssHZMUQ7kNvwFxyzWp&_nc_oc=AdmSgtQaZpFWSwyvPzc__UaJlgyKIqanNkVg3MODy7MpCuoYLXeyRa7G_UGWxHykGFI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=ZscL1aQDqx6isZSwlN0YRA&oh=00_AffJl2mY6pYlcM-BYBHUDwb2qsOmKYcs4U5sFnsU-oMqyQ&oe=68F73D15"
   ],
-  video: "/assets/videos/Highlander2012.mp4"
+  video: "https://www.tiktok.com/@khid_chaos/video/7561959066289851656?is_from_webapp=1&sender_device=pc&web_id=7561951190910682632"
 },
 {
   id: 5,
@@ -185,7 +187,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "./assets/images/Highlander2015.jpg",
+  mainImg: "https://media.ed.edmunds-media.com/toyota/highlander/2015/oem/2015_toyota_highlander_4dr-suv_limited-platinum_fq_oem_1_1600.jpg",
   description:
     "This 2015 Toyota Highlander combines luxury, strength, and space. Powered by a smooth V6 engine with all-wheel drive, it’s perfect for both city driving and long trips. The modern cabin features premium materials, smart tech, and comfort for the whole family.",
   features: [
@@ -203,14 +205,16 @@ const carsData = [
     "Cruise Control"
   ],
   gallery: [
-    "./assets/images/Highlander2015-1.jpg",
-    "./assets/images/Highlander2015-2.jpg",
-    "./assets/images/Highlander2015-3.jpg",
-    "./assets/images/Highlander2015-4.jpg",
-    "./assets/images/Highlander2015-5.jpg",
-    "./assets/images/Highlander2015-6.jpg"
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565708924_122152358546741789_4806828617628446402_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEuQP1p9KzqiavQzxBeBzIWZ4v9bqyJ_lpni_1urIn-WuYWFpqk3b0-uDYOZLuPVQM8CYSKefTR3zwM_TFQo7Mt&_nc_ohc=R7iUMSa5ECwQ7kNvwFS993v&_nc_oc=AdnIVqNaU1UT5WJKoP2dCF8QKnJxumY-GrJEU7y4fum2dz0j4KFJUDZgS1GgqywjT4Q&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=WtJU3s6P6bJaDbWgnNDebw&oh=00_AfexprFkZ38dozEjwHVJhMDIxXXVEgbtZS7Cw2YqXZOcAw&oe=68F73391",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/562364258_122152372406741789_2978687146094470604_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEOTJonyUdYsBtER2LWbPOO-A6tHtQaZLn4Dq0e1BpkuVNBIo2FGjuHqJ7XPKGO7TPGGWEeUoAcEVcxsQ8EYFPn&_nc_ohc=wsx-ZQITgIgQ7kNvwEeSaSX&_nc_oc=AdmXOnY8ZoF9h7XAZtMXfRbw9Az2bap7IuviVzgsw3HEphSsZy5Eee2iAGKiD_nBomk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=1637YBGeE3j45BxSQs4zfQ&oh=00_AfdA-ZOAbHbnaGn_Lh1R_adYABRKH3eBqC5gutrJFcSTMQ&oe=68F73444",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/564005817_122152372580741789_56961128153059575_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFdVdixhZ1k9EODuKv5tF0vmxXpm-ei3FKbFemb56LcUuUyYXyGq038SAscbl-MNanN0Sj9qDEXvfDoOii-NukO&_nc_ohc=yTwYROKVMSwQ7kNvwFoz0PV&_nc_oc=AdmKyjeEzNvb2nAXOlchsNcnYqhBlgGLCgYjAyUTmKzZBFbKCYraGt8OPZApVme7UZ8&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=a4jWs0nOFfEqRUy68HMZAQ&oh=00_AfeQtCmC7nHANP9XJz9XS81RkQDnBriO-EaxdN6u97xLEg&oe=68F76364",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561341361_122152372400741789_4368467471889789187_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG9V3AMcVaMPj4LImCIOcN7L8g4-DjYCPkvyDj4ONgI-eLJrVdaG6XBszQnptxy2EO_YB1jnZR5p5-FNzU8dHgz&_nc_ohc=dfbocSO056IQ7kNvwE87HGl&_nc_oc=AdmvDIEulQrQdbAgfTSvO1s0hKhTR4Fycbeot35L6uLy9ChfFJU2gpmJuZ1P8PEt5Lk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=a4jWs0nOFfEqRUy68HMZAQ&oh=00_AfepnlWIBI_m7UddxlG6IHDB7eIpYRrdZ6c371BCQYaAIA&oe=68F73BE7",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561410433_122152372538741789_5450459688283765980_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGMdF53h0htjGYm16HTGI01fEISxK4o9Ut8QhLErij1S1Tm67cVmcr5l-SK-dUa_zV6p7_2YfamUild1ipRXVG-&_nc_ohc=BLgfRtf6QnkQ7kNvwGZno-V&_nc_oc=AdneDdSQI5T8d4p2FOtRCJJWFUzW0575tdAhSpMi8PnmmDv2lKAnLYqHWyLHfWoJF7E&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ysLeCgAmPmmkG-kfB2jqrg&oh=00_Afd5Wzibv7S9mvh6LS7MFZ88pXEXNzrFoKDFJURueAxQEA&oe=68F7520F",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561469828_122152372478741789_3746065040816046994_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-MbYPA4p2wsDntL40lbH6dIQqLyHF9WF0hCovIcX1Ya_kqgMZUR_9nvo3dZwg-Mmm2uv-jhdADrKvcu_NAK5R&_nc_ohc=LYsnk-e8E-UQ7kNvwEmEDBQ&_nc_oc=Admmii-5dxQGSOvqyqAkGCuN5ZFl4n9pSDK4OfC_gHFEBzLe1FRAxVe4z4FDOWFnp-8&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yxyM3sOQgau5JtIt6Jz-Gw&oh=00_AfdpGwCDUJoH2HwPQmtrPC1AUsy_gCimPIphrbhjztb1ow&oe=68F73FD0",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561613890_122152372586741789_7680868492990532935_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH13DWpDa52JggbbJ56ZjQg-hm3bmsAuOj6GbduawC46DMtke_SpA_Xqp1gvYzbRzRSrdObwTlH74NzzbCxOd0Q&_nc_ohc=TRH9d6VdsPAQ7kNvwHjDU6r&_nc_oc=AdkLK85yGb76T751cKtj_pVHdFdX_DhzMWuNA5iDvKytYq2HxYq81wvYN1V-1SSsFhM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=mnAxroPi8BokT6BIIX2tKA&oh=00_AfdpBuVbe9E7d0pyeJSIhjs5GXi07jYBPo8-UzpooqbpHA&oe=68F767D3",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/564188651_122152372334741789_1739999272125082515_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFYg4S5XDBH-MyP5cxdnRYf3cq3IU50RXvdyrchTnRFe_d3xO2aBPpHg-MkQD-o8h9bs566ybtFMBATy4A3mAuN&_nc_ohc=7M4cgmKmJIMQ7kNvwHiniB9&_nc_oc=AdnWRO_v2Z6njwqJam9D_20n3Pg61y7DdRvJCUVZN39ITVGGFe0N8pAyOcMJwVTwPaw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=PXLLPtrkvYSKsRpHjv5Uyw&oh=00_Afd8n8gja4LL-LxCAWLoEg71rHi9hIQfggYInyYF1ifPmg&oe=68F75B55"
   ],
-  video: "./assets/videos/Highlander2015.mp4"
+  video: "https://www.tiktok.com/@khid_chaos/video/7561965427379768584?is_from_webapp=1&sender_device=pc&web_id=7561951190910682632"
 },
 {
   id: 6,
