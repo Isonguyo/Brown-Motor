@@ -37,7 +37,7 @@ const carsData = [
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/563992487_122152358666741789_6642893230880413765_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFEL_tEWKYon2XQnYgjJuA9Se-HPs0WrqdJ74c-zRaup4tnaQCQIqH6EcQILhLLKAZg1RJSrLqO7kyGEVIMnIP4&_nc_ohc=L0-pAjB--nAQ7kNvwHhPvZV&_nc_oc=AdmaIz4ZOg8gQpAwwdskNwTC7Y-UpMWhzoMNC_uninvYBAArsNZ-kA9c_UClLXddT7Q&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=qI224UlDJgsKYwP6w-Ng6Q&oh=00_AffU4J8fqVxjWnY4ZqMQs7hCgtNi1Izq9KgtQeilwHlbzA&oe=68F73DAA",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561290596_122152357676741789_1725403063059606534_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHjdfzBu2hkERhJpORWJprw5V7XvMy48hrlXte8zLjyGkEQ_hS5Q-p-kz8Q-176NBRRylhC-_XzMH1c7-cHXeeR&_nc_ohc=nZr09Y2zxjEQ7kNvwHNG83b&_nc_oc=AdnjjNY0clBYF2iXzgx4oV051T_LJaoLWQQiNuF5BfMW3tSwSCxdTItDVuSGcx-Hq9k&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=_5wntKKU1x_v73_AJSfmLw&oh=00_Afd7OGiKSxPyuNRXv2HK_E1_BMb7VGBynHDl_2uEga8jEQ&oe=68F72A6F",
   ],
-  video: "<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@khid_chaos/video/7561950974596615442" data-video-id="7561950974596615442" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@khid_chaos" href="https://www.tiktok.com/@khid_chaos?refer=embed">@khid_chaos</a> <p></p> <a target="_blank" title="♬ AURA - Majorzin dos beats" href="https://www.tiktok.com/music/AURA-7391113534199154704?refer=embed">♬ AURA - Majorzin dos beats</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>",
+  video: "../assets/venza2012.mp4",
 },
 {
   id: 2,
@@ -80,7 +80,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561322829_122152360034741789_6108212989089403691_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHXy_ucGEqJUeu1NhZ7S5Ow72HoAdlpyZvvYegB2WnJm4fhDXkHE-reJ4u4giBSYj2VFPQcFaIP4W3CWPVBsvPe&_nc_ohc=kWhOgwZPIjYQ7kNvwEwRcIT&_nc_oc=Adlogr7ePXKN6s6xxjQb3eVWBTY0T-IAElOMNdnSH6uhUUUn1U8MgA_oXULuC5akogo&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=uQDP4Y-1Lj9IBIBqqwJoDQ&oh=00_AfdmlVbiBahyg9N4nKl__brTPMBYK3jWd2rXO1iRDm81FA&oe=68F7279D",
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561193854_122152359980741789_2998913813725663856_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-Afr28AgpK7raYdPmYtI9Pmt_5E7O75M-a3_kTs7vk4Pk06XRZHcKOL_kCjJSDIpcaA9GbQWhdlbbjrTQy_Og&_nc_ohc=ZNFaOpitNmUQ7kNvwHwtLaF&_nc_oc=AdlRbd1-Ob2OHaGpLk2p6ctTG18-w47nYz5xkw66rO__On1FAbfhiEPPb8PG1NdbQHg&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=yn-vJHnZG6GM6KBKflm0gw&oh=00_AfdkS9wrPAT5sjT3OV2OHKEvKcgjwG0o7nP2PI_gGV7MLA&oe=68F734A5",
   ],
-  video: "<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@khid_chaos/video/7561953278049766664" data-video-id="7561953278049766664" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@khid_chaos" href="https://www.tiktok.com/@khid_chaos?refer=embed">@khid_chaos</a> <p></p> <a target="_blank" title="♬ AURA - Majorzin dos beats" href="https://www.tiktok.com/music/AURA-7391113534199154704?refer=embed">♬ AURA - Majorzin dos beats</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>"
+  video: "../assets/Benz-c300.mp4"
 },
 {
   id: 3,
@@ -123,7 +123,7 @@ const carsData = [
     
 
   ],
-  video: "<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@khid_chaos/video/7561954620294057234" data-video-id="7561954620294057234" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@khid_chaos" href="https://www.tiktok.com/@khid_chaos?refer=embed">@khid_chaos</a> <p></p> <a target="_blank" title="♬ AURA - Majorzin dos beats" href="https://www.tiktok.com/music/AURA-7391113534199154704?refer=embed">♬ AURA - Majorzin dos beats</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>"
+  video: "../assets/Mercedes-Benz C300 2017.mp4"
 },
 {
   id: 4,
@@ -167,7 +167,7 @@ const carsData = [
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/560909325_122152357946741789_5035553148452057291_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEus_njAHWwFRTFK3aHEHFEw0neutm7lT_DSd662buVP8PD2K3-56p9S4GqnDiaYf2jMIqq0azKkThrbusjEJsf&_nc_ohc=Dt_zDPAI0IkQ7kNvwFKG2lY&_nc_oc=Adk12qY2pF4zwHbNrdFsqv_HoeQoxaXmFQTDMyLj797pdlGyLd9SJT3DKJE7npTp01I&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=eXBln9KZlYH7V_OIzAOMow&oh=00_AfeSxoMwfLKBpQdHv4PxhW6YxlCMBJXfBnKh1l6fIABzWw&oe=68F7595D",
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561998229_122152357898741789_4164758644191841110_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHrWHHW8_GdAiZeW0V84nn_tkTuD1T1l1C2RO4PVPWXULfuAyduwZNK6_dgQlw6vWArQbgBgUN5NaBN7r62K_mT&_nc_ohc=qXxZdssHZMUQ7kNvwFxyzWp&_nc_oc=AdmSgtQaZpFWSwyvPzc__UaJlgyKIqanNkVg3MODy7MpCuoYLXeyRa7G_UGWxHykGFI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=ZscL1aQDqx6isZSwlN0YRA&oh=00_AffJl2mY6pYlcM-BYBHUDwb2qsOmKYcs4U5sFnsU-oMqyQ&oe=68F73D15"
   ],
-  video: "<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@khid_chaos/video/7561959066289851656" data-video-id="7561959066289851656" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@khid_chaos" href="https://www.tiktok.com/@khid_chaos?refer=embed">@khid_chaos</a> <p></p> <a target="_blank" title="♬ AURA - Majorzin dos beats" href="https://www.tiktok.com/music/AURA-7391113534199154704?refer=embed">♬ AURA - Majorzin dos beats</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>"
+  video: "../assets/Highlander2012.mp4"
 },
 {
   id: 5,
@@ -214,7 +214,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561613890_122152372586741789_7680868492990532935_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH13DWpDa52JggbbJ56ZjQg-hm3bmsAuOj6GbduawC46DMtke_SpA_Xqp1gvYzbRzRSrdObwTlH74NzzbCxOd0Q&_nc_ohc=TRH9d6VdsPAQ7kNvwHjDU6r&_nc_oc=AdkLK85yGb76T751cKtj_pVHdFdX_DhzMWuNA5iDvKytYq2HxYq81wvYN1V-1SSsFhM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=mnAxroPi8BokT6BIIX2tKA&oh=00_AfdpBuVbe9E7d0pyeJSIhjs5GXi07jYBPo8-UzpooqbpHA&oe=68F767D3",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/564188651_122152372334741789_1739999272125082515_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFYg4S5XDBH-MyP5cxdnRYf3cq3IU50RXvdyrchTnRFe_d3xO2aBPpHg-MkQD-o8h9bs566ybtFMBATy4A3mAuN&_nc_ohc=7M4cgmKmJIMQ7kNvwHiniB9&_nc_oc=AdnWRO_v2Z6njwqJam9D_20n3Pg61y7DdRvJCUVZN39ITVGGFe0N8pAyOcMJwVTwPaw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=PXLLPtrkvYSKsRpHjv5Uyw&oh=00_Afd8n8gja4LL-LxCAWLoEg71rHi9hIQfggYInyYF1ifPmg&oe=68F75B55"
   ],
-  video: "<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@khid_chaos/video/7561965427379768584" data-video-id="7561965427379768584" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@khid_chaos" href="https://www.tiktok.com/@khid_chaos?refer=embed">@khid_chaos</a> <p></p> <a target="_blank" title="♬ AURA - Majorzin dos beats" href="https://www.tiktok.com/music/AURA-7391113534199154704?refer=embed">♬ AURA - Majorzin dos beats</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>"
+  video: "../assets/Highlander2015.mp4"
 },
 {
   id: 6,
