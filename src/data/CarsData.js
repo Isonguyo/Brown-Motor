@@ -299,7 +299,7 @@ const carsData = [
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561734001_122152536290741789_127492675511121174_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFOiD5wlWvqZ1EMr1Ytt-0EuAYCYURDGVe4BgJhREMZVwHV7iCVRwbzNdXZNpDOyYqT03L53X2lr6MySe_VOFFy&_nc_ohc=hzx4uwAvJz8Q7kNvwH_R-UY&_nc_oc=AdneawlLNr15Wez62VAU6u4idshGDVyBWF2AX2Ilu-TptPnL_LvwUtirWTSXMdDCxsI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=YwOE1SYPKMWfiXIblp-RRA&oh=00_Aff_Emz97WKeYNJWQw4yAOi42Z8nMJYVoqRLlzDYV9TkLA&oe=68F9749A",
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565149610_122152536428741789_2118895082655442253_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH6JVua4FX16JkIWn0gLcZ0uifQz0Kgvle6J9DPQqC-V7fuWx1Cz5p_g4RxOaftHmMfPbghWm4-vwOpGoJpvlH1&_nc_ohc=BYvZD_7qwrQQ7kNvwElr9eM&_nc_oc=Admr3sw0vl2kmFviyzdUCldCNZhXfLuqUQEPOyXuOaxsTBTtqE4climKtF9t1r74VqQ&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rrmOWpm0QmSxaOuYm9jSEg&oh=00_AfcdZLLwN4fL0fb9ay62TDDtidaYYN67XYxiuxr_QNzjvA&oe=68F973D6"
   ],
-  video: "./assets/videos/camry2014.mp4"
+  video: "../assets/camry2014.mp4"
 },
 
 
