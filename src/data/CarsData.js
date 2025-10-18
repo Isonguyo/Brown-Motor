@@ -276,7 +276,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Lagos",
   availability: "Available",
-  mainImg: "./assets/images/camry2014.jpg",
+  mainImg: "https://file.kelleybluebookimages.com/kbb/base/evox/CP/9110/2014-Toyota-Camry-front_9110_032_2400x1800_218.png",
   description:
     "The 2014 Toyota Camry combines reliability, comfort, and refined style. With its sleek design, efficient 2.5L engine, and smooth automatic transmission, it’s built for those who value performance and elegance in one package. Ideal for both daily commuting and long road trips.",
   features: [
@@ -292,11 +292,12 @@ const carsData = [
     "ABS with EBD"
   ],
   gallery: [
-    "./assets/images/camry2014-1.jpg",
-    "./assets/images/camry2014-2.jpg",
-    "./assets/images/camry2014-3.jpg",
-    "./assets/images/camry2014-4.jpg",
-    "./assets/images/camry2014-5.jpg"
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/564017271_122152536272741789_8395007343862179536_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeED8IAb8jKJSOjQlXVuHdlebjLDk7svY81uMsOTuy9jzc68ZjkbC_fwGWD38tquXmeH5VuswwlKm53WwTBqpW-C&_nc_ohc=aZ22NRzYrwoQ7kNvwGqL4jS&_nc_oc=Adl7NcV3Qs8Ys4egpT0FbrwOQET8ziiks6CBS52agu81kVPC-c_5iW6rfcFTTxMhtPI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=D0kNr8UnaVh8iCpnF3xLpA&oh=00_AfcjMa7ZsQIeXpK-ONz8bpR6XbIN7Q9pH8BnqPB_Usw_jA&oe=68F96D3F",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/562385577_122152536326741789_4704092184404910134_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFTphqgv2WZ8pCv4i4V90frpuusx-lddaim66zH6V11qOrVixr6nRQ9C3EEe2gWz_nF1TiY02vWkisr3pPKCRoc&_nc_ohc=SM76nadazyYQ7kNvwGSsDnp&_nc_oc=Adn9xOKKtE8uHwYI3oycsjKAlObLycwmuj_l2eqUWIXBMmdYIKKwYfHUkQi4otH6VkM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=EdIyCq3bUH6buXB4h8ywyA&oh=00_AfeT1TpDLM7V_o3IwFMePGOMNuZh_h-wCZOAN51isaZWlA&oe=68F96B7E",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561599799_122152536218741789_6766702442485716427_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHsHGUh5HNAVHqQx_WRyRIgVMB6TmQLpCFUwHpOZAukIWGPr5XkHjAooIQtdBxNC7Pykw7ecNvwR9vrdY-4nnzt&_nc_ohc=KhdBayHwvBAQ7kNvwE73_og&_nc_oc=AdlKgfr9zwRrgF_AtAsu3c_srUbPfQr8bg-prX3hdzqgUU6uczS_yLJL__1Jbmi-hfk&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=MGclJ6bhIC8SiMKgqb7dZA&oh=00_AfcWapI-DGW0cYjzoQM83LnC5Vw7HuZbAjXAi0lMCDbkSw&oe=68F97842",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/564639563_122152536266741789_7598844347175650191_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHrWC-uxqz4EQfM8O3-pEs7ht-k-CyeOeaG36T4LJ455u8JEArEy13khdtiij1gDi4zmyWXB599nU9G_dv3Dl9D&_nc_ohc=6dJ3EE2glKcQ7kNvwH8Oog6&_nc_oc=AdljDXu15s-CSFyLBhJw2f8CpdyKuxcYU9kIx3GpOOTw0NK5y8w8Rkj1HXgyLEuTcRE&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=rdb9A6mhZA21LbzksE40HA&oh=00_AfehlFFPTOtpV7Co9B9i7Rsnqc_A-XORapbFGnId3S0OiA&oe=68F983EF",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561734001_122152536290741789_127492675511121174_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFOiD5wlWvqZ1EMr1Ytt-0EuAYCYURDGVe4BgJhREMZVwHV7iCVRwbzNdXZNpDOyYqT03L53X2lr6MySe_VOFFy&_nc_ohc=hzx4uwAvJz8Q7kNvwH_R-UY&_nc_oc=AdneawlLNr15Wez62VAU6u4idshGDVyBWF2AX2Ilu-TptPnL_LvwUtirWTSXMdDCxsI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=YwOE1SYPKMWfiXIblp-RRA&oh=00_Aff_Emz97WKeYNJWQw4yAOi42Z8nMJYVoqRLlzDYV9TkLA&oe=68F9749A",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565149610_122152536428741789_2118895082655442253_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH6JVua4FX16JkIWn0gLcZ0uifQz0Kgvle6J9DPQqC-V7fuWx1Cz5p_g4RxOaftHmMfPbghWm4-vwOpGoJpvlH1&_nc_ohc=BYvZD_7qwrQQ7kNvwElr9eM&_nc_oc=Admr3sw0vl2kmFviyzdUCldCNZhXfLuqUQEPOyXuOaxsTBTtqE4climKtF9t1r74VqQ&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rrmOWpm0QmSxaOuYm9jSEg&oh=00_AfcdZLLwN4fL0fb9ay62TDDtidaYYN67XYxiuxr_QNzjvA&oe=68F973D6"
   ],
   video: "./assets/videos/camry2014.mp4"
 },
