@@ -256,7 +256,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/562313270_122152526822741789_5437477340613872986_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHEeEpaqJV35B3y-kKu-O0CyjDLQZFwSlPKMMtBkXBKUw8zeV9gjSqed1IeSSCHC1G3rnoVl_IoULLm3YmvdtgD&_nc_ohc=dmgmkrAEFokQ7kNvwGYYbyf&_nc_oc=AdkF4CJCbsACaLzxKA3OSXAqK3O106wSaQ7s48VAazaUZK0kFerEvJi-_MDs-GjhhUs&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=QgnPnGRkDeTqoQ9d7HtxOA&oh=00_Afe79SYTANMeEnQ0agDekiMYpkDziJJ_NKhfl-4h5zTWSA&oe=68F96569",
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561750992_122152526906741789_3725304052095989286_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH-iXCBJkVdSXM8oWIKcNdHUIf3RVpEZGVQh_dFWkRkZZu5vKWtyMQGb5sRHgM72udrEixq2apFqdPo2S27BSYo&_nc_ohc=SHWIuHXg0nsQ7kNvwG7UFjr&_nc_oc=AdlNrudAl1Rp-qG5fJDN0Fa_RthgoXaa2OM7AIPIRC6O-TkQR5ap20keb16ctAPkXiQ&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=AKbZJnJ_otCJv2jkiTGklQ&oh=00_AffZEtcsZ2VJ7m1LnVhUWRR9ZWvTCrrwDPlGtp5H3HuEcQ&oe=68F96E9D"
   ],
-  video: "./assets/videos/corolla2015.mp4"
+  video: "../assets/corolla2015.mp4"
 },
 {
   id: 7,
