@@ -341,6 +341,51 @@ const carsData = [
   ],
   video: "../assets/avalon2012.mp4",
 },
+{
+  id: 9,
+  name: "Lexus RX 350 2014",
+  brand: "Lexus",
+  model: "RX 350",
+  year: 2014,
+  price: 33000000,
+  mileage: "78,000 km",
+  transmission: "Automatic",
+  fuel: "Petrol",
+  engine: "3.5L V6",
+  driveType: "AWD",
+  bodyType: "Luxury SUV",
+  exteriorColor: "Grey",
+  interiorColor: "Beige Leather",
+  condition: "Foreign Used",
+  location: "Calabar",
+  availability: "Available",
+  mainImg:
+    "https://i.pinimg.com/736x/7f/07/3f/7f073fd5fbde018923e86451f0f1b52e.jpg",
+  description:
+    "Luxurious 2014 Lexus RX 350 with smooth V6 engine, stylish design, and a refined interior. Offers powerful performance, advanced comfort features, and Lexus’ legendary reliability — perfect for both city drives and long trips.",
+  features: [
+    "Leather Seats",
+    "Sunroof",
+    "Power Tailgate",
+    "Keyless Entry & Start",
+    "Reverse Camera",
+    "Bluetooth Connectivity",
+    "Dual-Zone Climate Control",
+    "Alloy Wheels",
+  ],
+  gallery: [
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565713187_122152648238741789_333027137032347578_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFtjHuiOYDQwXSbU5tv9hkBasIx1NZPSKdqwjHU1k9Ip7QQBewmBTFNPpHBLBaeJOub0QsopPwRXuuEbDu6rG-3&_nc_ohc=dwqRry4K17oQ7kNvwGFYN70&_nc_oc=AdmE-B1-La6ppENLF-eb29DePU4NdXNkW3DSCJM9O67VvrgMQVQqfmz7fGfukx0XJNo&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=JjxWrrQB4gDso0_7C-bS3g&oh=00_AfcuvUiJH16GRQ3BUSFfjaKOoiUPgvgRb9bwKzVR2SNwbw&oe=68FAF745",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568531144_122152648178741789_1129580623976825718_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF3qFgeIq7QhGbwm7758O1c97LsrcecyYb3suytx5zJhn-_xK2PSGQz9zaf8wZKgrClWI_EWg7qycEMz1xc-RDg&_nc_ohc=e5pt40PLUToQ7kNvwGOlJvB&_nc_oc=AdmnMLT-gcVNmbT6j_nv52OTZ32Mr0a4GGWoQNPEtee93Co9v8OX8ez5Wn3yvEwvrZ4&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jPxC_vq9cktxiHjzIkLO7w&oh=00_Afc0KpNoR_1Oc6Rwlu34eGzq27IK01g_gzXmtCqTb7SxjQ&oe=68FAF484",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565622784_122152648118741789_9143377416268287336_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH21YVd9eFJcXmgNR2MRERyCvgd8OEcuo0K-B3w4Ry6jTynDgEooq1wi_qIztMElaxaT72fYVUU3agd13FYqp2Q&_nc_ohc=17InhHce8noQ7kNvwHvuouL&_nc_oc=AdkEPLphVctOAnnP-JmB-nz9RAW-L-fCiGUteRXN0rmAEDL9bLHh2klXb1zQUXQ3mNU&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=TV86WXfcE1QE863gDeGVjw&oh=00_AfdlWvqjS0WajEOeHEy5O5t-luUuThohuvDi8N-7guG7aQ&oe=68FAFD60",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561900022_122152648100741789_1512602835545073135_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFtEiGLEyWLPQnVxJ9OaZ8mCu4gykSFuUYK7iDKRIW5RkT-JXuMFphCIRoaa1xrLzY296qSVtTEmIPgdofSuSHp&_nc_ohc=e8wBAvxpTpwQ7kNvwFpDn2D&_nc_oc=AdmqRVxhGVSi4rNFwHBdk0dFHdbvwR-YI99f_UKzPuh2kwA3qvpE2ytGw-G3PtH8Mvc&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=Czx3-0RXdH07wt_1QbzMzA&oh=00_AfceerxrauVXESgULLT55D19FuPstKsfgB4ce_5_H8aoSQ&oe=68FB06D5",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561844671_122152648136741789_1369204957923945576_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEeHrvld5BOVE2HqVh7Al1rgkyGBLo2pYeCTIYEujalh5_EbSa2k8hmPI7ABd5dkuI9_DpFKEtkUEq-3zQORiOo&_nc_ohc=ILm7Y9_bMewQ7kNvwE_d4aL&_nc_oc=AdkfszuSJrMkCfgJ_9Ukj5Y4HKuYj5llEYYrcB8os1NvjoT3KXp6QWG135squ9Xun_w&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=nszmi8G9v8HxkLS2XbLCrg&oh=00_Affqe3VaVLtdtJVU8Y8d27nF-00en3HMKVQemf1LBhqNyw&oe=68FAD81E",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565691066_122152648034741789_4153538473345615093_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGWcjhsxHuAvoQkEmM5rsGr8CBJJxqVpU3wIEknGpWlTRGsBTQKcKrUznw0rz2Q5EgsO8j7puT5stynHR4FiEZ_&_nc_ohc=eb0HxkUNgpwQ7kNvwGhuXXA&_nc_oc=AdmOVw9pq8rzp6wnfF4Cm4N0B9WnsSSmiRD8tiYki0cPWl9mgqNfH5Yl-X-jVOzEUjg&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=ZviEIO3bXQ3oqpsJzpBGaw&oh=00_AffrO2JdbnD7bXykuRd_c-RzKLyxZqB3R5He_A7Z6Mo6ng&oe=68FB0D0F",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565164771_122152648016741789_8337668835176593265_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFhLXdmZRSpAEfU8ckmm2gt-ngBFVO_V7r6eAEVU79XupIpwF8mwKZwvK-ii22i0EyjgRbQR2u_Eg0q_jsjYosO&_nc_ohc=nDWGecQoXBgQ7kNvwELpBKd&_nc_oc=Adnyvg-SjdgIIBKl5s7NGQ8HsUBITntk2Gp0tjOyj36o9Zko3CnZIzlYNtwltTAa_7E&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=NMnWt8sqi8vxZ52cU52vBQ&oh=00_AfexnBFE6VAN3MffKlashx-wSjymIfgbuSXlA8prI8iNiA&oe=68FAFBF3",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/566239316_122152648040741789_465851522721067723_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHIYkPSpXybrfAy_i8XrE_X83ICN1AEDJ7zcgI3UAQMnsV0EgZmd7mw0dtjfCVOQg1GmxvTmfz9ZuF5GUolam09&_nc_ohc=NoquNpNJ7wcQ7kNvwEwDOoE&_nc_oc=AdmEna4ExGU8jxc9oIq1m-uQvxMV0zdSPVCi8EgMbfu6I4eE8Oe2LC-5sIt-Oa6P-9E&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=1qAP0LNkQGc9tO_GbWZuRw&oh=00_AfcaAHXqdyvGvyE3Rt4plxvav3gKhRWwE5LwNnKswm3yLQ&oe=68FB0CC9",
+
+  ],
+  video: "../assets/lexus3502014.mp4",
+},
 
 
 
