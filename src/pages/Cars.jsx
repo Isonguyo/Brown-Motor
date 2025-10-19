@@ -31,14 +31,14 @@ const Cars = () => {
   });
 
   // 🔹 Smooth scroll to results when filters change
-  useEffect(() => {
-    if (resultsRef.current) {
-      const timeout = setTimeout(() => {
-        resultsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-      }, 200);
-      return () => clearTimeout(timeout);
-    }
-  }, [filters]);
+  // useEffect(() => {
+  //   if (resultsRef.current) {
+  //     const timeout = setTimeout(() => {
+  //       resultsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  //     }, 200);
+  //     return () => clearTimeout(timeout);
+  //   }
+  // }, [filters]);
 
   return (
     <section className="cars-page">
