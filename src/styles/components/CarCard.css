@@ -91,10 +91,41 @@
   background: #e63c21;
   color: #fff;
 }
+.whatsapp-btn {
+  margin-top: 8px;
+  display: block;
+  text-align: center;
+  background: #25d366;
+  color: white;
+  padding: 0.7rem 0;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebc5a;
+}
 
 /* ================================
    RESPONSIVE DESIGN
 =================================== */
+@media (max-width: 699px) {
+  /* One card per row on small screens */
+  .car-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .car-cards {
+    width: 100%;
+  }
+}
+
 @media (min-width: 700px) {
   .car-cards {
     flex-direction: row;
