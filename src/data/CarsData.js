@@ -360,7 +360,7 @@ const carsData = [
   location: "Calabar",
   availability: "Available",
   mainImg:
-    "https://i.pinimg.com/736x/7f/07/3f/7f073fd5fbde018923e86451f0f1b52e.jpg",
+    "https://images.hgmsites.net/med/2014-lexus-rx-350-fwd-4-door-angular-front-exterior-view_100445929_m.jpg",
   description:
     "Luxurious 2014 Lexus RX 350 with smooth V6 engine, stylish design, and a refined interior. Offers powerful performance, advanced comfort features, and Lexus’ legendary reliability — perfect for both city drives and long trips.",
   features: [
