@@ -386,6 +386,43 @@ const carsData = [
   ],
   video: "../assets/lexus3502014.mp4",
 },
+{
+  id: 10,
+  name: "Lexus RX 350 2016",
+  brand: "Lexus",
+  model: "RX 350",
+  year: 2016,
+  price: 35000000,
+  mileage: "69,000 km",
+  transmission: "Automatic",
+  fuel: "Petrol",
+  engine: "3.5L V6",
+  driveType: "AWD",
+  bodyType: "Luxury SUV",
+  exteriorColor: "Black",
+  interiorColor: "Cream Leather",
+  condition: "Foreign Used",
+  location: "Calabar",
+  availability: "Available",
+  mainImg: "https://your-image-link.com/lexus3502016-main.jpg",
+  description:
+    "Elegant 2016 Lexus RX 350 combining bold styling with comfort and reliability. Features a powerful V6 engine and luxurious interior perfect for premium driving experience.",
+  features: [
+    "Leather Interior",
+    "Reverse Camera",
+    "Sunroof",
+    "Blind Spot Monitor",
+    "Bluetooth Connectivity",
+    "Power Tailgate",
+    "Touchscreen Display",
+  ],
+  gallery: [
+    "https://your-image-link.com/lexus3502016-1.jpg",
+    "https://your-image-link.com/lexus3502016-2.jpg",
+    "https://your-image-link.com/lexus3502016-3.jpg",
+  ],
+  video: "../assets/lexus3502016.mp4",
+},
 
 
 
