@@ -319,7 +319,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theparking.eu%2Fused-cars-detail%2Ftoyota-avalon%2F2012-toyota-avalon-limited%2FXSCXF337.html&psig=AOvVaw1LG7aKuaaDcSVljbYlwUlH&ust=1760969395667000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIihpK-4sJADFQAAAAAdAAAAABAV",
+  mainImg: "https://cloud.leparking.fr/2023/06/18/04/04/toyota-avalon-2012-toyota-avalon-limited-black_8827084591.jpg",
   description:
     "Elegant and comfortable 2012 Toyota Avalon — a full-size sedan that blends performance, luxury, and reliability. Offers a smooth 3.5L V6 engine, spacious interior, and refined ride quality for both city and highway driving.",
   features: [
