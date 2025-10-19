@@ -301,6 +301,46 @@ const carsData = [
   ],
   video: "../assets/camry2014.mp4"
 },
+{
+  id: 8,
+  name: "Toyota Avalon 2012",
+  brand: "Toyota",
+  model: "Avalon",
+  year: 2012,
+  price: 22000000,
+  mileage: "95,000 km",
+  transmission: "Automatic",
+  fuel: "Petrol",
+  engine: "3.5L V6",
+  driveType: "FWD",
+  bodyType: "Sedan",
+  exteriorColor: "Black",
+  interiorColor: "Beige Leather",
+  condition: "Foreign Used",
+  location: "Calabar",
+  availability: "Available",
+  mainImg: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theparking.eu%2Fused-cars-detail%2Ftoyota-avalon%2F2012-toyota-avalon-limited%2FXSCXF337.html&psig=AOvVaw1LG7aKuaaDcSVljbYlwUlH&ust=1760969395667000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIihpK-4sJADFQAAAAAdAAAAABAV",
+  description:
+    "Elegant and comfortable 2012 Toyota Avalon — a full-size sedan that blends performance, luxury, and reliability. Offers a smooth 3.5L V6 engine, spacious interior, and refined ride quality for both city and highway driving.",
+  features: [
+    "Leather Upholstery",
+    "Keyless Start",
+    "Bluetooth Connectivity",
+    "Dual-Zone Automatic Climate Control",
+    "Heated Front Seats",
+    "Touchscreen Display",
+    "Reverse Camera",
+    "Premium Sound System",
+  ],
+  gallery: [
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568637500_122152631180741789_7503252073457610277_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH3i6Bb-L8QiDe3EB5QzfEQX2_MhDjUh0Zfb8yEONSHRh8cP1pWrzD0MxpCLc9HcYgISy0vBQLra3uyaaUeDOJO&_nc_ohc=sY9VcM2aK0IQ7kNvwGDN1Sj&_nc_oc=Adm0eL9OePQQHsqp0woYbKrdWQaPCl5NxlGqDI2XiGSbhhaEOXSb72JLS5XgQ5ihFuE&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jub3AeQxqixz0sv9Gy3WQw&oh=00_AfeNNSK4xuwqhx-CEAEIf8raA6JGnLmYOMY8yKVVIdVC0Q&oe=68FACFFB",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565765281_122152631096741789_948528923346776739_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeER2z0b2AJYzOoPjsNF_r63IaeIXIbLPQ8hp4hchss9D2FMSOMbwGu5xiL2OoQjLBcD4imwyEAGJs8IIBR0fy-m&_nc_ohc=kMXoFvmwsooQ7kNvwErn4nu&_nc_oc=AdnpQMZiwnxIG1Hx5WIJQDBvszYJzg8dDsmA0ftkOY-99k61qVcNVZ6n3RWfs5DHUVg&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=QZuM6s8X7a4Q2yCBPaVhEQ&oh=00_AfdGdWS6Cp0K5RFjl-6oaClPTG0XkZDJMGGYzqMaOAm0Ag&oe=68FAB276",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/567458098_122152631036741789_4413504564892510965_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEanepcarwHWUZg-bD9xYuEr0TyN0o6ADivRPI3SjoAODXFefZa8StJJn6ek2aEsE9z6ZTLj2H3le1hFWC7ViTL&_nc_ohc=gFodOGxUr2kQ7kNvwGQeCTQ&_nc_oc=AdlrJjAw_SQ7ek2jDshdqbottNIHem1SFdwNXri1Zl2LhvFpPPKPpfRkSP4kJAGpLbw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=ZSJ26rI0pGlu80B0Qfh1Mg&oh=00_AfdyPx-xRFVg2ojax8aGMU9nPvrCzKM2MYe5A3QXc5OG4g&oe=68FAAB02",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/564586349_122152631114741789_6828666372372264598_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFTVV-Jx5qmkfy0v9znsklxK_OhZfgvQcEr86Fl-C9BwT3vmPBWY3Yzim8hzSUyk_ukhMNB6EWmJN8fYwvgbBlD&_nc_ohc=6X1ctRSI9TsQ7kNvwHwfjNC&_nc_oc=AdkgGEyadgwV82hZ931_dLaasARth03dNUx16-atf8X5PN82rrdEbpIQ1gu7lBEIRAA&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ngxZz1eJK712EjIvxAEqqg&oh=00_AffOSAvoVIpr7n2_2hN6pr0E4c7E4UDqmDZmc98EeAH4pQ&oe=68FAC3B1",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565803713_122152631084741789_7774003218684586215_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG49-SlbOs68BzJSokv-_CcAtnKWR7_C9cC2cpZHv8L12HmwP9eDSgwneOvWQvSidWDnLl58GTHIXt5_dHU7817&_nc_ohc=jRDoJTnw-rgQ7kNvwF3xadl&_nc_oc=AdlGHs6S3OY6Ag9RijYkdVzz0ud1hg_fqdV344H0LhoQ8Z_saZkcuy7LU4z0pcamQk4&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=P0BYrrPTMRESG1WzkZaWrA&oh=00_AfcuhF0XIa2rsnEYLKD-b2UpbRvp_7iz5B7vmAFJZ51lcg&oe=68FAAD19"
+  ],
+  video: "../assets/avalon2012.mp4",
+},
 
 
 
