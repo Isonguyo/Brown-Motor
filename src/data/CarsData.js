@@ -404,7 +404,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://your-image-link.com/lexus3502016-main.jpg",
+  mainImg: "https://file.kelleybluebookimages.com/kbb/base/evox/CP/11159/2016-Lexus-RX-front_11159_032_1843x830_223_cropped.png",
   description:
     "Elegant 2016 Lexus RX 350 combining bold styling with comfort and reliability. Features a powerful V6 engine and luxurious interior perfect for premium driving experience.",
   features: [
@@ -417,9 +417,13 @@ const carsData = [
     "Touchscreen Display",
   ],
   gallery: [
-    "https://your-image-link.com/lexus3502016-1.jpg",
-    "https://your-image-link.com/lexus3502016-2.jpg",
-    "https://your-image-link.com/lexus3502016-3.jpg",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/561853622_122152653062741789_2010795721184081309_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEzlebeCyUFquh0zfB0FwY7ycF94tiohW7JwX3i2KiFbgcpQvNThY-DX3Gvx3hZm0El9uNTAfw6l6PwbEmP-N7Z&_nc_ohc=62cc6c9gUxoQ7kNvwG4GCaT&_nc_oc=AdlrYLurYDOn70wLKtIP_rGgFol32glhNfUPxIxoHOklq3aABwIAD2TUYUm2IBBJfek&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=8i8soSUswxrx1EiMRl2DSw&oh=00_AffybGkGmqJZ4CE_u1OWk2Z6a9HuQ54z93kLeNrRjo_UaQ&oe=68FB8760",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/567544972_122152653020741789_1858489667147766885_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE9lKKt3MHrNdDeOo0BYFwuLF2XR_UIswEsXZdH9QizAT9pxkVWbljwK7KUWR3NlBjcibtWrywPKA18YxLhn6Q1&_nc_ohc=JWWBCjGdI1YQ7kNvwHXWUnY&_nc_oc=AdkPPrlUPbxyl2dF-MVritMCK4d7nxbwvHwGK_ejBzL5lbbWbrV-NYj6A_XjpS07sv4&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=gaXM3eTSG2Z2BHrN5Lv5hA&oh=00_AfeQuxwXX0iHDXRPdLdlwJLt2WDEfRQCrAh-W708bv3Dew&oe=68FBA839",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565696188_122152653230741789_5737727326201049330_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE5BqWbJ7bCxOmxtkFYTNZIrVMCN5gBhPStUwI3mAGE9HTnQPF7V9Yh2z2zWlNxUE8SVGP6iIZXjnJW-J5wYAio&_nc_ohc=0rFEhoLlrc8Q7kNvwEWE-Pb&_nc_oc=AdmCAFa-u6FE4MeElT3kgZD_iQn3TDv0huBXdij1HqXrp8NUiyiogyRaDqZ0tZcUTGM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=DeSi7OoEXUHK9RqdEAQAxw&oh=00_AfcqPBhOIhgmnQJtIBqX9_sq8cCHIP6LfMFKpF0cxsrccw&oe=68FBA40A",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565358865_122152653302741789_6677059251026087813_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGLw50aOKF0yCuhpKMFLBAUpj-eL4J3ObOmP54vgnc5s4R-qM3zKTi8rCn2-Hxj18So4tOupQl-vKmN5H9PGnkR&_nc_ohc=1DcDb9vfdSgQ7kNvwHlC3VE&_nc_oc=AdmpyDhYdzaLuXVIMJ2gFbKO1Ph0Rt1Fw3neiE3VXrT3Iao7_Ook8Ka-m5YNnl8DJ8g&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=hNmQ5xqcysgxSdB167jZZw&oh=00_Afdl4oebF8QSCHKyvAKv7G6sjMwHCwSofAODz5u-7SXtaw&oe=68FBA9DC",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566222019_122152653164741789_2158452011069682878_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGuMaXkgxq5ymLJgnVcJrKU5Qga41tfTXPlCBrjW19NcyOuN2xqpoGME43s46X9PZ41sVKFP6i2Eo1cEQ5BSX_z&_nc_ohc=Ax2dFgr1iOAQ7kNvwFjWiUt&_nc_oc=AdlhAN5UW1cN9fn-bPblh-bAsSjOh-mWsmf0Yw2m-YQdlYe3cAO411pMV2nzzgR4g2A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=elDWggw4i4U0da-sVDrODw&oh=00_AfdCQxy7e8Hbq8Qp8wL7JWGsGDda_eCVei7xelK9AC60pA&oe=68FB967A",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/564610506_122152653206741789_1901880874136600620_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEXBvLhwbQGbJxs--XDIiAmZgyUCX8_eatmDJQJfz95qy07pOjdXHALiEkyv9F6ndbChFs1SMdnsifJPwc-AK_P&_nc_ohc=h0b3pH57tRcQ7kNvwE0Jw2Y&_nc_oc=AdmDikwrSlVlkhLlAozunKTN61Gk0JEGCpidh0HXcygqdTYIgTu053hUNQC-F2m4mGs&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=PI6MHqzWxCeqDLZX6Ju7cg&oh=00_Afd6Tt5n6kdMUEkmXbK2_wtVvynywpkY-N4Vn6zi7xfKMA&oe=68FB93C9",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/566223843_122152653098741789_6942275870673947187_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGOZGw2eIEuHfC47DZS3Z3wzsd0SsjtV8_Ox3RKyO1Xz65QsfXDObFQDp3IGKfUsP2J-QZIGCHRh1wWbbE_PLy4&_nc_ohc=7oDTP_LUFSIQ7kNvwEIqUNW&_nc_oc=Adlpgz07d4GlFU-8Jc0sNOYthwnmR6E25QcjjqoABMrqu7vll34nuiAn-OuOc1bg0zM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=sDT4-GkDBUEEyICVYcO0pA&oh=00_AfdS4uUR4-C8lmb93vygH_26EklPhki2tL7bgbier1T2iA&oe=68FB9623"
   ],
   video: "../assets/lexus3502016.mp4",
 },
@@ -436,12 +440,12 @@ const carsData = [
   engine: "2.5L 4-Cylinder",
   driveType: "FWD",
   bodyType: "Compact SUV",
-  exteriorColor: "Silver",
+  exteriorColor: "sirocco(light green)",
   interiorColor: "Black Fabric",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://your-image-link.com/rav42019-main.jpg",
+  mainImg: "https://www.forcegt.com/wp-content/uploads/2019/11/2019-toyota-rav4-edge-rear-quarter.jpg",
   description:
     "Modern and efficient 2019 Toyota RAV4 with bold design, fuel-efficient engine, and advanced safety features. Perfect for both urban and long-distance drives.",
   features: [
@@ -452,8 +456,15 @@ const carsData = [
     "Keyless Start",
   ],
   gallery: [
-    "https://your-image-link.com/rav42019-1.jpg",
-    "https://your-image-link.com/rav42019-2.jpg",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/559605844_122152653998741789_1321600368915816158_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFEFTQqGAWtN3xrr-puvQnvKaAuhR1lI7opoC6FHWUjujgYFZPfte4m-wJP9Dz1CwLrsu_0m9Klr7OCavklAT1W&_nc_ohc=R6kBxvau3MUQ7kNvwGFCKMs&_nc_oc=AdnO1UlnlGBTzhZtjcvR-un2ySaoFSmq7ObvRWkIhbXMpzZZD6GejE5mROSBAU8nUSQ&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=GlT9rKWMuKFToZ7KcB6t3Q&oh=00_AfcBzaSk2lbcQb2TzYgjR9Yjx1yau6ynFuGPxDc4w0lOJQ&oe=68FBA298",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568481482_122152654034741789_3934083157912111980_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG-nfn0CEpw4v0MvsBnWowcWPsfHZf-9nBY-x8dl_72cIkt8hJiw1ZwcScVOl7XoRCMr0hMBejE2KJeDu2tmVb8&_nc_ohc=YhNrkWBOuiwQ7kNvwFptpZk&_nc_oc=AdkOucLN4D5FEyIcH7xN-B6117Ohb5yMAMucOhsg6w5QU1-X2IFBZyvJYa8UZaZ0xkg&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=vVCZfVux7mo25kjZpaDsAQ&oh=00_AfddSwy4Xl5rCxnGrGwPBNH1qWXjZre2QEYAlwCGAJ6suw&oe=68FBAB91",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565676344_122152654322741789_3350407394206389876_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFTiHeVLkPiMjDhkZ54tdWGbkW2Xv-phM5uRbZe_6mEzoBwa50NzpV9J8Ws_2PTSR86l1roQ7e__v2Oasr7hYb6&_nc_ohc=jfgah6eaY2UQ7kNvwF_2PBb&_nc_oc=AdmFhxfAJEhHEt3ERF68GI0ci8H-POFc6M4e7jjzPCZ-0r6YW-6-EzwlT49n6DiPrJ4&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=9S4LG0hW6fU394yD3dTrhQ&oh=00_AfdYvtSDSoDW_el60maQxIPDLZP8zZoxV3pfJKfHJ0Go1Q&oe=68FB89E6",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568517642_122152654136741789_91664098748094535_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFGVO77RuoR4V6P1k2IbWnuOH06Dtq15NY4fToO2rXk1pmngecQ-kDpJsHk_MKegbS86Yrfggi-_bM-FF4WWKBW&_nc_ohc=EIWWOsStIPMQ7kNvwFgOq5F&_nc_oc=AdkDLNR7f4Sx9DqiaIKLCHAwNcy8Mxb6OVD8n5KSLfonglq5ou1Cz6kas1qOV5kEhoE&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=Oervqsdnx54IGeT6BmVSjg&oh=00_AfeOcG96SljlFS9zwHUhrwHaX9cQRsXISSWIZbgpCiNBkA&oe=68FBB7D3",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566228169_122152654064741789_2251106437120900910_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGLbd5Ic0UalLo0sYnYv5x8csDLhHYASAJywMuEdgBIAhGkfAbr43k_c6ZqFPzoWYslZqPbkg4nrffHiHQsKlQ7&_nc_ohc=V5qOY8jg7JsQ7kNvwGB7Uws&_nc_oc=AdkdSkCUHEdpUeY8pBHikHbwTskNoGitzDBu0owYmxBXc4SHqlhidQiVAb7mR04eQVs&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=FjoyJiPBm-5tooBLO6EGlA&oh=00_AfcihAPZv8ujGUpCIUK2RXFp5rCeqQvv_hdN3jG5XKWRpw&oe=68FBB8E4",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565810447_122152654244741789_8333359905064195423_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFfJ9l9YrxfbpprUMnt3EAXx8pPNqAzNJXHyk82oDM0lWZj1-WgyKcLwqFvtARKpQcND-63a0ZsS61yjdL-yB8I&_nc_ohc=wxA3obHXti4Q7kNvwHsndzg&_nc_oc=AdmUEsbp3N4PIGfbKN5Qys2mm6WCmaVFVnUmyhe-UYeyzG_mgZlt2Ks_yVTLV4dxiLE&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=J0DdtoBUJg2O-0vwxvLBZg&oh=00_AfebfEjWhwQfLe1iWOLz9dx46aFZWIC1mLiiseceO_IGWw&oe=68FB8C8D",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565101125_122152654094741789_5312889054275930550_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeELOK84yTyGVgdnhTDMYQFv1ksN4yGVtNzWSw3jIZW03I5SsBJcRzIqTaW9QUkOu3DKreI3ZGH7jSqU5rcb4WI4&_nc_ohc=PCDNG0gvAAQQ7kNvwGFYDR1&_nc_oc=AdkeDOs8-VWr955KFCFjlDaKvAJNsYHorAoIE38TFL6ujIEe5n-LOTaUYfGkzCvLTZ0&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=u8SSa-Pkltjc5_DN6GHr5g&oh=00_AfcKz-0LZy4IiuvpgOkVBvSrv2W4kHusNYNl_RPI50zwrA&oe=68FBA504",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/564586429_122152654202741789_4841259930221860549_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeESJyv3muVPKJD-4sn0FcFuhj5OrUPJCKCGPk6tQ8kIoPav8uyIu9iccu8EtQ2udqjZryBjBb_sGA5lcq6zlEoQ&_nc_ohc=-X58fl9Yeq8Q7kNvwHoMYAr&_nc_oc=AdllqQ4vMPvssFvGVBq4XZy0i9T2GQXZpTAAKrB6Kjfc_w7Gr4j1Rx3W4WSxP4-UR54&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=4N5R06vP9p6WeckoM1hIaA&oh=00_AffVi4I0aM-XHLXon9uxUBs2Z8uZwwE3hUDcWJucrs-Mow&oe=68FBB2F3",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565703163_122152654268741789_3656801186644898415_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHLTlWtie4aGpHNuYxlU8ykwP8Fbx6dQtDA_wVvHp1C0JTv7t6-VTGNIIvfLWOjWXngP3yS3k4yl3UNhTE20ZA_&_nc_ohc=tpgNcxHNqUAQ7kNvwHf_JrD&_nc_oc=AdmD6Mv4tGrwUjUsd8ObTkRMJRlkRWbT-hgJ7SJM1pEkRirrDh7QLXh6mU6qHMsP718&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=-gmQW-8LUsrmv0OPR5r-zw&oh=00_Afeg1B6jrABUR9lMot86IFuhNXV_i6hrSckD7-YUnplJRg&oe=68FB8DD3"
   ],
   video: "../assets/rav42019.mp4",
 },
@@ -475,7 +486,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://your-image-link.com/lexus2020-main.jpg",
+  mainImg: "https://cars.usnews.com/static/images/Auto/izmo/i159423608/2020_lexus_rx_angularfront.jpg",
   description:
     "Refined 2020 Lexus RX 350 with modern tech, sleek styling, and luxury comfort. Ideal for premium family SUV enthusiasts.",
   features: [
@@ -486,8 +497,13 @@ const carsData = [
     "Wireless Charging",
   ],
   gallery: [
-    "https://your-image-link.com/lexus2020-1.jpg",
-    "https://your-image-link.com/lexus2020-2.jpg",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/560577773_122152654952741789_7653534507036874385_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH5ToKsO0G5SeUNRXV7xzFl1ctfC_jjypTVy18L-OPKlJWPX-W3nzDv5iVwvrFZ7mArWB7ZX9jkseTZ0hZWPKLI&_nc_ohc=GQ2zEGxbznUQ7kNvwFoUAEi&_nc_oc=AdlmJz6buy60XO4ohziFHl86gQfGQYO7FDMd8xXiEuCMaJZvgNakzGZl5MQlFgYKQxM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ebWdDfgxxre5akb2xfDl7g&oh=00_AfdSOiJ3PsRCvSnJOoBEJFiINR8NBqSxVp7ZYnjeTaUz_Q&oe=68FB9542",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565669797_122152655030741789_3560326914317711003_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFhuWiVYFHEM3WBhNb5pZMriSDcaFaTybaJINxoVpPJtgkCHTrEBTW8cGeTLYt7_qATdmZd6ekKnSbFISheAT3U&_nc_ohc=cX6EHzClFVUQ7kNvwE8Zcji&_nc_oc=AdmNJO8ibmWHZ6EmLuup67B4KqfSZRTy3xxoanKTW2VxD8nwmzpsqS-2QuK_hMPn39Y&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=TaOgBK0exdezafBQIMepsA&oh=00_AfddWsmBvch_iMs-E-Yc0ZKDCzu92qadDDv-g8Fe7rtdWw&oe=68FB8A72",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568374058_122152655198741789_3623666274281325701_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE1xVzkF4C2f-eAxnLkmmy77NRGbHSULDzs1EZsdJQsPOcKujb2lcL8Db29_laJ-ncVvUjTnaJzjuusxGis2AkS&_nc_ohc=bwVuGKQresoQ7kNvwGT34jD&_nc_oc=AdlaEhOLFz9VEwDh8ykdHK46D16FVMnoz7tZ1FpQCr2YXubgZXzu7DHFIFLuVo4UhWw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=IDk4kLrSzxohlUiWI9o3ZQ&oh=00_AfftS0FSCAs0btunWIOMWesU6yzrZgjZEyiLMJI1YYOgCg&oe=68FBA4B9",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566241815_122152654988741789_1363664911810987328_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGoyJQLcNK0qs8jPpF4wCrLAIG7FJEkh4gAgbsUkSSHiM9aM5NgdywEYF09mwD2F5LVT11H1CRqGxN1mciNiRiq&_nc_ohc=I0OMl9tZRygQ7kNvwE3fbVR&_nc_oc=Adn9ma-4cTF7cnr2SSb505e53aXsesUbJXFDc1-egdzNZ2i7f-jukCfRkdLhj5z1Ozk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=O6gxIKoPGTgjAPFQyvir9Q&oh=00_Afc_73-i44lLbj6OBypqLy9VXcj9igdLY83rWaKhUDQi8Q&oe=68FB9A29",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565628773_122152655078741789_7665004465064503107_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHQmU5QHGOfaqE9grPZvYXedMIEghrLYdl0wgSCGsth2TikaznrB6hkBEQVwJt-h1ZZl2gIrdq-LvvHh1XcEDIV&_nc_ohc=YxSnixA-9SsQ7kNvwFS4I6s&_nc_oc=Adl9Hmd0GMeYmxJDWOEwQ3ZHGGaqKT4iZYv7z2-N0Jobh7HN3_MjPl87PI88VWSqzbY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=gWHrt3bS90xmnKn59Tvwew&oh=00_AffIuJaXJLG2tV4UV-0zW7eKi7Gy59Ndym5zFHpIImvucQ&oe=68FBAC26https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565628773_122152655078741789_7665004465064503107_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHQmU5QHGOfaqE9grPZvYXedMIEghrLYdl0wgSCGsth2TikaznrB6hkBEQVwJt-h1ZZl2gIrdq-LvvHh1XcEDIV&_nc_ohc=YxSnixA-9SsQ7kNvwFS4I6s&_nc_oc=Adl9Hmd0GMeYmxJDWOEwQ3ZHGGaqKT4iZYv7z2-N0Jobh7HN3_MjPl87PI88VWSqzbY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=gWHrt3bS90xmnKn59Tvwew&oh=00_AffIuJaXJLG2tV4UV-0zW7eKi7Gy59Ndym5zFHpIImvucQ&oe=68FBAC26",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565873513_122152655072741789_8192884144210900131_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFmzWvMaXDXp9MzB0fgTsLukZhcsXGohF2RmFyxcaiEXShA2CxixlNzpA2Nez-gMe23lwW6_38A3__7zJlelgeo&_nc_ohc=lvhJR9f8gS8Q7kNvwHFwgSg&_nc_oc=AdlD8FZvhZbmIW_balhZyg-zuYqiYesz1XUOp2ynKaoijTDw5JC2XdzGsIKV8TjP1GA&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=A9I41ajdG_UYQPg0Z5RO4w&oh=00_Afc2LdTqTHdVuYOaQ5Qfwu9k4nmBVVzI-cKz4uQJldQgRg&oe=68FBB15D",
+    
   ],
   video: "../assets/lexus2020.mp4",
 },
@@ -497,7 +513,7 @@ const carsData = [
   brand: "Toyota",
   model: "Highlander",
   year: 2012,
-  price: 21000000,
+  price: 24000000,
   mileage: "92,000 km",
   transmission: "Automatic",
   fuel: "Petrol",
@@ -509,7 +525,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://your-image-link.com/highlander2012-main.jpg",
+  mainImg: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIOhA7v7Lusg&psig=AOvVaw22oYx2v8IVdmZuQiAt4M0A&ust=1761027319225000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLCe2pyQspADFQAAAAAdAAAAABAM",
   description:
     "Reliable and spacious 2012 Toyota Highlander designed for comfort and performance — perfect for large families.",
   features: [
@@ -519,10 +535,18 @@ const carsData = [
     "CD/MP3 Player",
   ],
   gallery: [
-    "https://your-image-link.com/highlander2012-1.jpg",
-    "https://your-image-link.com/highlander2012-2.jpg",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/566211290_122152655960741789_2161117781425412813_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF8Xo8bgffSGiKtxsIECE0snZHhMwLe6FOdkeEzAt7oUz2gC_BhEe9TNiUsY5ZmjkgVoZPEdB_6al7-qDu8slpg&_nc_ohc=lBOGJQxNdTwQ7kNvwFRlisM&_nc_oc=AdkhkIxIuvVVYjb6O1fuI3tXpbx4ieHjoN0fyz2NXMs2sWY3J9ZSoHO7QyqImRAN93o&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=UwHHBeSpx2_3mezEoHX8WQ&oh=00_Afe8z95f7EVNIWYBpG9qnLdMqPt_zRmuJ96Gp8d9I0q_5Q&oe=68FBAD98",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565713309_122152655822741789_1273704118916069263_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFWoo7mU76IP-9VKDsvyp_wvuanZ8eWOOy-5qdnx5Y47I8NmuW17P0usb5e3JvTbmecTXMrBi1Gk_vty26nsY3K&_nc_ohc=vUimOfV0C5AQ7kNvwGnFHt4&_nc_oc=Admg3BmCp6S0WTclJYaY0kEOOYG0JVvRoCGPZKJKKqFO6rRswSM4no7uX7Vyl_BrDtA&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=Ly5geCODTt2OAmp6VbCrPg&oh=00_AfeLdpiwlQfbpsTCllooq2nZNYBYn1CRpPRYYjzguEvHew&oe=68FBB904",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566217093_122152655774741789_662243234120713930_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGoRgUaK5XbZlLh_Awwlo1sosRkaMLgrDiixGRowuCsOP-vrjcKtyTPBtihZDUE35MsUqwNKGNMLNw5VprfBKZ1&_nc_ohc=H4QiKdF9PvYQ7kNvwFpcwCG&_nc_oc=AdkTmDsj76F0cTrdnqf52Y-IeQOfbBnzEGw41qgjJp-2Feab59k0fBPKaKexzchKCjU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ruByA3HIbPJGOjnf3znkBg&oh=00_AfcDgqoo4yeRMTIvO08GvAWSj3eiknVhlcYr4JZJ0nx0Sg&oe=68FB912C",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/566214197_122152655660741789_1371563280138874458_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHcMxwL56gv9IdScbzMyqNfjAXqZzxk8MyMBepnPGTwzN89hRyJY1eEFwhxe_ATdWC7Cy5u3d74HsLaM8WZnDkC&_nc_ohc=CPdgVxB9aH4Q7kNvwEUGYQp&_nc_oc=AdkwOg5VUuTC6KFxmKeRhIb_f4ieRtgvx-I6PjNlFWBUI1SgnV3KzGxafKRrbb2kTII&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=J7pQfJyMyNcb4D5T2HTDJQ&oh=00_Affr0GsXaNCUQ1rDutgLaVL628U8rnbOdfZgqSTGAAymKQ&oe=68FB9910",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569133150_122152655894741789_4647688432199973766_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF7gw7JRiSpKZGOf8CpLxfVb39_yneOxQ1vf3_Kd47FDZ3Tid1A0dINbwRGdHmQtFBqnDVvi3lFJmgNgMIuuRkm&_nc_ohc=6JdhZXIKjEgQ7kNvwEInz0l&_nc_oc=AdlBZvPaeXQwJDjU9GvJhSfki9-8MiDis9APi8FdTtexhNXV74INinujGXNd83qfMBI&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=KfJrU0I6P3iXe34AydhGpQ&oh=00_Afc72ZsV2zbsk7PZANLq4DmzBInwqytf-Fv1Qs9qRm7I8g&oe=68FBAAB3",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/565668925_122152655768741789_5392918858154066075_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEEq7-M7eo3woQ3mArGS8F0uoYDYGvpQgO6hgNga-lCA-JJb5JGuY9Rb8X5nZJo8129bKke2ZVIdA0VHNqq7lcb&_nc_ohc=KLS7CJHjfIgQ7kNvwH4bSvD&_nc_oc=AdkQQ_kw6aPRNYwcdZYHJ4N_gzPEBE98p3GYY_kOoeNhbwl--tXgpnHBTuXf2t4Zq5s&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=1Qi2E9V9sqoy43Rgw2iBBg&oh=00_AffTFpWpABoKhmIpRTAs3ls_zTH3cKKZTIBXpoa4Z6J8sg&oe=68FB8B3A",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/566222224_122152656074741789_6964493558423172065_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH3iAdR17S81FduPdf8k5UEuKEsxLf95ru4oSzEt_3muwm2MuYjWuhG31gkK9OIkCFfXfWQhtoqeAdur9II8Vbc&_nc_ohc=Jv2zYLZR6mUQ7kNvwFx8sM6&_nc_oc=AdlwSHj9iGFZJHLvvC6N5n5JO_rivFwliPodL-1LPGveebhSsM8iLCBzc7pTjKBKIIE&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=sOJ76S9NieiBmz0SMPfyEg&oh=00_Afc2QzJSLzaVHXmx7Po_03fBFtfG3VCyisy0PuptjhZ8ig&oe=68FB88FB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566201143_122152656032741789_1683187368761671480_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFbzVuExETZHkoYP4GIVZUEpjTnRw_Rv9emNOdHD9G_16RtTRmzdwOFEDf-Fy3zDON3y4CHnDK0VBwhjOKuddrj&_nc_ohc=Ks_KX6mPPPUQ7kNvwHs16Zy&_nc_oc=Admmh2Ll7CAKgoiAreM8fR_geZJ2PTbvZ03nLPm9qmSxpLr0dHq16Z6IVgroBnOIgpQ&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=jbTK5HxPiH6BCXJ4RL2HUg&oh=00_Afc9udvpHypYnghYf_0BX3VDvrkLsWBtRChWid5vKLs3Tg&oe=68FBB35E",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565638656_122152655900741789_5234278859235003143_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHJu0ZN1ScOXMWY7qO1ES9tMWTxoLbcY8UxZPGgttxjxfRXV4X7EWHAaLO97Dk2Vy686jsq_YPEl1jZwrgqnw93&_nc_ohc=Gd3W3_zn3KgQ7kNvwH41oZE&_nc_oc=Adk6SKtV1DUvkAygMjoo2h5dCo9v2-jCeWTTE6xJt7bm1rOf6bBG7Ixcs_fhsAJnbsA&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=ZPILliBbPwQRcRaifaWQew&oh=00_Aferi-cSo7KGFy6tHXQBKK95DR8rbHndB8DCS5UGw5Jheg&oe=68FBA281",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568650967_122152655996741789_7126518104202681395_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE91Lx3qN_ICzMFvl3_nnYAX-Q7ImLna-lf5DsiYudr6fBSM50nI7Cx_tyYoClCSttfMRTnRNXVGz4MkGyEX2uy&_nc_ohc=gH9Gisl1BSsQ7kNvwFUe__l&_nc_oc=AdmJqFgfRpIrlkNiwmH9FuIcKtN7lS7pDiuIkFeK2gx1W_KI2Ox6E1vtxBssWhjxreY&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=AqoC3y6To066ZMfhy5W_6Q&oh=00_AfeMb9cQK5hjxwKNEqbhEp4oJDa_UPowlWkPz0PeI4TZyg&oe=68FBA26F",
   ],
-  video: "../assets/highlander2012.mp4",
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 
