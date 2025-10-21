@@ -633,7 +633,7 @@ const carsData = [
   video: "../assets/Toyota-highlander2012.mp4",
 },
   
-},
+
 
 {
   id: 16,
