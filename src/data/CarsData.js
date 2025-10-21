@@ -628,7 +628,7 @@ const carsData = [
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
       "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
       "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
-      "",
+     
   ],
   video: "../assets/Toyota-highlander2012.mp4",
 },
