@@ -18,7 +18,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/563448024_122152357808741789_4300403681177610439_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEEpnThJYn_SAXoOsL_Ky2TikevZzVJHu6KR69nNUke7tetsdpXN3pPIksO_GTRsIn3VNPqyqj-NaIhDaUSvIuv&_nc_ohc=iLbVssG6F9cQ7kNvwED4ERT&_nc_oc=Adkml2iIAaHY48jlKoXzhtd_00xW6lnxSg_-AG29coMZnjzKV-TTXn97x9aFzfnq9-k&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=chYGImLNMpU5KyQgaUC-GA&oh=00_Afcd6WV5etHSQqXtKOQcZSR2IQELoLa2FKFQzCKCb7nBXg&oe=68F73EB2",
+  mainImg: "https://i.pinimg.com/1200x/8d/b9/f4/8db9f49860f6383c5596034ca131593f.jpg",
   description:
     "Spacious and versatile 2012 Toyota Venza, combining the comfort of a sedan with the capability of an SUV. Features smooth automatic transmission, reliable 2.7L or 3.5L engine options, and a premium, roomy interior — perfect for family and long-distance trips.",
   features: [
@@ -57,7 +57,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561373630_122152360322741789_4313983276170492471_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH7NhvinXtMhoTHwakxDt64ZpfHfdfX7Ulml8d919ftSdFoNwolmLIGIfa7DO9CCy19CNKaWBEyoAfjdsdBe0RX&_nc_ohc=9eiXVrL8aVcQ7kNvwGJ_6tF&_nc_oc=AdkTAqpEVud-yBtXHvLPRVnyjNSuHY80AKzMDmZslGGcGaIgpSjYP9g-a87wi28B-hE&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=RgSFnHJiWuyeCACT43mMbQ&oh=00_Afd3QiNKp-e9F46omhJxTuc2oJjzo9I0MjMTuWDiNaVHyQ&oe=68F74C7F",
+  mainImg: "https://i.pinimg.com/1200x/30/67/e3/3067e3cf67e30e3db353c4de5a7204c4.jpg",
   description:
     "This 2013 Mercedes-Benz C300 blends luxury, power, and comfort. With its refined V6 engine, smooth automatic transmission, and premium black exterior, it delivers a truly executive driving experience. The cabin is quiet and elegant, making it ideal for both city cruising and long-distance trips.",
   features: [
@@ -100,7 +100,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/561234885_122152358120741789_2510615622780251692_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE1gfA7gWFr1OQrdPcxFb-lZvjn9YUFjDxm-Of1hQWMPA0DosvOnuBvjKeI9-fj5FfOmaW_v_pzkp58-sQKpm5N&_nc_ohc=7wy59-RCfFUQ7kNvwFkhZ2y&_nc_oc=AdkYkr0klW6VNfgpBM1dLpcwKvHyITUOQx4AfmQ7NpyxfUJeTlW0XOJPWvoJpTgKcx4&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=Oiheuh-V8iTbmBfjkMoOtA&oh=00_AfdHXcvV4IQIJ6PFFgeOMsjLiVlQaPLDQWYDKV0mTeVXaQ&oe=68F73822",
+  mainImg: "https://i.pinimg.com/1200x/c2/a6/a7/c2a6a70c128722f492749b0a9b7d6299.jpg",
   description:
     "A sleek 2017 Mercedes-Benz C300 that combines performance, luxury, and technology. Equipped with a turbocharged 2.0L engine, elegant design, and refined interior, it offers smooth handling and exceptional comfort for modern drivers.",
   features: [
@@ -143,7 +143,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/564005518_122152358156741789_5220314672861857406_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG5FyJUJmG5Syqlpx3VZXT907z-6btLDjfTvP7pu0sONzpdbWvbY3Re-Wq8zzQYHG5ktFGhXNzsPguhEoWZEjGj&_nc_ohc=OEmT-zQTujgQ7kNvwFeVDeY&_nc_oc=Adn_3mCmbHaU0E0qe_bC3XpSA9hRMQcAVgeAA0pKKIWuAEDgovGOSHpsZF0hm7TgNaA&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=k6GcPFHsQOnQDtKfZgO90A&oh=00_Aff21rups16veaHQjEgrPRIh70ZRBhvCixnhEaFuCGZsJg&oe=68F76243",
+  mainImg: "https://i.pinimg.com/736x/4b/8a/40/4b8a40ba0b251d95a250fed8415e2ff2.jpg",
   description:
     "This 2012 Toyota Highlander delivers durability, comfort, and space. With a powerful V6 engine, smooth ride quality, and premium interior, it’s perfect for families or anyone who values reliability and performance in one stylish SUV.",
   features: [
@@ -605,12 +605,12 @@ const carsData = [
   engine: "3.5L V6",
   driveType: "FWD",
   bodyType: "Sedan",
-  exteriorColor: "White",
+  exteriorColor: "Black",
   interiorColor: "Beige",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://i.pinimg.com/736x/c4/6a/22/c46a223a4c7908418c654ef2db8863d4.jpg",
+  mainImg: "https://i.pinimg.com/736x/c3/18/fb/c318fb129108fa4a4cb3905159c5aa1b.jpg",
   description:
     "Elegant midsize luxury sedan offering a smooth ride, powerful V6 engine, and premium interior comfort.",
   features: [
@@ -653,6 +653,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+    mainImg: "https://i.pinimg.com/1200x/f5/63/a8/f563a82d0281a8d3a9362e7d43784fd8.jpg",
   description:
     "Rugged yet refined SUV built for off-road strength and on-road comfort — the Land Cruiser Prado 2015 delivers reliability and power.",
   features: [
@@ -662,6 +663,17 @@ const carsData = [
     "Traction Control",
     "Touchscreen Display",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -682,6 +694,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+   mainImg: "https://i.pinimg.com/736x/ba/d8/68/bad86822537bc8a5fa92f474118eda4d.jpg",
   description:
     "Luxury midsize SUV that blends performance, comfort, and advanced safety features in a stylish package.",
   features: [
@@ -691,6 +704,17 @@ const carsData = [
     "Blind Spot Monitor",
     "Power Tailgate",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -706,11 +730,12 @@ const carsData = [
   engine: "3.5L V6",
   driveType: "AWD",
   bodyType: "SUV",
-  exteriorColor: "White",
+  exteriorColor: "Black",
   interiorColor: "Black",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+   mainImg: "https://pictures.dealer.com/n/newburghtoyotany/1219/748190c5c6d9039ee3cc002de807d32ex.jpg",
   description:
     "Modern family SUV with advanced safety systems and impressive comfort, perfect for long-distance travel.",
   features: [
@@ -720,6 +745,17 @@ const carsData = [
     "Touchscreen Infotainment",
     "Rear Camera",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -740,6 +776,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+    mainImg: "https://i.pinimg.com/736x/eb/5c/94/eb5c943513abb3927fb2d3b1de035d90.jpg",
   description:
     "Reliable compact sedan with sporty design and excellent fuel efficiency — perfect for everyday driving.",
   features: [
@@ -749,6 +786,17 @@ const carsData = [
     "Keyless Entry",
     "Reverse Camera",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -769,6 +817,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+      mainImg: "https://img.autobytel.com/chrome/colormatched_01/white/640/cc_2014toy007a_01_640/cc_2014toy007a_01_640_218.jpg",
   description:
     "Spacious and family-friendly SUV combining practicality with strong V6 performance.",
   features: [
@@ -778,6 +827,17 @@ const carsData = [
     "Alloy Wheels",
     "Bluetooth",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -798,6 +858,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+  mainImg: "https://i.pinimg.com/736x/f6/84/f1/f684f170397c854d34c78fd85bc6654a.jpg",
   description:
     "Comfortable and practical minivan ideal for families, offering powerful V6 performance and ample space.",
   features: [
@@ -807,6 +868,17 @@ const carsData = [
     "Bluetooth",
     "Cruise Control",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -827,6 +899,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+   mainImg: "https://i.pinimg.com/736x/85/25/4a/85254a0a6cd7519c0dadbb70e994752f.jpg",
   description:
     "Well-built and durable midsize SUV that delivers smooth driving and Lexus comfort.",
   features: [
@@ -836,6 +909,17 @@ const carsData = [
     "Memory Seats",
     "CD Changer",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -851,11 +935,12 @@ const carsData = [
   engine: "2.4L 4-Cylinder",
   driveType: "FWD",
   bodyType: "Sedan",
-  exteriorColor: "Silver",
+  exteriorColor: "white",
   interiorColor: "Grey",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+  mainImg: "https://i.pinimg.com/1200x/0d/83/96/0d839602664db7b92040259cbed31f9c.jpg",
   description:
     "Sleek midsize sedan with modern features, excellent efficiency, and a smooth ride.",
   features: [
@@ -865,6 +950,17 @@ const carsData = [
     "Keyless Start",
     "USB Port",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -885,6 +981,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+   mainImg: "https://i.pinimg.com/1200x/2c/ef/f4/2ceff4d17abab021135ec39ef3de24fc.jpg",
   description:
     "Premium family SUV with upgraded safety systems and a refined V6 engine.",
   features: [
@@ -894,6 +991,17 @@ const carsData = [
     "Bluetooth",
     "Alloy Wheels",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -914,6 +1022,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+   mainImg: "https://i.pinimg.com/1200x/5a/10/bd/5a10bded3a72731677e90aac0acf4fc4.jpg",
   description:
     "Top-tier luxury SUV built for performance and durability, perfect for both off-road and city driving.",
   features: [
@@ -923,6 +1032,17 @@ const carsData = [
     "360° Camera",
     "Sunroof",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -938,11 +1058,12 @@ const carsData = [
   engine: "2.0L Turbocharged I4",
   driveType: "AWD",
   bodyType: "SUV",
-  exteriorColor: "Black",
+  exteriorColor: "Grey",
   interiorColor: "Beige",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+    mainImg: "https://images.dealersync.com/2635/Photos/291051/20181127225720408_2016_mercedes-benz_glc-class-pic-5789636405200888194-1024x768.jpg?_=a1aafee90e5894060b909f94bcc69e43571f32c6",
   description:
     "Stylish compact luxury SUV with advanced safety, refined interior, and smooth turbocharged performance.",
   features: [
@@ -952,6 +1073,17 @@ const carsData = [
     "Power Seats",
     "Reverse Camera",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -967,11 +1099,12 @@ const carsData = [
   engine: "3.5L V6",
   driveType: "AWD",
   bodyType: "SUV",
-  exteriorColor: "Silver",
+  exteriorColor: "Black",
   interiorColor: "Grey",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+      mainImg: "https://i.pinimg.com/736x/56/e2/07/56e207cf6c9f411d00218605f5d7b6e8.jpg",
   description:
     "Reliable midsize SUV with strong V6 engine and a comfortable, quiet cabin.",
   features: [
@@ -981,6 +1114,17 @@ const carsData = [
     "Power Windows",
     "Alloy Wheels",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -996,11 +1140,12 @@ const carsData = [
   engine: "3.5L V6",
   driveType: "AWD",
   bodyType: "SUV",
-  exteriorColor: "White",
+  exteriorColor: "Grey",
   interiorColor: "Black",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+   mainImg: "https://i.pinimg.com/736x/38/57/d1/3857d196cf98e9b6886a8399e8da9394.jpg",
   description:
     "Luxury midsize SUV that combines advanced technology, comfort, and performance.",
   features: [
@@ -1010,6 +1155,17 @@ const carsData = [
     "Reverse Camera",
     "Blind Spot Assist",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -1025,11 +1181,12 @@ const carsData = [
   engine: "2.5L 4-Cylinder",
   driveType: "FWD",
   bodyType: "SUV",
-  exteriorColor: "Blue",
+  exteriorColor: "Red",
   interiorColor: "Black",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+    mainImg: "https://i.pinimg.com/736x/63/2b/d7/632bd7c6cfeeb4c464ffee9c574f18a8.jpg",
   description:
     "Compact SUV offering durability, fuel efficiency, and Toyota’s trusted reliability.",
   features: [
@@ -1039,6 +1196,17 @@ const carsData = [
     "Roof Rails",
     "Cruise Control",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -1059,6 +1227,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+  mainImg: "https://i.pinimg.com/736x/e3/a1/4e/e3a14edaae20a2fea4cc78cb3e4d9d8d.jpg",
   description:
     "Stylish midsize SUV offering comfort, safety, and great value for money.",
   features: [
@@ -1068,6 +1237,17 @@ const carsData = [
     "Keyless Start",
     "Alloy Wheels",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 },
 
 {
@@ -1083,11 +1263,12 @@ const carsData = [
   engine: "1.8L 4-Cylinder",
   driveType: "FWD",
   bodyType: "Sedan",
-  exteriorColor: "Silver",
+  exteriorColor: "Red",
   interiorColor: "Black",
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
+    mainImg: "https://i.pinimg.com/736x/02/d0/59/02d0598d17226541a6a34480bf127b18.jpg",
   description:
     "Compact sedan known for excellent fuel economy, reliability, and modern interior design.",
   features: [
@@ -1097,6 +1278,17 @@ const carsData = [
     "Reverse Camera",
     "Touchscreen Display",
   ],
+      gallery: [
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566323841_122152853588741789_5055815836586051293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEIeXMJeQOynuMGcaFZzFmXz7DXkAWcZ1jPsNeQBZxnWHiWKy82xEmKTBcsfC8CbN-tJBeDPFduj-3uQRQA59ro&_nc_ohc=6drDFKWXT2gQ7kNvwHprWWo&_nc_oc=AdkCWv5zJzdiv3znTsO454xmA0Jpbe9kRBBoHMgbWKlHJTr-gb3bVReTT-RdZmB3568&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yvIf-RtHW_XJGB1BpVGpZA&oh=00_AfcxvmMGzk8JYcy6T0kjLZiLWO6M7J-BijRhr0N4lWcEjg&oe=68FDCEFB",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558687947_122152853420741789_3144211521592900804_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEX7lfcK8Te-yrzLvxnsmPcNmrY4ph27io2atjimHbuKsXygYbRRp-NGiAjenA6R0QET5wwQEsCzAqwiPoLoC1a&_nc_ohc=FvgJP1_wtqoQ7kNvwGkNbq8&_nc_oc=AdmvwdwzKCBAgZmi6ocjlNg-SNfR3lnYm6djYN9dsmzATRSKpfggJVwigQ-vVG7i0s0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nTkkNnZhyad3NbIJEqlsdw&oh=00_AfcD-__bCCpBsfMbjsPoC6kUKb7FCjv7XXo5gKFFp_TweQ&oe=68FDBAF0",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565937905_122152852850741789_5437232499555974050_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFccmtCZr1ApFhK97Z2FD_zlAZbaqjlFA6UBltqqOUUDtMhi-o4smEb_cYWMKiiaKuer2NwO9QshsLgYrrjueGU&_nc_ohc=9LUflpBw7_4Q7kNvwHbumQk&_nc_oc=AdnnKLkppu8SksLcXaCx7k8c23qzTwdcEKG0fKZ-xVXDMiYN3wVCo18LNFRBVGBM51U&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rMoCEEeSrsfp_CGAGCvdWw&oh=00_Afe6DYSNnydEumjrZdvaXJbIJ5Sfjfbf4blb7AA2m5FBeg&oe=68FD9EC5",
+    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/568515063_122152852766741789_1312274778116480463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzIDJbWY-PPXSO7p7UYyCyBjveAOc3BxAGO94A5zcHEPlaz3ZciWkTlxzKuICmpmNkUAyZUIEqdg8PLpADLXQn&_nc_ohc=JHI9jEIQs9MQ7kNvwE16BN6&_nc_oc=AdnM56ihEU0SuIjgHoH9ocqPR60mM27tDjcnyc30-o-4K_Z-YGPLaEtqjGeDyUaQC18&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=G5ic8V_NNsWvd7Jh3DSVsA&oh=00_Affk1lKv3FQgqt2a1sj6aWu-MRk8v3SJwE8Oz-cX6umZaw&oe=68FDA89B",
+    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/568910858_122152853558741789_5122801810199974554_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE-lFcMuVjGAy6bJ3oWeOyWTuAHeoKMWy1O4Ad6goxbLXEOn7Z2jhmXHeLDSJ70hDkeFgmeO_6iWTj_SKvmJ3Yl&_nc_ohc=AVes-Zsik-sQ7kNvwHDlABo&_nc_oc=AdmpvTVjCIbbL2OLzleGZ04-Ck2xfZlcvQoBA1GT623rVAZPavirQRc4cTg76SklBuw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=jiKmT6du98f70HU9zk6_SQ&oh=00_AfdAcYygCLYAhvdF1LhUq-NGnURHGs5ukVpfZFS3sAg4jg&oe=68FDA663",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570093795_122152852730741789_5627076213088870762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_2B117T1nLGsPKKGcsJCSvJbJJywLwku8lsknLAvCS6kpCyA4NYrAYxAI_RZLeW1dQMAcTpmH0e80DZxCAdzO&_nc_ohc=lpQaHJNU274Q7kNvwEkKY6A&_nc_oc=AdmHD0bH_HtbvvzRuD7epqayzGowwo_1v_HRuqIkfPgB1TTRzxZ2GUxfLluA1IhuGfY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=eW2NwOqG_I9n3ChLY-Xvpg&oh=00_AffnKsOVI9I4Bp-ph3JyssghUVY2lbET7beoxS3kteig-w&oe=68FDA830",
+      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/566212198_122152853084741789_3668729814551613082_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFK8-4UI8RQojjfjhacPO0C6lGF9UL8QYXqUYX1QvxBhQAxd8Ta5gcI7eFFmytIYoM_-JHerXHL5tuFNQbYHoiA&_nc_ohc=_pWZcw8vEZgQ7kNvwGDI7ju&_nc_oc=Adn8GiFv-wLKsi_FtDapkHzA0RxviPPMLK7JRQXf-Pj5-9gqb4cytm_SDHRpsMbdC9A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=sfQcgMKi-XRynERkmdB8ig&oh=00_AfeHCCmY1OBfdZ1pv9SXV6stsrYnZ0xY8Ez7uijjEvCJGQ&oe=68FDB6E6",
+     
+  ],
+  video: "../assets/Toyota-highlander2012.mp4",
 }
 
 
