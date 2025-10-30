@@ -608,7 +608,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571151225_122153229656741789_8733340801381528036_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGrUfZSEFCM_renMG5fV7bxfezzDwd_SaN97PMPB39Jo8o-WwMYjEokgyOfd3N042S3yDMm7wy7_CblkKU4mRnq&_nc_ohc=FMAwd2AYOEMQ7kNvwGHNUZc&_nc_oc=AdkOOUsdUBR09O_vZ_n-4w1LufrC4KTV20h40XxVVA4uPVmR1a5s1rK2UhP8F0TY4MM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=6zUszJ1bkMfut8eMf2KOPA&oh=00_AfcuKbI4jSLB7urJehSbACV4sdf64mYkMbsoWHLW4v6gYQ&oe=6905C907",
       "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/572079727_122153229662741789_5972473026290092945_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFQ7TXAwGTX_hP3rjkcnQiDgDfD2zE6SYSAN8PbMTpJhFzJ2MVQYZ7Y-lihMgwSUASSMLtnxi9w94pFMt9Y1xaV&_nc_ohc=_XaiCkERycEQ7kNvwEi6w2w&_nc_oc=Adn0dkv5UJLEp5ysqw7eBKgSZZYyq7P2GgAbfqc8Mb0SWEWA-MDcN4EeCfHmMjH27fo&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=elHBVoeeiU5gkeXln6K8wA&oh=00_AfeTnzFobIfl2tlCpeblztza1sTteWBVeyj9tKeyq5Qxdg&oe=6905BA81",
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "../assets/Lexus-IS-250-2015.mp4",
 },
 
 {
@@ -653,7 +653,7 @@ const carsData = [
       "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571228195_122153230640741789_4170725911628281347_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF83kCpMUG5eSEvDA7fs-OPE8D2HHBinsgTwPYccGKeyIciXpIT5IjwNNQYxzKwK-SbgjQvKPXUO_cZa4yywLbU&_nc_ohc=yQ5m2j8_rX0Q7kNvwHSHroF&_nc_oc=AdnIdKWr0m8Kw_E_ikMaan-b6GP7_5UIE3vbsVx6O5Am7wWf-JPsykIweWsGANS4i0Y&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=fp-tL8Rdfm4m0UzWLA9AWA&oh=00_AfeWBnhzHOYw0DKcKjh3iguubfXxLSOQjrRyzvqgdbbErQ&oe=6905DD1C",
      
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "../assets/Lexus-ES-350-2018.mp4",
 },
   
 
@@ -700,7 +700,7 @@ const carsData = [
         "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571193054_122153231588741789_4141111930665913015_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG-pDmUAMiCaYrop9e8DNtIjoWGMaB9I0OOhYYxoH0jQzqHE_3vY_wy9UmDrNlNzzGx5Wu9JYOFozaQ4wNNCaA4&_nc_ohc=tmRS39gJutkQ7kNvwGgVwDg&_nc_oc=AdntFPDATROSzdc6FqmXFfocd94oxjjMu8qPg-5EyXWdZ5iB0VxXI9dUyBqT_Y0QXlM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=Vb30FGlYTo5rUuv566R0zA&oh=00_Afe-1-QmXuMoO7h8tydP3MLRultOOo1Ql6LX0T5AfT8dkw&oe=6905B38C",
      
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "../assets/Toyota-Land-Cruiser-Prado-2015.mp4",
 },
 
 {
@@ -743,7 +743,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571492406_122153232164741789_8494787548628109926_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHXlBffZMhpJEAdoPAHUbtiRP1TGQWHSa5E_VMZBYdJrqNGF1hAlDvc3JdVicdydrOqQHyD0tB4rocJ8l1f1r8Z&_nc_ohc=MUICBLJfIRsQ7kNvwE7aZvv&_nc_oc=AdneXgbbjFJHGqaGJCGb8fQ3-gmx1Dj87j1jZ5aSiGve2yEmJninQ8WdPrCzaNMMqzQ&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=puXu_ZXYQBE_N9pP_AX4WQ&oh=00_Afdfk86Hueyh1jLYOWNrMqIovWvicVYqbRC1hWdmDE_wCQ&oe=6905B2E3",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571172993_122153232338741789_8777994604871399835_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeESAHMhhU4-n2eg3NX8hCQwE7AxBlGTmaQTsDEGUZOZpDYrrOKfIEfuWa9IpkCnsXL865NmdnvV8lM8yje5CG2V&_nc_ohc=wDen_3TJlP4Q7kNvwE6klas&_nc_oc=AdlVzbG4J7LRX0tuWr4qeZcGEEhIrKhNCSDAwsjs-vctIcsQdQOmApbYKTEjD1rCBuc&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=3SM5lljMlHQ8qfSvRKplOA&oh=00_AfdYSa_0uGnvUHLGUl4aU_rOhcSP6ldzK2H_NuE3SNW2iw&oe=6905AD88",
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "../assets/Lexus-RX-350-2016.mp4",
 },
 
 {
@@ -788,7 +788,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570453106_122153233238741789_510082036959567476_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGwlpOqgryh_tXy742b626KUV6R52LtNBtRXpHnYu00G04juBgDs2I66msNJjiDAgoyvZ0aqEyjN-QuDnD5L1j2&_nc_ohc=RDktodzLlukQ7kNvwGGnv-p&_nc_oc=Adnyyzk9HaQKIaJm4B9KG7Ylxr4U36AjDwVIYtI9zDyBvz47GwWGcMosLOd_3ha7OTM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=Ysz-PIZMrTwTa65tYtOCBQ&oh=00_AfetdPd3uX3i1U5MuLrQ0pU95X6qLinLvz-SFDzQo0lE2g&oe=6905B080",
      
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "../assets/Toyota-Highlander-2020.mp4",
 },
 
 {
@@ -828,7 +828,7 @@ const carsData = [
         "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571252707_122153233946741789_5990803907864271708_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHw6Y3h6komtPLGHV9U2ln57_DHBSUzrzjv8McFJTOvOAnL5acm9zL3IIeFr8zyCwEWpvlUiEcCPuU36wSoO56Y&_nc_ohc=qBJ5w8Rek-QQ7kNvwGbFWFZ&_nc_oc=Adm2WhxU4RQ-3TniMqnJviXnBbEWJo78phWGYcQLW6QA4na-8t13Qh2KBnOIfEf5aDU&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=NNqYr8RxQH2Gtx9OzKwI2Q&oh=00_AfcQlsuPDyLilTWxtlB24EZoeTYhhBNzp6xdd2iIOqddrA&oe=6905B48B",
         "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571219324_122153233700741789_161625003122269422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE951XLRgHZDioAqYv7B_ws172KEQI87wXXvYoRAjzvBY4qcBsm2179illkPb3YslmcZAlu9FpWWwyH7nrAIhRN&_nc_ohc=ysHuDvGaZTYQ7kNvwHFShy1&_nc_oc=AdmVKRWFZeOwb2Mkup48PfOW4--7J4YNP0xTFgPkku8CqAYDLaAJFnbC5HapzBj3yRc&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=4tIwgF3QKki5TYq0EzDZLw&oh=00_Afet6F31E9sX4BK1XG0NPJCQp4JMuXGd44W_FhO1F3ufYQ&oe=6905B8FC",
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "../assets/Toyota-Corolla-Sport-2015.mp4",
 },
 
 {
@@ -871,7 +871,7 @@ const carsData = [
   "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570555888_122153234762741789_3553964197348765499_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGUZJkpVnpgCp0z_fe7_oOPAQCP32GHYOsBAI_fYYdg6x-4ue7C8s37s1IWS7S_R8Ldriy7XeYTzg1VjKRyKWE_&_nc_ohc=gJEVvlsy65AQ7kNvwHIc7eM&_nc_oc=AdkRjNS75qkRpeOuQ_jKn6HjOvUIiph-a_E-BGTYy4WEOeF65w1FpGc5JmHK5f_VqoU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=koW1-bq6acYcMErS-M4tSQ&oh=00_AfelSBWxo8mssI2slPVgbFgt-bDFtxC4iXLh3TSREkr4xQ&oe=6905CD00",
   "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571124890_122153234660741789_1752439613052457172_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF3iDINEUiVNz8STw3bhuMke8S_nXZw6_h7xL-ddnDr-JGQqDTE6u_WURF8h4kI3vSAKKFovSRaWVqn2_O_bPu6&_nc_ohc=SQpewX8ZKJ0Q7kNvwFWBkja&_nc_oc=Adkzm45rFDg9K7OIl6xpvi1BqPV-vaqJvFcA0SsAY5sdzbT651lcBH9GxG488LPC8Iw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=yRBW_TurHIMLrEMlrxZMoA&oh=00_Affg9XktA7wes92fR5WZMjOrjoA1jv2CdGM2w_nADuqnXQ&oe=6905D516",
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "../assets/Toyota-Highlander-2014.mp4",
 },
 
 {
