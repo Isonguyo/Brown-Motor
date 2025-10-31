@@ -45,7 +45,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571300331_122153168024741789_542878773187369684_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHSIxtf30uq55md73i9UKArEQa275LSi68RBrbvktKLryRUpM4Zo5s0ZXqjSv7eS5M5LAsfbD7gGpuBFVzWzMlD&_nc_ohc=VCmXirf_ypQQ7kNvwE3vCP4&_nc_oc=AdkoMWA4na4PKvw-LZSTXG70N7u_lULIgj4rEeXorFKizYcarzXmKegY_lpi9RtBKF8&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=p1mawX8kUz4bsbCZjk-HyQ&oh=00_AffGAQQZInxgAgHOI4fe16jRt-J9tQUhd-IIEemAr0K23w&oe=69023EA3",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569428939_122153168054741789_7292842791690088032_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFeqENV-aIEYZ0GWZkgyxhvJcaP0m_Z1cQlxo_Sb9nVxIK9Ao2W4d8iPRccT5WKmiyHhjBRFO-UPmo-Geanfdbu&_nc_ohc=8Y3eemjJ_PEQ7kNvwHouP7Z&_nc_oc=AdnxFU1JGyLgOOVVVn4TnbJEggEfXOLG4_JgVcW4fF6VHemO1kQZhc8vdpS8K4iEndE&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=B95HwoDj7bRX2bxQAWhSyg&oh=00_AffW-EpBkcmMoeQvFdN0rMshnBBPK9EfNxx7nTiSVDjjAw&oe=69021FC2",
   ],
-  video: "../assets/venza2012.mp4",
+  video: "../assets/images/venza2012.mp4",
 },
 {
   id: 2,
@@ -92,7 +92,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571375796_122153168684741789_8701143634962826677_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE6UlW-eRJy6Ueiri-wcwe3743-bptjly7vjf5um2OXLnWPwXqpQP81-lXnmdJ4iEjOUrH0xtsWBJLAfcKElSJC&_nc_ohc=UXkWYZF2kFgQ7kNvwEX3IgR&_nc_oc=AdngWWeM3ldotyS5DCrUN2GiVuWAKts-yyyouwyu_V63VIRjq25Un9AarUdhWptL2d0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=y7pTv9jMjQEqhpvGSL-QxQ&oh=00_AfdYdLVWX7owGXdikQBAnbyaY_WxJUrCdiAb7bjJMWEbtw&oe=69022157",
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/569200743_122153168744741789_9179413996351231758_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG5VuynWqxTqA_WuaZhAmn-GSSpMkg3LDoZJKkySDcsOr9SJnJ730Cg1zBTyVKDGYgTENMuKQx7UXIMisMBumhp&_nc_ohc=9MJT8ecf4QAQ7kNvwEry-Wj&_nc_oc=AdnGqm5LSCKOxFo89v4Ku5W6s18ZlYb6SDsvoGWeokkJ-Gj1OHYt6-LJFVNDhID9O8w&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=2EeBdUskTRNdvV-Y8kpW0Q&oh=00_Afc7L82NNTaHoOI9SUXZVx22WMNw9Sgcv9y33Y5enD7FEQ&oe=69022DD7",
   ],
-  video: "../assets/Benz-c300.mp4"
+  video: "../assets/images/Benz-c300.mp4"
 },
 {
   id: 3,
@@ -140,7 +140,7 @@ const carsData = [
     
 
   ],
-  video: "../assets/Mercedes-Benz C300 2017.mp4"
+  video: "../assets/images/Mercedes-Benz C300 2017.mp4"
 },
 {
   id: 4,
@@ -184,7 +184,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571121568_122153170568741789_6881757355150263310_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG1F4lFLW6EiuoQAn5YyrZv42rcPPMoakbjatw88yhqRn79a1PllwuQ7hPsIqzH1EeswddCXf7V0a8O9eWe_E2C&_nc_ohc=fOJecUftizcQ7kNvwGdwRNc&_nc_oc=Adk2CGhDYWLkrTMBm0mzpNiXpCwrhaVovH9ILFlfyWA3xh8GttXey0fiHwyEHYY5SNk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=tQVU60hswQ3hAxogO0pL3Q&oh=00_AffjWLFQrKY1lJzb4Q0MjC40dEJcOQmEWPMSh1-RIqDF5g&oe=69022C3E",
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571164746_122153170754741789_4343570077251178616_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGr4HLvbuvLn9K-DV6mFZrN8pEGpeqJ1ATykQal6onUBDPQ1aBnLRfixjL5cMd3R-gPCU-w3RacNwL_wDTJY5xU&_nc_ohc=NnqTAIoH5VAQ7kNvwEPgMsT&_nc_oc=Adm_CANesgAcqpw0L8POXUVl-Oh1pxFfFlcnLuSTOx4bSP5_Xg4MKVB3ex1pGGBTWRw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=t_mNl-k1Kj0kW-26jXxM_A&oh=00_AfeijAs8GluOVputk3MJHR6mJDbnvbc6FetqAwGRkchlAA&oe=690253F8"
   ],
-  video: "../assets/Highlander2012.mp4"
+  video: "../assets/images/Highlander2012.mp4"
 },
 {
   id: 5,
@@ -231,7 +231,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571050472_122153171402741789_5540394366580939489_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFftVx65sHB3-1ZguArG7_bnxQRuOagXZKfFBG45qBdkmHSY02wFmW936VAK_4EGGRnEgCA_mj_L9kewsO4HRNi&_nc_ohc=cdNq-54qdkEQ7kNvwFLOT69&_nc_oc=AdmVHkivcJcijHdQwQIKVjYsp6GLvW5K4rbD08BzO2gJ3Iynucjr5leZ5OPLmMxFkvY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=zR9C0TfFabV3DBGMC1Bkiw&oh=00_Afffz5qAZBnPmzlozXNBmn2fuavPg9C5NcM-4tPD0wZydg&oe=6905BAD9",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570135750_122153171330741789_8195637531720451126_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHC597lSENQnpGmYT6zWRRlJy43N7SflbUnLjc3tJ-VtZ5SDhf_g26OCbnJgHDg0V18xLHakxNI8Xp-VIu-Lraa&_nc_ohc=LrE-c3UvSZIQ7kNvwHEAbXe&_nc_oc=Adkl5nYnCHvMw4O0isnQcqssCQrf37rSZW3Qo47Pk20htDACInTtNNRDptO0lBqK3xg&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=z4fO6v2QrkCvec8LK2I9AQ&oh=00_AfdyOv_UegWuLneY0PsVLZgnZ41jNkk2_zAPKGmr8McHPg&oe=69059EFF"
   ],
-  video: "../assets/Highlander2015.mp4"
+  video: "../assets/images/Highlander2015.mp4"
 },
 {
   id: 6,
@@ -274,7 +274,7 @@ const carsData = [
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571672280_122153171840741789_2658297736994913781_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEWsW12Hwc3f4bqyUyozgRloqORhPR0zciio5GE9HTNyBEOGs4lmfH2Q83_FFoA6Lf0fyITygVaNeIq2WDE-ByU&_nc_ohc=pqGSjMJeMKUQ7kNvwFieotg&_nc_oc=Adk0XW9c5jRs_WWxw5GTq2xqZ7G3DyENn_pdkg9km3wpTWNIX6oyFDSJ9uuBq4W_FYw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=pCvS3LSWuKGVqaWlcYJlFg&oh=00_Afdd5Qs1M6tisH1UgERivSiXRcTf24ioqGu4XtekxmB2Ig&oe=6905BB96",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571378560_122153171924741789_8077933873906419442_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG1I1R1iZle5tbjyIFJmkccI6qhDcxxnpAjqqENzHGekNQZrQ5vaQ1y3GAL3wnruP8Ny2JXVpXLUnZPQpBqhYW2&_nc_ohc=iUaVr9nY-jsQ7kNvwEEcBWn&_nc_oc=AdnYGfOlzw37zO2NOKAKPLwcG927k0yY0nXNYqMsuN_xFhPvWXmEomjjLH1lqs0GwCs&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=cEeXsule5NwyaSqsNKMiZg&oh=00_AfffN641ZAe614QxnfFL_chnEowSnmYnNYwg_jqHO1EUDg&oe=6905AFF1",
   ],
-  video: "../assets/corolla2015.mp4"
+  video: "../assets/images/corolla2015.mp4"
 },
 {
   id: 7,
@@ -317,7 +317,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571145220_122153172590741789_2621493175194712650_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeETzaufNQLZSF_CGe_ANnhy1dY_wMPXWxLV1j_Aw9dbEt64JzcvyFTWAAsnZk9C0ykco2iiCuCNgYxHLrF23DSe&_nc_ohc=Q3ZzeWsE8tgQ7kNvwGz9xQf&_nc_oc=AdmOIjUGh7iGgsMyBteObb2sX2Vwj3TeB7TN-6SOMFlsOKScj1Yae0czpN-rA2jyxko&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ebHLGBv3kSabtFiorSeSMA&oh=00_Affc8SM0SQNm9ezyo5nF6JVeR97fkkd5MTvTU_ljO7xjCg&oe=6905BC5C",
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/565149610_122152536428741789_2118895082655442253_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH6JVua4FX16JkIWn0gLcZ0uifQz0Kgvle6J9DPQqC-V7fuWx1Cz5p_g4RxOaftHmMfPbghWm4-vwOpGoJpvlH1&_nc_ohc=BYvZD_7qwrQQ7kNvwElr9eM&_nc_oc=Admr3sw0vl2kmFviyzdUCldCNZhXfLuqUQEPOyXuOaxsTBTtqE4climKtF9t1r74VqQ&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=rrmOWpm0QmSxaOuYm9jSEg&oh=00_AfcdZLLwN4fL0fb9ay62TDDtidaYYN67XYxiuxr_QNzjvA&oe=68F973D6"
   ],
-  video: "../assets/camry2014.mp4"
+  video: "../assets/images/camry2014.mp4"
 },
 {
   id: 8,
@@ -356,7 +356,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571145601_122153225066741789_270115511731382471_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEj-zEWw6VOp7ToC34GAruIJyGN66BtfKwnIY3roG18rHsaf_kOwXZznV-UcrXO8TdGO9wsO7EmTWcxxmnhXgAH&_nc_ohc=3nvkh6-Nr9YQ7kNvwHF6E56&_nc_oc=AdliH_1bkZRdibg4thqBbegumYZiuWN5rpSTGw2piLkfVSH79ADQkyY3cdxPGJ2VUms&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=qI1dULUYKTVJo39_ZqU88g&oh=00_AfeqNKN75sCuQpGEFMXpyG7qR1-0AJEBTa2esEbONb7DHQ&oe=6905B9F9",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570965995_122153225096741789_7715660383216033752_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFmrYtuu-6YiEMRgRS3dGxWE6jgd-MhFXATqOB34yEVcIh3ZxiWWvkQsan89y1YqAydXm3L3Hgpa_VNUqsd26FU&_nc_ohc=ME6J3mMdIaoQ7kNvwGmOVrc&_nc_oc=AdlvHB7OCXIPl9mvb1g8WyCk1WpsIWMgIrO4IdGinUx9ZKn-VD9PWQqJl-kFwzMomGk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=pfalWtJ26OEZB4xgLesCGw&oh=00_Afcwm5n_5GYF_AbzEb8_J_MPdUHWvm6FKed7ekkpv8WUyQ&oe=6905BBEF",
   ],
-  video: "../assets/avalon2012.mp4",
+  video: "../assets/images/avalon2012.mp4",
 },
 {
   id: 9,
@@ -401,7 +401,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571021359_122153225762741789_8148720808775248997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGdxOXnToK3dm7v33w8hMVYCU_Zf9w892EJT9l_3Dz3YWQ2Vn1Apa6SFBIFoq_to5_OOm-8ygsezveWbmWFF5d4&_nc_ohc=jKK7nLF-lccQ7kNvwHBt4al&_nc_oc=Adka5o7yvYrbNg3aXVj5dKyQM0rrZH8ai6k4phd3z9Ay1JSFwxflQZiAu9VUiKdC1oM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=CmhKvQKar-4w5yIMd9i8Dw&oh=00_AfeiKycv4m6urf_0Re7fXa8k3ZYVWPX0fRkAHhY9AYSbHg&oe=6905C3F1",
 
   ],
-  video: "../assets/lexus3502014.mp4",
+  video: "../assets/images/lexus3502014.mp4",
 },
 {
   id: 10,
@@ -442,7 +442,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571028231_122153226608741789_430424625826419320_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE1XxVQag_h64uZ7b3UaG5IOYrnrcA7pO05iuetwDuk7UFOzDzdKKNi-TnntRVQQc4C8PXc9yIxkB9_uuKuQTvm&_nc_ohc=gdPctttmDiUQ7kNvwF5p6HW&_nc_oc=AdnFuy5rARu3iKQcGs9BrXt80hUnvQ8pq0sqG1q2Mg2R-u9uJtbCtCaMw7KB6TIK46w&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=769nCkIBUX4QYjPk01r8pQ&oh=00_AfcY1_7xUT1jpUmqVHRxp_P67YACiaBs7ieNMHYdbwA63w&oe=6905CEA3",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571172993_122153226662741789_300604343965427434_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE6NLcPozndylPLaSukJmi9fkiwzqOIaEV-SLDOo4hoReluVBsLQ4hxE8ra9Nc07CoFZgffRsvcNybItKpOpABn&_nc_ohc=CMStho8dubIQ7kNvwHga0OQ&_nc_oc=AdnGOIvD4rXq0CnvfbD97erOH_AwaEpU9BRaXWZlfpX18szpKHJ8plzfQxix0b2vRVU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=uP9SklE-Mp3NGN1g6I6iUQ&oh=00_AfcXdWxn8agz15EHfFDfZ6S51gcYpfO36uBNeryuN4BC-A&oe=6905BAA7"
   ],
-  video: "../assets/lexus3502016.mp4",
+  video: "../assets/images/lexus3502016.mp4",
 },
 {
   id: 11,
@@ -482,7 +482,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569039160_122153227226741789_7540977171994046440_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFZ6wW_v2t-pc4Amr-INO5kIKy8hyeI3LEgrLyHJ4jcsXqqGfutVaieUTAauhERSEDz3LDZJldliOeNmGtXgIG0&_nc_ohc=hXAqElKVhJYQ7kNvwHB5K-1&_nc_oc=Adknh8bRY37n41rOzbM2LFmCCj5yB1kC2X4Fv4erXHdtc6BIVl9Y1jNsslBXDCAbTGs&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=Mo9poXPqA4hBkzXRd5NlfA&oh=00_AffdNAODYLjmybAPMj8QBp0G-gZF-67FAo14eZMkhEHA9w&oe=69059E78",
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571325202_122153227400741789_740306839682129528_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEegzWE8Ci_h9dsGzpRKNVn_9VzzyfB3qn_1XPPJ8HeqXG2sDnD6Duqm4fLltl0PNkV6AyFduaulLl_DeKesgq-&_nc_ohc=aHYiPELJP3wQ7kNvwHuZI-4&_nc_oc=AdmaCltQJXhp2EnyE5AhDI-GLshWIULL6tF9XGNphNQIEATZPQ-TLu5S1Y4F_JRPTAI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=nE2KCI0H7u7gxaPpEv8zSQ&oh=00_AfdGnRMZ4mwgEY8OpmL3bvvSj4JylESmxSYl_QdqPiSEkQ&oe=6905A009",
   ],
-  video: "../assets/rav42019.mp4",
+  video: "../assets/images/rav42019.mp4",
 },
 {
   id: 12,
@@ -522,7 +522,7 @@ const carsData = [
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/569449371_122153228072741789_1797229120162945476_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF6sPuDcXIHg7sFNo9O8haLlphZsH7pGUOWmFmwfukZQ7zbww3uSpBMhZ-U0gsdv1ym5u5dmwlfekgXxRdLIwHu&_nc_ohc=tHRRdBnn_60Q7kNvwGPFlkD&_nc_oc=Adm9FBSTLfNAY7fewYz6yMNM1SV8rmJlcrfOoERy3mN6SB_tY37DZGy_-bYsJQ6ZR8Y&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=YZWHWfLrLAkriVJkPEMFfw&oh=00_AffQCUOvg92-xYZW8KPuo51jLVmWcG-rX-p-1JsjYklbzw&oe=6905A979",
     
   ],
-  video: "../assets/lexus2020.mp4",
+  video: "../assets/images/lexus2020.mp4",
 },
 {
   id: 13,
@@ -563,7 +563,7 @@ const carsData = [
     "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571377215_122153228540741789_6687113915480619885_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGmyxSfGbRt_YOtvCukQwiBerfSABGfsjl6t9IAEZ-yOYiQY9cL0d-5_XiATQ2wYauHD2MtHXiiHl6JgDGs3O-n&_nc_ohc=uk_ilH1ZA1gQ7kNvwG4skgt&_nc_oc=AdlFZQRT4V9ENJtoEmpxTTFsCqr6KWgeCFRWbi2Ypoi1-OrAGsAr926yaq6YQH3qm_Q&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=RTBwKJVCdC5T89hC6o54iA&oh=00_AfdjxR7QH9NlwhP6rxfv8LBylTcvWW7wmF3uLaFTDr3wNA&oe=6905CA16",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571117067_122153228756741789_495429978187563411_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGvwkAfQxIjwDCp4lTl_xGLMYLomamMFT0xguiZqYwVPYaGOO-My_dOLX0b924pkKNo69VrpZRy2pSEw7zfIOm1&_nc_ohc=Lov6lj_GgtMQ7kNvwF37BZV&_nc_oc=AdlmDPDP28Hv4DWcn-OH8XHkOUvuRm6RmE-ekrI6Gy_SEKDdpqAxcJ2v7zlDEWSd9jU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=gkCDBPtXqnpQinSbNzftZQ&oh=00_AfdBxoQE5aRdrrCunYvoNUaKsQ-cRTFL5xTG4-x7cgmnpQ&oe=6905D540",
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "../assets/images/Toyota-highlander2012.mp4",
 },
 
 {
@@ -608,7 +608,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571151225_122153229656741789_8733340801381528036_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGrUfZSEFCM_renMG5fV7bxfezzDwd_SaN97PMPB39Jo8o-WwMYjEokgyOfd3N042S3yDMm7wy7_CblkKU4mRnq&_nc_ohc=FMAwd2AYOEMQ7kNvwGHNUZc&_nc_oc=AdkOOUsdUBR09O_vZ_n-4w1LufrC4KTV20h40XxVVA4uPVmR1a5s1rK2UhP8F0TY4MM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=6zUszJ1bkMfut8eMf2KOPA&oh=00_AfcuKbI4jSLB7urJehSbACV4sdf64mYkMbsoWHLW4v6gYQ&oe=6905C907",
       "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/572079727_122153229662741789_5972473026290092945_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFQ7TXAwGTX_hP3rjkcnQiDgDfD2zE6SYSAN8PbMTpJhFzJ2MVQYZ7Y-lihMgwSUASSMLtnxi9w94pFMt9Y1xaV&_nc_ohc=_XaiCkERycEQ7kNvwEi6w2w&_nc_oc=Adn0dkv5UJLEp5ysqw7eBKgSZZYyq7P2GgAbfqc8Mb0SWEWA-MDcN4EeCfHmMjH27fo&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=elHBVoeeiU5gkeXln6K8wA&oh=00_AfeTnzFobIfl2tlCpeblztza1sTteWBVeyj9tKeyq5Qxdg&oe=6905BA81",
   ],
-  video: "../assets/Lexus-IS-250-2015.mp4",
+  video: "../assets/images/Lexus-IS-250-2015.mp4",
 },
 
 {
@@ -653,7 +653,7 @@ const carsData = [
       "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571228195_122153230640741789_4170725911628281347_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF83kCpMUG5eSEvDA7fs-OPE8D2HHBinsgTwPYccGKeyIciXpIT5IjwNNQYxzKwK-SbgjQvKPXUO_cZa4yywLbU&_nc_ohc=yQ5m2j8_rX0Q7kNvwHSHroF&_nc_oc=AdnIdKWr0m8Kw_E_ikMaan-b6GP7_5UIE3vbsVx6O5Am7wWf-JPsykIweWsGANS4i0Y&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=fp-tL8Rdfm4m0UzWLA9AWA&oh=00_AfeWBnhzHOYw0DKcKjh3iguubfXxLSOQjrRyzvqgdbbErQ&oe=6905DD1C",
      
   ],
-  video: "../assets/Lexus-ES-350-2018.mp4",
+  video: "../assets/images/Lexus-ES-350-2018.mp4",
 },
   
 
@@ -700,7 +700,7 @@ const carsData = [
         "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571193054_122153231588741789_4141111930665913015_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG-pDmUAMiCaYrop9e8DNtIjoWGMaB9I0OOhYYxoH0jQzqHE_3vY_wy9UmDrNlNzzGx5Wu9JYOFozaQ4wNNCaA4&_nc_ohc=tmRS39gJutkQ7kNvwGgVwDg&_nc_oc=AdntFPDATROSzdc6FqmXFfocd94oxjjMu8qPg-5EyXWdZ5iB0VxXI9dUyBqT_Y0QXlM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=Vb30FGlYTo5rUuv566R0zA&oh=00_Afe-1-QmXuMoO7h8tydP3MLRultOOo1Ql6LX0T5AfT8dkw&oe=6905B38C",
      
   ],
-  video: "../assets/Toyota-Land-Cruiser-Prado-2015.mp4",
+  video: "../assets/images/Toyota-Land-Cruiser-Prado-2015.mp4",
 },
 
 {
@@ -743,7 +743,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571492406_122153232164741789_8494787548628109926_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHXlBffZMhpJEAdoPAHUbtiRP1TGQWHSa5E_VMZBYdJrqNGF1hAlDvc3JdVicdydrOqQHyD0tB4rocJ8l1f1r8Z&_nc_ohc=MUICBLJfIRsQ7kNvwE7aZvv&_nc_oc=AdneXgbbjFJHGqaGJCGb8fQ3-gmx1Dj87j1jZ5aSiGve2yEmJninQ8WdPrCzaNMMqzQ&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=puXu_ZXYQBE_N9pP_AX4WQ&oh=00_Afdfk86Hueyh1jLYOWNrMqIovWvicVYqbRC1hWdmDE_wCQ&oe=6905B2E3",
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571172993_122153232338741789_8777994604871399835_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeESAHMhhU4-n2eg3NX8hCQwE7AxBlGTmaQTsDEGUZOZpDYrrOKfIEfuWa9IpkCnsXL865NmdnvV8lM8yje5CG2V&_nc_ohc=wDen_3TJlP4Q7kNvwE6klas&_nc_oc=AdlVzbG4J7LRX0tuWr4qeZcGEEhIrKhNCSDAwsjs-vctIcsQdQOmApbYKTEjD1rCBuc&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=3SM5lljMlHQ8qfSvRKplOA&oh=00_AfdYSa_0uGnvUHLGUl4aU_rOhcSP6ldzK2H_NuE3SNW2iw&oe=6905AD88",
   ],
-  video: "../assets/Lexus-RX-350-2016.mp4",
+  video: "../assets/images/Lexus-RX-350-2016.mp4",
 },
 
 {
@@ -788,7 +788,7 @@ const carsData = [
     "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570453106_122153233238741789_510082036959567476_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGwlpOqgryh_tXy742b626KUV6R52LtNBtRXpHnYu00G04juBgDs2I66msNJjiDAgoyvZ0aqEyjN-QuDnD5L1j2&_nc_ohc=RDktodzLlukQ7kNvwGGnv-p&_nc_oc=Adnyyzk9HaQKIaJm4B9KG7Ylxr4U36AjDwVIYtI9zDyBvz47GwWGcMosLOd_3ha7OTM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=Ysz-PIZMrTwTa65tYtOCBQ&oh=00_AfetdPd3uX3i1U5MuLrQ0pU95X6qLinLvz-SFDzQo0lE2g&oe=6905B080",
      
   ],
-  video: "../assets/Toyota-Highlander-2020.mp4",
+  video: "../assets/images/Toyota-Highlander-2020.mp4",
 },
 
 {
@@ -828,7 +828,7 @@ const carsData = [
         "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571252707_122153233946741789_5990803907864271708_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHw6Y3h6komtPLGHV9U2ln57_DHBSUzrzjv8McFJTOvOAnL5acm9zL3IIeFr8zyCwEWpvlUiEcCPuU36wSoO56Y&_nc_ohc=qBJ5w8Rek-QQ7kNvwGbFWFZ&_nc_oc=Adm2WhxU4RQ-3TniMqnJviXnBbEWJo78phWGYcQLW6QA4na-8t13Qh2KBnOIfEf5aDU&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=NNqYr8RxQH2Gtx9OzKwI2Q&oh=00_AfcQlsuPDyLilTWxtlB24EZoeTYhhBNzp6xdd2iIOqddrA&oe=6905B48B",
         "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571219324_122153233700741789_161625003122269422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE951XLRgHZDioAqYv7B_ws172KEQI87wXXvYoRAjzvBY4qcBsm2179illkPb3YslmcZAlu9FpWWwyH7nrAIhRN&_nc_ohc=ysHuDvGaZTYQ7kNvwHFShy1&_nc_oc=AdmVKRWFZeOwb2Mkup48PfOW4--7J4YNP0xTFgPkku8CqAYDLaAJFnbC5HapzBj3yRc&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=4tIwgF3QKki5TYq0EzDZLw&oh=00_Afet6F31E9sX4BK1XG0NPJCQp4JMuXGd44W_FhO1F3ufYQ&oe=6905B8FC",
   ],
-  video: "../assets/Toyota-Corolla-Sport-2015.mp4",
+  video: "../assets/images/Toyota-Corolla-Sport-2015.mp4",
 },
 
 {
@@ -871,7 +871,7 @@ const carsData = [
   "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570555888_122153234762741789_3553964197348765499_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGUZJkpVnpgCp0z_fe7_oOPAQCP32GHYOsBAI_fYYdg6x-4ue7C8s37s1IWS7S_R8Ldriy7XeYTzg1VjKRyKWE_&_nc_ohc=gJEVvlsy65AQ7kNvwHIc7eM&_nc_oc=AdkRjNS75qkRpeOuQ_jKn6HjOvUIiph-a_E-BGTYy4WEOeF65w1FpGc5JmHK5f_VqoU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=koW1-bq6acYcMErS-M4tSQ&oh=00_AfelSBWxo8mssI2slPVgbFgt-bDFtxC4iXLh3TSREkr4xQ&oe=6905CD00",
   "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571124890_122153234660741789_1752439613052457172_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF3iDINEUiVNz8STw3bhuMke8S_nXZw6_h7xL-ddnDr-JGQqDTE6u_WURF8h4kI3vSAKKFovSRaWVqn2_O_bPu6&_nc_ohc=SQpewX8ZKJ0Q7kNvwFWBkja&_nc_oc=Adkzm45rFDg9K7OIl6xpvi1BqPV-vaqJvFcA0SsAY5sdzbT651lcBH9GxG488LPC8Iw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=yRBW_TurHIMLrEMlrxZMoA&oh=00_Affg9XktA7wes92fR5WZMjOrjoA1jv2CdGM2w_nADuqnXQ&oe=6905D516",
   ],
-  video: "../assets/Toyota-Highlander-2014.mp4",
+  video: "../assets/images/Toyota-Highlander-2014.mp4",
 },
 
 {
