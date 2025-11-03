@@ -42,7 +42,7 @@ const carsData = [
     "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-8_gw1ky7.jpg",
     "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-9_ifm9zz.jpg",
     "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-1_xbzhwt.jpg",
-    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-11_wmukrm.jpg",
+    ".../assets/images/venza-2.jpg",
 
   ],
   video: "../assets/images/venza2012.mp4",
