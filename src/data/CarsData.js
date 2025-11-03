@@ -18,7 +18,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://i.pinimg.com/1200x/8d/b9/f4/8db9f49860f6383c5596034ca131593f.jpg",
+  mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762173666/venza2012_ukjkhk.jpg",
   description:
     "Spacious and versatile 2012 Toyota Venza, combining the comfort of a sedan with the capability of an SUV. Features smooth automatic transmission, reliable 2.7L or 3.5L engine options, and a premium, roomy interior — perfect for family and long-distance trips.",
   features: [
@@ -32,17 +32,17 @@ const carsData = [
     "Touchscreen Infotainment System",
   ],
   gallery: [
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571115630_122153167844741789_6482270943416045833_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGSzWIwZOxuNsM7mavKjrzC35bww7dxKE3flvDDt3EoTazsH2IGx7HQIfZJqan05tuS3FOEGxMfkO0EPhVEommr&_nc_ohc=PY3Eqjj9QpUQ7kNvwEGsfCn&_nc_oc=AdlZ7iwl0GU8dwLq9IikSMELJQonu5dozct_xdy480HoEDPDT5TXJR0EWOhLYXH9zAU&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=43XwpfcOc_NXSIqgJcfP9w&oh=00_AfjotgDyO9xTQabF3vM7Ipalyf896innrq3iUqBgeNpwUA&oe=690D32CD",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571143298_122153167778741789_284211923051574908_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeELBvA9JyLs6OdAyOBWgiE7CosnxMjoU9EKiyfEyOhT0e7uVwF1BqcT_fDPNvt5uxeFJQH6qJx8Tv7QIr57I5xu&_nc_ohc=OxhRGW3pfKEQ7kNvwHI1DcB&_nc_oc=AdlaG3FLRaUGwtzUFFZSFeeeoFp6QYfw2PElG6e4MC4Pf8a2VN9xvHc-aXhuYqgx4LM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=mUUf37qKNchQIg7b9Sx_Nw&oh=00_Afh03mERZ-GSPh2g_YG2KglaSx5h3Hj_btn_bLTMzjaDyw&oe=690D2DD0",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571271224_122153167694741789_5004494443898943247_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFVgBFqRa0qJ04-DfRZhc2DLTlTFe7dYWQtOVMV7t1hZIg-rlpa1Q1AfqFnYlMoV43PiroupYzhEsmLddXgyZQv&_nc_ohc=iEGcAvgu4A8Q7kNvwFRMMuB&_nc_oc=Adl9MQsri4lyXUxROYQdQe9VstbCEax8Y4DKuIOyHsSrLoWR5fhbFRUqVHanr6BMS2U&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ChdhE3TaWyrpnBxxnj8r0Q&oh=00_AfiB8tGMmqyKAzhRF6MXPi8aahE36qJ-Ex_BlJv8bELxOg&oe=690D4C41",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/570050557_122153167982741789_8744463998631208694_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFWJ7rNbCnWwNyPz5wSdslH0yUL3YL3g83TJQvdgveDzURUBvMDrQpH6PjfXAI2Gni1lVyXRWi5KDfo4a7RaF8f&_nc_ohc=C41-fesx4-4Q7kNvwHDn682&_nc_oc=Adn3gM8BtqLaNvc01VZ799Ggobjo4LVxtvv9qnnTfBU_YqloM_pOhIvCCVros3hJa-g&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=NhnNwOP83KmiPC26JIcCTQ&oh=00_AfikuLAOHLbCmj1TlkmksFGyCv2mYDSkZTdLXFW066MaJg&oe=690D2397",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/558057337_122153167892741789_7353706448371106963_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFq7cE-ZnG1ZP8v7xWKK7FkmoLXDl-YFBmagtcOX5gUGdpENuYVulNcWtBfJSdSGkdI-khBjjV6Rmu4r6rr6key&_nc_ohc=BJHtYzgkq8cQ7kNvwHvAd-Z&_nc_oc=Adkw2ph-PWvE4_ps9edPb_kCXBI3QaDcHIZJdQsyKk7bb298YAwWoqv8h4Ypj7avCWM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=FzCwCGx5x4qhXvU7czB6-w&oh=00_AfiNEKxL6ndcUAf4O6l_AzpyLOQEMHGlm-YNkN4XwXi5KQ&oe=690D186E",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571208472_122153167952741789_7074820550177508697_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEfCiwLB-xsoFKD9T2u_MBLH14i4B_rbc0fXiLgH-ttzRgiKxbCxMda1GXh93QpJMEN6lyr9aYKshS2CA7ie-zt&_nc_ohc=2Re78ep5Jl4Q7kNvwHFxqdQ&_nc_oc=AdlUqH2st4by0ysEYxX8uRzSWz3RGRsZkS2P1EC7Db3i5kRBLhadxnJaYIO4BVfbz6c&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=PHo6b6TUAlulX_Sz4ddFVg&oh=00_AfimMxNHdVgg_ok9-pISBbMu-pE2X40yc9WMJUz0T5hblA&oe=690D2EB2",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/570366750_122153167910741789_5294015651463159385_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGnhDKpk4GDkySD6qbtt8iMn3-lVletqu-ff6VWV62q7ytwO-LWUeknJn6RiO29XIy9eD8np4x5BaGZXLwgFodw&_nc_ohc=wkhTcsy0tWkQ7kNvwGs0_Ll&_nc_oc=AdlAW4jVyGBcGnc8Oh68OqeT1YQS8fkTcyAI1RuFNqOAFd_fLFwKhHSHHkIoSxo-3LU&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=oxxu7XglTEfwr3q6ktjZSA&oh=00_AfjSGfIK2FI0WBvNJhaEiLpSTeLGJ9NSX8ES6vIrIYhwRQ&oe=690D3AE1",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/572160457_122153167808741789_641602008643295756_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFpBfcOxkceN3om_sTkJp7IgxzJSmQO1waDHMlKZA7XBu62XAwNIC2nVWV51cTqZKqcvVQrdZDG8f5OMRr7W77n&_nc_ohc=smrRCjQObzMQ7kNvwEsf3rI&_nc_oc=Adksb4RA2C0sA-F055Ma_6jGAlL5oCGrPF61O5YQfvTS1EfCeVGGb0f7NWx2Ne5bsCQ&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=n-Ch1vbi9ECactUrTw5_5w&oh=00_AfhRv_xQZbHDMguLIC79jd5WUWL7uaWPOVyn8xVdF9g5zg&oe=690D3AE2",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571145608_122153167718741789_8320453803168569371_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG_Ye8u7bAgZ08fQwBWXl-0Poh_VlooQ-Y-iH9WWihD5s_HE9UktHTWBHASOJmE19N4TBCS0R_C1XqcsoQu_ScP&_nc_ohc=hEbXCuKpN48Q7kNvwGZ77fV&_nc_oc=AdnyJjj22Zde1j-c1MihEo73uaw8qDO2BL1TeE1clMNHqDqedhxhFtRvFIOTyNDBB6g&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=SkbsvwqSk4p3UBLNcVaO8A&oh=00_Afhm_-tO3S1bJ-MUBYaRKEg2sQcrBxiGVEOLvSxRB98sSQ&oe=690D2345",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571300331_122153168024741789_542878773187369684_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFbGOfC4PPviGD9NsBUSEluEQa275LSi68RBrbvktKLrwE3SE5b9zwimzTLt594066OuuC4Yb1mKaJwE5jqV3Sh&_nc_ohc=Rv5P6CFo85AQ7kNvwGIrhbu&_nc_oc=Adnl41lx7MxfcpGoTqI0iPydnPluzvmnmwzwanaHBX-Xc-yw8fnwoqrF5EVS-qfrXLc&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=e3O1gAoAidQmkcl1oD--tw&oh=00_AfjfqWBVqgL2GBXv0D2nraXdEpH7zP6_qt8xBuF_AyLW1A&oe=690D3B23",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569428939_122153168054741789_7292842791690088032_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE8drPUTKFBeHBDGU4nMZrGJcaP0m_Z1cQlxo_Sb9nVxDjKwABGSB-Ro4zqLJU9P-UgJteAVbyuaYI9KJq6_6Te&_nc_ohc=qbh2yjxQeGEQ7kNvwGh6c8Y&_nc_oc=AdkK6ryzlYHPMzmwsPBnBSxWYGAJije50DU9rxLmU60Cj8nc1t2zGMGebI2uDQpa7pw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ovtfsO2uoibyCRdtRn8hPA&oh=00_AfhYn5zkX93sFpQtpNUI12GYAs_CQvLZiTX24YsFXuhHvg&oe=690D1C42",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174157/venza2012-2_bz6g1g.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174156/venza2012-6_bqogjq.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174157/venza2012-3_aksacx.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174156/venza2012-5_upwrum.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174156/venza2012-4_xszhkq.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-10_shgsga.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-7_nlkxdy.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-8_gw1ky7.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-9_ifm9zz.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-1_xbzhwt.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762174155/venza2012-11_wmukrm.jpg",
 
   ],
   video: "../assets/images/venza2012.mp4",
@@ -65,7 +65,7 @@ const carsData = [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://i.pinimg.com/1200x/30/67/e3/3067e3cf67e30e3db353c4de5a7204c4.jpg",
+  mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762175439/Benz-c300_sl1jjo.jpg",
   description:
     "This 2013 Mercedes-Benz C300 blends luxury, power, and comfort. With its refined V6 engine, smooth automatic transmission, and premium black exterior, it delivers a truly executive driving experience. The cabin is quiet and elegant, making it ideal for both city cruising and long-distance trips.",
   features: [
