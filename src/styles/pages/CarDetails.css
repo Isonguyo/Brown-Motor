@@ -163,6 +163,52 @@
   box-shadow: 0 10px 25px rgba(255, 183, 3, 0.3);
 }
 
+.gallery-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.slides {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-img {
+  flex: 0 0 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  scroll-snap-align: center;
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  border: none;
+  color: white;
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.slide-btn.left { left: 10px; }
+.slide-btn.right { right: 10px; }
+
 /* ================================
    VIDEO SECTION
 ================================= */
@@ -187,82 +233,6 @@
   max-width: 600px; /* prevents it from stretching too wide */
   outline: none;
 }
-
-/* --- Carousel Styling --- */
-.carousel-container {
-  position: relative;
-  width: 100%;
-  margin: 1.5rem 0 2rem;
-}
-
-.main-image {
-  width: 100%;
-  height: 380px;
-  object-fit: cover;
-  border-radius: 8px;
-  display: block;
-}
-
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(13, 27, 42, 0.6);
-  color: #ffb703;
-  border: none;
-  padding: 10px 16px;
-  cursor: pointer;
-  font-size: 2rem;
-  z-index: 10;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-.carousel-btn:hover {
-  background: rgba(255, 183, 3, 0.9);
-  color: #0d1b2a;
-}
-
-.carousel-btn.left {
-  left: 10px;
-}
-
-.carousel-btn.right {
-  right: 10px;
-}
-
-/* Thumbnails */
-.carousel-thumbs {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 1.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.carousel-thumbs img {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 6px;
-  cursor: pointer;
-  opacity: 0.7;
-  border: 2px solid transparent;
-  transition: 0.3s;
-}
-
-.carousel-thumbs img.active,
-.carousel-thumbs img:hover {
-  opacity: 1;
-  border-color: #ffb703;
-}
-
-/* Details text */
-.car-info p {
-  font-size: 1rem;
-  margin-bottom: 8px;
-}
-
 
 /* ================================
    RESPONSIVE DESIGN
