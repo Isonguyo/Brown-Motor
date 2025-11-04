@@ -162,6 +162,52 @@
   border-color: #ffb703;
   box-shadow: 0 10px 25px rgba(255, 183, 3, 0.3);
 }
+.gallery-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.slides {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-img {
+  flex: 0 0 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  scroll-snap-align: center;
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  border: none;
+  color: white;
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.slide-btn.left { left: 10px; }
+.slide-btn.right { right: 10px; }
+
 
 /* ================================
    VIDEO SECTION
