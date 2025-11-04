@@ -1,5 +1,5 @@
 // src/pages/CarDetail.jsx
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import carsData from "../data/CarsData";
 import "../styles/pages/CarDetails.css";
@@ -7,9 +7,24 @@ import "../styles/pages/CarDetails.css";
 const CarDetail = () => {
   const { id } = useParams();
   const car = carsData.find((c) => c.id === parseInt(id));
-  const sliderRef = useRef(null);
+
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   if (!car) return <p>Car not found</p>;
+
+  const images = [car.mainImg, ...(car.gallery || [])];
+
+  const prevImage = () => {
+    setCurrentIndex((prev) =>
+      prev === 0 ? images.length - 1 : prev - 1
+    );
+  };
+
+  const nextImage = () => {
+    setCurrentIndex((prev) =>
+      prev === images.length - 1 ? 0 : prev + 1
+    );
+  };
 
   return (
     <section className="car-detail">
@@ -17,13 +32,33 @@ const CarDetail = () => {
 
       <h1>{car.name}</h1>
 
-      <img 
-        src={car.mainImg} 
-        alt={car.name} 
-        className="main-image" 
-        onError={(e) => (e.target.style.display = "none")}
-      />
+      {/* Carousel Main Image */}
+      <div className="carousel-container">
+        <button className="carousel-btn left" onClick={prevImage}>‹</button>
 
+        <img
+          src={images[currentIndex]}
+          alt={car.name}
+          className="main-image"
+        />
+
+        <button className="carousel-btn right" onClick={nextImage}>›</button>
+      </div>
+
+      {/* Thumbnails */}
+      <div className="carousel-thumbs">
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt={car.name}
+            className={index === currentIndex ? "active" : ""}
+            onClick={() => setCurrentIndex(index)}
+          />
+        ))}
+      </div>
+
+      {/* Basic Car Details */}
       <div className="details-grid">
         <p><strong>Brand:</strong> {car.brand}</p>
         <p><strong>Model:</strong> {car.model}</p>
@@ -52,36 +87,6 @@ const CarDetail = () => {
               <li key={i}>{f}</li>
             ))}
           </ul>
-        </>
-      )}
-
-      {/* Updated Gallery Carousel */}
-      {car.gallery?.length > 0 && (
-        <>
-          <h3>Gallery</h3>
-
-          <div className="gallery-slider">
-
-            <button
-              className="slide-btn left"
-              onClick={() => sliderRef.current.scrollBy({ left: -300, behavior: "smooth" })}
-            >
-              ‹
-            </button>
-
-            <div className="slides" ref={sliderRef}>
-              {car.gallery.map((img, i) => (
-                <img key={i} src={img} alt={`${car.name} view ${i + 1}`} className="slide-img" />
-              ))}
-            </div>
-
-            <button
-              className="slide-btn right"
-              onClick={() => sliderRef.current.scrollBy({ left: 300, behavior: "smooth" })}
-            >
-              ›
-            </button>
-          </div>
         </>
       )}
 
