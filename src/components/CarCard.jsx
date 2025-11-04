@@ -1,6 +1,7 @@
 // src/components/CarCard.jsx
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/components/CarCard.css";
 import "../styles/components/FeaturedInventory.css";
 
 const CarCard = ({ car }) => {
