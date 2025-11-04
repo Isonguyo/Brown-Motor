@@ -1,12 +1,13 @@
 // src/components/FeaturedInventory.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import carsData from "../data/CarsData"; // ✅ Import the shared car data
+import carsData from "../data/CarsData";
 import "../styles/components/FeaturedInventory.css";
 
 const FeaturedInventory = () => {
-  // You can limit to first few cars if you want only some to be featured
-  const featuredCars = carsData.slice(0, 3); // show first 3 for example
+  const featuredCars = carsData.slice(0, 3);
+
+  const whatsappNumber = "2348034080299";
 
   return (
     <section id="inventory" className="featured-inventory">
@@ -14,26 +15,44 @@ const FeaturedInventory = () => {
         <h2>Featured Inventory</h2>
 
         <div className="inventory-grid">
-          {featuredCars.map((car) => (
-            <article key={car.id} className="car-card">
-              <img
-                className="car-image"
-                src={car. mainImg}
-                alt={car.name}
-              />
-              <div className="car-body">
-                <h3 className="car-name">{car.name}</h3>
-                <p className="car-price">
-                  ₦{car.price.toLocaleString()}
-                </p>
+          {featuredCars.map((car) => {
+            const whatsappMessage = `Hello! I'm interested in the ${car.name} (${car.year}) listed for ₦${car.price.toLocaleString()}. Is it still available?`;
 
-                {/* ✅ Button links to detail page dynamically */}
-                <Link to={`/cars/${car.id}`} className="btn primary-btn">
-                  View Details
-                </Link>
-              </div>
-            </article>
-          ))}
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+              whatsappMessage
+            )}`;
+
+            return (
+              <article key={car.id} className="car-card">
+                <img className="car-image" src={car.mainImg} alt={car.name} />
+
+                <div className="car-body">
+                  <h3 className="car-name">{car.name}</h3>
+
+                  <p className="car-price">
+                    ₦{car.price.toLocaleString()}
+                  </p>
+
+                  <p className="car-info">
+                    {car.year} • {car.transmission} • {car.fuel}
+                  </p>
+
+                  <Link to={`/cars/${car.id}`} className="btn primary-btn">
+                    View Details
+                  </Link>
+
+                  <a
+                    href={whatsappLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn whatsapp-btn"
+                  >
+                    Contact Dealer
+                  </a>
+                </div>
+              </article>
+            );
+          })}
         </div>
 
         <div className="cta-wrapper">
