@@ -56,19 +56,7 @@
   border-radius: 2px;
 }
 
-/* ================================
-   MAIN IMAGE
-================================= */
-.main-image {
-  display: block;
-  width: 100%;
-  max-height: 480px;
-  object-fit: cover;
-  border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-  margin: 1.5rem 0 2.5rem;
-  border: 2px solid rgba(255, 183, 3, 0.3);
-}
+
 
 /* ================================
    DETAILS GRID
@@ -138,75 +126,114 @@
 }
 
 /* ================================
-   IMAGE GALLERY
-================================= */
-.gallery {
-  margin-top: 2.5rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1rem;
-}
+   CAR DETAIL — MODERN CAROUSEL
+=================================== */
 
-.gallery img {
-  width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-  height: 200px;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  cursor: pointer;
-  border: 2px solid transparent;
-}
-
-.gallery img:hover {
-  transform: scale(1.05);
-  border-color: #ffb703;
-  box-shadow: 0 10px 25px rgba(255, 183, 3, 0.3);
-}
-.gallery-slider {
+.carousel-container {
   position: relative;
   width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
   overflow: hidden;
-  margin: 1.5rem 0;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+  background: #0d1b2a;
 }
 
-.slides {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  padding-bottom: 10px;
-}
-
-.slides::-webkit-scrollbar {
-  display: none;
-}
-
-.slide-img {
-  flex: 0 0 100%;
-  height: 350px;
+.main-image {
+  width: 100%;
+  height: clamp(320px, 50vw, 520px);
   object-fit: cover;
-  border-radius: 12px;
-  scroll-snap-align: center;
+  display: block;
+  border-radius: 14px;
 }
 
-.slide-btn {
+/* Arrows */
+.carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.6);
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(6px);
   border: none;
-  color: white;
-  font-size: 28px;
-  width: 40px;
-  height: 40px;
+  padding: 0.7rem 0.95rem;
+  font-size: 2.1rem;
   cursor: pointer;
+  color: white;
+  transition: 0.25s ease;
   border-radius: 50%;
-  z-index: 5;
 }
 
-.slide-btn.left { left: 10px; }
-.slide-btn.right { right: 10px; }
+.carousel-btn:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.carousel-btn.left {
+  left: 14px;
+}
+
+.carousel-btn.right {
+  right: 14px;
+}
+
+/* Thumbnail Strip */
+.carousel-thumbs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 0.85rem 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #1b263b #0d1b2a;
+}
+
+.carousel-thumbs::-webkit-scrollbar {
+  height: 6px;
+}
+.carousel-thumbs::-webkit-scrollbar-thumb {
+  background: #1b263b;
+  border-radius: 10px;
+}
+
+.carousel-thumbs img {
+  width: 82px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.25s ease;
+  border: 2px solid transparent;
+}
+
+.carousel-thumbs img:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.carousel-thumbs img.active {
+  opacity: 1;
+  border: 2px solid #ffb703; /* accent */
+  box-shadow: 0 0 8px rgba(255,183,3,0.45);
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .main-image {
+    height: 300px;
+  }
+  
+  .carousel-btn {
+    padding: 0.55rem 0.75rem;
+    font-size: 1.6rem;
+  }
+
+  .carousel-thumbs img {
+    width: 70px;
+    height: 56px;
+  }
+}
 
 
 /* ================================
