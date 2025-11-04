@@ -7,6 +7,7 @@ import Contact from "./components/ContactSection";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CarDetail from "./pages/CarDetail";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 
@@ -15,6 +16,7 @@ function AppRoutes() {
  
       <Router>
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cars" element={<Cars />} />
