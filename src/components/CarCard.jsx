@@ -15,7 +15,7 @@ const CarCard = ({ car }) => {
   )}`;
 
   return (
-    <div className="car-cards">
+    <div className="car-card">
       <img src={car.mainImg} alt={car.name} className="car-image" />
 
       <div className="car-body">
