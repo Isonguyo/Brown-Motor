@@ -2,20 +2,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/components/CarCard.css";
-import "../styles/components/FeaturedInventory.css";
 
 const CarCard = ({ car }) => {
-  // Replace this with your real WhatsApp number (without +)
-  const whatsappNumber = "2348034080299"; // example: Nigeria number
-
+  const whatsappNumber = "2348034080299";
   const whatsappMessage = `Hello! I'm interested in the ${car.name} (${car.year}) listed for ₦${car.price.toLocaleString()}. Is it still available?`;
-
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     whatsappMessage
   )}`;
 
   return (
-        <div className="inventory-grid">
     <div className="car-card">
       <img src={car.mainImg} alt={car.name} className="car-image" />
 
@@ -30,7 +25,6 @@ const CarCard = ({ car }) => {
           View Details
         </Link>
 
-        {/* 🟢 WhatsApp contact button */}
         <a
           href={whatsappLink}
           target="_blank"
@@ -40,11 +34,8 @@ const CarCard = ({ car }) => {
           Contact Dealer
         </a>
       </div>
-      </div>
-      </div>
+    </div>
   );
 };
 
 export default CarCard;
-
-
