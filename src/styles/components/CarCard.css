@@ -1,29 +1,24 @@
 /* ================================
-   CAR GRID LAYOUT
+   CAR CARD GRID WRAPPER
+   (3 per row desktop, 2 tablet, 1 mobile)
 =================================== */
+.car-list {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 1rem 0;
+}
+
 .inventory-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  width: 100%;
-}
-
-@media (max-width: 992px) {
-  .inventory-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 599px) {
-  .inventory-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* ================================
-   CAR CARD STYLING
+   INDIVIDUAL CAR CARD DESIGN
 =================================== */
-.car-card {
+.car-cards {
   background: #ffffff;
   border-radius: 14px;
   padding: 16px;
@@ -35,47 +30,56 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
 }
 
-.car-card:hover {
+.car-cards:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 25px rgba(10, 31, 68, 0.25);
 }
 
 /* ================================
-   IMAGE
+   CARD IMAGE
 =================================== */
-.car-image {
+.car-cards-image {
   width: 100%;
-  height: 180px;
+  height: 160px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 10px;
   background: #f2f4f7;
-  transition: transform 0.35s ease;
+  transition: transform 0.4s ease;
 }
 
-.car-card:hover .car-image {
+.car-cards:hover .car-cards-image {
   transform: scale(1.05);
 }
 
 /* ================================
-   BODY TEXT
+   CARD TEXT
 =================================== */
-.car-body {
-  margin-top: 12px;
+.car-cards-body {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  padding-top: 10px;
 }
 
-.car-body h3 {
+.car-cards-body h3 {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0;
   color: #1f1f1f;
+  line-height: 1.4;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.muted {
+  color: #6b7280;
+  font-size: 0.9rem;
 }
 
 .price {
@@ -84,15 +88,10 @@
   font-size: 1.05rem;
 }
 
-.muted {
-  color: #6b7280;
-  font-size: 0.9rem;
-}
-
 /* ================================
    BUTTONS
 =================================== */
-.btn,
+.view-btn,
 .whatsapp-btn {
   display: block;
   width: 100%;
@@ -101,16 +100,17 @@
   border-radius: 8px;
   font-weight: 600;
   text-decoration: none;
+  transition: 0.3s ease;
   margin-top: 10px;
   white-space: nowrap;
 }
 
-.primary-btn {
+.view-btn {
   background: #ffb703;
   color: #0a1f44;
 }
 
-.primary-btn:hover {
+.view-btn:hover {
   background: #e6a000;
   color: #fff;
 }
@@ -124,3 +124,11 @@
   background: #1ebc5a;
 }
 
+/* ================================
+   MOBILE (1 per row)
+=================================== */
+@media (max-width: 599px) {
+  .car-list {
+    grid-template-columns: 1fr;
+  }
+}
