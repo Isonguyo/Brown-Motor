@@ -14,9 +14,9 @@ function Home() {
 			<>
 				<main>
 					<HeroBanner />
+						<FeaturedInventory />
 					<AboutSection />
 							<CallToAction />
-					<FeaturedInventory />
 					<TestimonialSection />
 					<ContactSection />
 					<NewsletterSection />
