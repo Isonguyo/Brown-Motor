@@ -15,6 +15,7 @@ const CarCard = ({ car }) => {
   )}`;
 
   return (
+    <div className="inventory-grid">
       <div className="car-card">
         <img src={car.mainImg} alt={car.name} className="car-image" />
 
@@ -29,6 +30,7 @@ const CarCard = ({ car }) => {
             View Details
           </Link>
 
+          {/* 🟢 WhatsApp contact button */}
           <a
             href={whatsappLink}
             target="_blank"
@@ -39,6 +41,7 @@ const CarCard = ({ car }) => {
           </a>
         </div>
       </div>
+    </div>
   );
 };
 
