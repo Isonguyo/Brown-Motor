@@ -41,7 +41,7 @@ const CarCard = ({ car }) => {
           </a>
         </div>
       </div>
-        </div>
+      </div>
   
   );
 };
