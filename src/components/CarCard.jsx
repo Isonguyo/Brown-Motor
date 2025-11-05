@@ -2,39 +2,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/components/CarCard.css";
+import "../styles/components/FeaturedInventory.css";
 
 const CarCard = ({ car }) => {
-  const whatsappNumber = "2348034080299";
+  // Replace this with your real WhatsApp number (without +)
+  const whatsappNumber = "2348034080299"; // example: Nigeria number
+
   const whatsappMessage = `Hello! I'm interested in the ${car.name} (${car.year}) listed for ₦${car.price.toLocaleString()}. Is it still available?`;
+
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     whatsappMessage
   )}`;
 
   return (
-    <div className="car-card">
-      <img src={car.mainImg} alt={car.name} className="car-image" />
+      <div className="car-card">
+        <img src={car.mainImg} alt={car.name} className="car-image" />
 
-      <div className="car-body">
-        <h3>{car.name}</h3>
-        <p className="price">₦{car.price.toLocaleString()}</p>
-        <p className="muted">
-          {car.year} • {car.transmission} • {car.fuel}
-        </p>
+        <div className="car-body">
+          <h3>{car.name}</h3>
+          <p className="price">₦{car.price.toLocaleString()}</p>
+          <p className="muted">
+            {car.year} • {car.transmission} • {car.fuel}
+          </p>
 
-        <Link to={`/cars/${car.id}`} className="btn primary-btn">
-          View Details
-        </Link>
+          <Link to={`/cars/${car.id}`} className="btn primary-btn">
+            View Details
+          </Link>
 
-        <a
-          href={whatsappLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="whatsapp-btn"
-        >
-          Contact Dealer
-        </a>
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-btn"
+          >
+            Contact Dealer
+          </a>
+        </div>
       </div>
-    </div>
   );
 };
 
