@@ -34,7 +34,7 @@ const CarCard = ({ car }) => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="whatsapp-btn"
+            className="btn whatsapp-btn"
           >
             Contact Dealer
           </a>
