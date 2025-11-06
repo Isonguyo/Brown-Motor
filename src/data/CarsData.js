@@ -430,13 +430,14 @@ gallery: [
     "Touchscreen Display",
   ],
  gallery: [
-"https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571124360_122153226542741789_2446873388899695563_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGD2o7H0aB1utxasttww3QO-4vJ-KKKppf7i8n4ooqml73tcROcY0XVbwBzA7yJLW7kAL-CEzLUWFu3qELtMIqe&_nc_ohc=jgYVcCEho9MQ7kNvwHH5_aK&_nc_oc=AdnjP9HbvLvLnqHbPOot3pmNitfb5v1c8vmRbmaj61bNPEyQcZQNRZdllYVXEGZ832Y&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=BKGcoPtNtXeRS1m10hQfww&oh=00_AfjiSAsj1VN5PAOcTloR8RiGsUV05e7M1-FPajcx4wLmJA&oe=690D3C66",
-"https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/569327120_122153226476741789_1056030215199377778_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFVPWN0WrD4WzoaaPK3YdasJzzNVl5poYMnPM1WXmmhg1s4Dfuc0afZrhPeYD0rlGrWui0n5aZHgN7TjgG7Umf1&_nc_ohc=DsBDd3O9mQEQ7kNvwFVFb0D&_nc_oc=AdlnHMlrBCiGWNjWwRbQn7Y63j5sM4uxoOmjkEhqYhtdujDARVFOroy2Xau878CSieo&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=thtB_fJ7xoLy0Q9LfHAyIQ&oh=00_Afg28H02PsiSqQySphYb2RP1dRdXbv6xIfgyi6fNOEYYrA&oe=690D39F4",
-"https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571189451_122153226566741789_5775123524529173814_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEPmwu9ixhvGBTA5_isRAymBWFL1buK1CkFYUvVu4rUKa_58MJAtyaqCPXmQtjpvfJ_B8zCdavDmIqprORL0TbO&_nc_ohc=gR3OgPaOX18Q7kNvwEi1N9V&_nc_oc=AdncKZhQlytb-HRJ_GjDPAnT4R1lZ2YxmZV2FAkVUR_wSEYNTiDYIEiS5GUlxfveX9A&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=wNdTcxviID0Y4VY1kyFgpg&oh=00_AfhVmicwcezJTFSx-DPhWPgIjoqs7sneE6kjW-4XPC0M3Q&oe=690D4FB4",
-"https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/573066736_122153226512741789_3852996270494611745_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGQO5yFX08-nFOnPc3cPMidFAD7a6i3n3oUAPtrqLefejUbPnak4sJLAWiIOGLuf6pE_CqiEEGcYshglFwqLOgk&_nc_ohc=p_hc6A7WGrgQ7kNvwEtPU7H&_nc_oc=Adk7VpUggaesMY77fSfqCXDL_QtvVZlNrh8U1aUY6m8rXq6cCNSPxp8uCb9n8z-vQr4&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=Sx9xeh57UFJTpzkKO8kuLQ&oh=00_AfgJBrMBCAmdpNGiUyQEG6L4LbA2S7f-T6OIoQOBNH6zlQ&oe=690D562F",
-"https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571264657_122153226482741789_1791903036638906945_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeELK_Ypvq9pk_tSqrFfELFmJWoSGWLYXLElahIZYthcsVfCIsY6aq0qgSKK46-7FySUe9mgsmDpSLyNWesOhndV&_nc_ohc=wI3Vz9mCAhIQ7kNvwGzWl-6&_nc_oc=AdlvcDnqQwnslSnTyAoiGW5zXgHan9QLhFZA3g-P0_XGLNQtpihrBDbwa3qULnzBL5g&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=q9GtC32PXx0fouch03jzIg&oh=00_Afj4IAwbAVhScQAoWMqji2QGzMB9kjxyCyqSCVub35XWbw&oe=690D22C8",
-"https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571249675_122153226704741789_9081290243825209169_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHyAlYs55u8YQo70adeh7BDVAEZh76HMSpUARmHvocxKiD0Kymdo7if9FQHQpjFyUOWGSaO9DDMec4ofNAUNGZT&_nc_ohc=L3_liN7dOLgQ7kNvwEA7gY-&_nc_oc=AdnPqs8Y-5yUaB1q8-fhNvKmBxB9Dum9_zYsE5MQvLCnNXV9JxPRSDxPHJWjY_ACvZQ&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=JkmWo_MzbCsqxRHaJuMx_Q&oh=00_AfhukUiO2QBw6DpDoqFWJ0xbdz9Qq4HK58Wkt6Uzb3rRVw&oe=690D30E6",
-"https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571172993_122153226662741789_300604343965427434_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE6NLcPozndylPLaSukJmi9fkiwzqOIaEV-SLDOo4hoReluVBsLQ4hxE8ra9Nc07CoFZgffRsvcNybItKpOpABn&_nc_ohc=TYkovsd1YTcQ7kNvwH0cZtT&_nc_oc=AdnReuIXVkjfbdiM4gyLmyBsLHEzHQe8wxnryhkQokZPAhDwHxWiIA6xXiaCO9ED1AY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=L7kq4y-TyXDYLuijEJTb7g&oh=00_AfilA4SbJfnrNq4CNAS8nmqz3Y_G3BtW9tGg0iSoJi6exA&oe=690D3327"
+"https://res.cloudinary.com/dbozz4sgv/image/upload/v1762458178/lexus3502016-1_ylb8db.jpg",
+"https://res.cloudinary.com/dbozz4sgv/image/upload/v1762458180/lexus3502016-2_dc8t3y.jpg",
+"https://res.cloudinary.com/dbozz4sgv/image/upload/v1762458180/lexus3502016-3_mbrqpi.jpg",
+"https://res.cloudinary.com/dbozz4sgv/image/upload/v1762458177/lexus3502016-7_pxn2at.jpg",
+"https://res.cloudinary.com/dbozz4sgv/image/upload/v1762458176/lexus3502016-4_cjwi1w.jpg",
+"https://res.cloudinary.com/dbozz4sgv/image/upload/v1762458178/lexus3502016-6_myqdi5.jpg",
+"https://res.cloudinary.com/dbozz4sgv/image/upload/v1762458179/lexus3502016-5_fxjjpc.jpg",
+"https://res.cloudinary.com/dbozz4sgv/image/upload/v1762458180/lexus3502016-8_ojved5.jpg"
 ],
 
   video: "../assets/images/lexus3502016.mp4",
@@ -459,7 +460,7 @@ gallery: [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://www.forcegt.com/wp-content/uploads/2019/11/2019-toyota-rav4-edge-rear-quarter.jpg",
+  mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762459910/rav42019_jknqqn.jpg",
   description:
     "Modern and efficient 2019 Toyota RAV4 with bold design, fuel-efficient engine, and advanced safety features. Perfect for both urban and long-distance drives.",
   features: [
@@ -470,15 +471,15 @@ gallery: [
     "Keyless Start",
   ],
 gallery: [
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571669336_122153227298741789_2813935386756424999_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEhqlTMdUYPqhsiSssH1aPgYyx70BrFtYdjLHvQGsW1h-aioFktDNqNtl0gdEpupqV9CnZrHCUcZKhP-GwX5xEg&_nc_ohc=oA_vFsWQWYYQ7kNvwGbN32H&_nc_oc=AdmVPhe2sctyJINyVmBR8Rb6n34rDvOEXmS3qQvfTWSCM3GzX8ap91ZxK0U5VPnmyqg&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ZMDsMw45wkBxnxMidKCMvQ&oh=00_AfiI75Mgo5nZXF5snSEUqn8kBG3XfOkvZhlNH8g-0dmJ_A&oe=690D2C41",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571192465_122153227094741789_5533122660587467730_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEEjTLeoVmfDNt_nja2YkSmAztxVpOJn2EDO3FWk4mfYSmNN1zUo8wHv7ZwEv17HszpvprtiwW_yknO3-sbsNm_&_nc_ohc=BtSnAszdI_0Q7kNvwEAe1f7&_nc_oc=Adk8ai41DJXdXrCAYjuW5Tdh4DuvamIVcwo6HIBO-p8gsKGn9UBltoCN69P7OZKD9Pc&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=J2J0Dknb1lGVrkNNGR2lMg&oh=00_Afh9xYnpNO7ndiw1ZhB2VI1Naiq5w49DHJ0XGE_rwxPP9A&oe=690D3C31",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571164776_122153227184741789_7926835624554597598_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFkTu4Z0FoI5j-k5rMCyh6_riy5xl-qyYiuLLnGX6rJiAccEeYnPCTbC1vN0dD_sot1BpLSSsZA7SBzhEI8-q6q&_nc_ohc=KsIOEo6YML4Q7kNvwHfN6MQ&_nc_oc=AdllHr6RF6iRnI-v6AEQvCJjNsIoK4Wi6twk3LgNWu59STWoxY1PzoGOWUOyLRW-PHw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=w5iFQBta1ND8H24-bMMDxg&oh=00_Afgm6HZN_3s54QyZCPSECLhKS44VYK_MWpIwcmMf1X6kYQ&oe=690D465A",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/572361013_122153227130741789_4651105277402193573_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFr_G5DBrMSM724c67ByZsm2jqLLR3xGE_aOostHfEYTwJN1XQQXz4NiH0eyTJGM2ELs8XQfTsKC_OmURf39fuo&_nc_ohc=vhJyXMVbcecQ7kNvwGdhmyn&_nc_oc=Adn_1yBjvLD9fDWSJ2za0ZGQYmUj6Hhlb9Yb87YjFYXEJqPUNw-nsf3XuuxCLi_s9ak&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=S0Ncd_BE180PKFOETrUX4g&oh=00_AfjHEm29GCtX1MGRRceeoFpshQMr7V5eD-8jQcxlcqDBfQ&oe=690D52FD",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570134078_122153227178741789_4308648157564828603_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFD7jJnmejorzukyEQ6RnEOzfQQWzIKvNXN9BBbMgq81VDwJoPl0R89v7-rfqb1rjsAbYgDPveCaUshETfv3efD&_nc_ohc=3DjE1_UdbwIQ7kNvwGPzoQv&_nc_oc=AdmbhcR6LwufQE11R3IXKnzenbxhk3awPhCOU6SMXX7_AGZrTw2KdE54kXBtDhJHeBY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=PE1xpemPEeDVOR2tG2q1uw&oh=00_Afh0RKE8elL6ASQqtHuaKP-0H0leub3ZU0hvBnBVxNpaiw&oe=690D2A04",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571121227_122153227316741789_2543042120374200839_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFXPLuuCSErYZc9XFGN2Z3n_vXkrBqVrRv-9eSsGpWtG3KGb_B_OkV4yJU1jQC_ZI7p6k1jIulTRiK7ZlVMwRN_&_nc_ohc=sQ2g8JQwWekQ7kNvwE0EU1t&_nc_oc=AdkjVVRNO3d0z8hweJ_Yat0WfJDcOQNVFYDaPn5FDtS7zgdsVcCCaJ9fRgfc4K_zsjQ&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=nrvMKlto53bi6phs-H8pEg&oh=00_AfgY3u3rDADco7s1frdQvD30YWZRgKXJ8nEILp3hDGTobQ&oe=690D2D1A",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571117357_122153227406741789_2614747720798257906_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFHvgSB_s_lj_cQ52ix21PbLxMjXHpAntwvEyNcekCe3MF0Ig3XMX6_nukdMKeaHbMGPBxYubsGNc5op8LAGz11&_nc_ohc=1_ZpLkUDzR0Q7kNvwFvMeNw&_nc_oc=AdkUjR7dhIkMWO3cKOqtTz11pNXozGC8wMn5JEiX78VrRKq_NtL7MlT-v3oeVXqDJxU&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=IcB8AXWcOcjNqbethuPlpA&oh=00_AfjC4gIEloY9fM1VCotMRtEjzhETStwkAwmwv_DXB_iu5Q&oe=690D29AB",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569039160_122153227226741789_7540977171994046440_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFZ6wW_v2t-pc4Amr-INO5kIKy8hyeI3LEgrLyHJ4jcsXqqGfutVaieUTAauhERSEDz3LDZJldliOeNmGtXgIG0&_nc_ohc=kEFqHsIPDQgQ7kNvwF0DHnN&_nc_oc=AdkNp1Pel2u_XFgeCrf9i8Ffs96GV87fXfxuZV425Gee8v7NnOvCaKp-606qH6LLe78&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=iw0PLLs1jJblYr4r7M5iHQ&oh=00_Afjvu9toZ6QmkmgsYkvNLtQ2EMLPIJulKUaqGnTsowPH8Q&oe=690D4F38",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571325202_122153227400741789_740306839682129528_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEegzWE8Ci_h9dsGzpRKNVn_9VzzyfB3qn_1XPPJ8HeqXG2sDnD6Duqm4fLltl0PNkV6AyFduaulLl_DeKesgq-&_nc_ohc=57hc78tbqukQ7kNvwGUeXU4&_nc_oc=AdlvBcsujG59zY_hb4v_zmmipmB6Ol1ydbYexi7XeKf-_yRrAqZwftEdO6z-RqOCjY8&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=v9v4HdHK9AvYTNfa6m7n_w&oh=00_Afhu_uAbGt5PMVnEsrXRDlBr8xVI3wqVUAkAWi4cibgB1g&oe=690D50C9",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461569/rav42019-2_jswgim.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461566/rav42019-1_dpqlvx.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461564/rav42019-3_kn9nko.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461562/rav42019-8_mq5gaa.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461563/rav42019-4_mjrg12.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461562/rav42019-7_jd1gyd.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461562/rav42019-5_jnxjrk.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461560/rav42019-9_puu1l0.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762461565/rav42019-10_epahgn.jpg",
 
 ],
 
