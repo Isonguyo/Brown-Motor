@@ -67,60 +67,56 @@
 
 .car-buttons {
   display: flex;
-  gap: 12px; /* space between buttons */
-  margin-top: 12px;
+  gap: 14px;
+  margin-top: 16px;
 }
 
 .car-buttons .btn {
-  flex: 1; /* equal width buttons */
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
   font-weight: 600;
-  border-radius: 6px;
+  font-size: 0.95rem;
+  border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.3px;
 }
 
+/* Primary (View Details) Button */
 .primary-btn {
-  background: linear-gradient(90deg, #ffb703, #fca311);
+  background: linear-gradient(135deg, #ffb703, #fca311);
   color: #0d1b2a;
+  border: none;
 }
 
 .primary-btn:hover {
-  background: linear-gradient(90deg, #fca311, #ffb703);
-  transform: translateY(-2px);
-}
-
-.cta-wrapper {
-  margin-top: 50px;
-}
-
-.view-all-btn {
-  background: transparent;
-  color: #ffb703;
-  border: 2px solid #ffb703;
-  padding: 12px 28px;
-  border-radius: 8px;
-  font-weight: 600;
-}
-
-.view-all-btn:hover {
-  background: #ffb703;
-  color: #0d1b2a;
+  background: linear-gradient(135deg, #fca311, #ffb703);
   transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(255, 183, 3, 0.35);
 }
 
+/* WhatsApp Button */
 .whatsapp-btn {
-  background: #25d366;
+  background: linear-gradient(135deg, #25d366, #1ebc5a);
   color: #fff;
+  border: none;
 }
 
 .whatsapp-btn:hover {
-  background: #1ebc5a;
+  background: linear-gradient(135deg, #1ebc5a, #25d366);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+}
+
+/* Optional: subtle press effect */
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Fade-in animation for scroll reveal */
