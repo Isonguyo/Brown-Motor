@@ -127,6 +127,7 @@
   transition: all 0.3s ease;
   display: inline-block;
   box-shadow: 0 4px 10px rgba(255, 183, 3, 0.15);
+  margin-top:10px;
 }
 
 .view-all-btn:hover {
