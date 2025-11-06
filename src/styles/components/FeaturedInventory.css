@@ -113,6 +113,30 @@
   box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
 }
 
+.view-all-btn {
+  background: transparent;
+  color: #ffb703;
+  border: 2px solid #ffb703;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(255, 183, 3, 0.15);
+}
+
+.view-all-btn:hover {
+  background: #ffb703;
+  color: #0d1b2a;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(255, 183, 3, 0.3);
+}
+
+
 /* Optional: subtle press effect */
 .btn:active {
   transform: translateY(0);
