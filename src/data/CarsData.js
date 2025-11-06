@@ -347,10 +347,10 @@ gallery: [
     "Premium Sound System",
   ],
 gallery: [
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/572223226_122153225072741789_558336284953663208_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHY_xmsFQ1wI3a2LqiXDdv_NzNiDpzr9is3M2IOnOv2K1s_p_vDlBVmHMrkWFWylR03vawsTCAsrAcRN6Fk99m-&_nc_ohc=jTPSWd8hcxEQ7kNvwG8ictz&_nc_oc=AdkH8-30vaaHpFiRU9k7NYxBBI_JqHFwqu_VS11CkcDw4bmUBcdcCtDR5hoI0M2jpUU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=nZqpIHA6nLwRHC7rt2Mlcg&oh=00_Afj6_cUssvrTTyJsGI6vLz6NBr2MKpiCBXLVCtxtk9NG_Q&oe=690D507C",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/572501315_122153225150741789_4552856461362291556_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE2HjxWidrS-njAKYhtX2dLWGiURR-4SjlYaJRFH7hKOac2_QcBxveFd0qhV6TZI-QFKKGj0NjP-OkwLWhBQUkU&_nc_ohc=bnD7yEL9QiAQ7kNvwFUDYq5&_nc_oc=AdkqjqxGE29k1Eiyl74iqOy9M9_9uLPHma8hrePTRrBuUrlSkb2L1G_dKNdSw-p7Xgc&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=7dvZTY9RNIUlEs7GDapRmw&oh=00_AfhKgnkhXbczYXVIbGLiLbkDG2nTt36W98df4SeNKP1dMQ&oe=690D238F",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571145601_122153225066741789_270115511731382471_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEj-zEWw6VOp7ToC34GAruIJyGN66BtfKwnIY3roG18rHsaf_kOwXZznV-UcrXO8TdGO9wsO7EmTWcxxmnhXgAH&_nc_ohc=krpQf-HjeOoQ7kNvwH7rR1J&_nc_oc=Adma42P_MnIar8cc69GdEgZ9zj-ylduM9B3I1OVbiQ7wmi-jhkkBhDBPuRfhaAnMYqE&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=DTyX57K6uUbC3y6Zd5FhGg&oh=00_AfhN3NbcNedFcITXS5igEQG9YjBrYgi4KfmHZBuBMrqJLQ&oe=690D3279",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570965995_122153225096741789_7715660383216033752_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFmrYtuu-6YiEMRgRS3dGxWE6jgd-MhFXATqOB34yEVcIh3ZxiWWvkQsan89y1YqAydXm3L3Hgpa_VNUqsd26FU&_nc_ohc=h3wbZpYh7OMQ7kNvwGxCM0o&_nc_oc=Adl3fiDCIdRdFQRyW-1Vy8wfjykC7cYP7yrzsgFB_MFznOYzED6EAZcaZYi3ygkG6lw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=7V_kL9dytreAcyvK-tFiHA&oh=00_Afgvzj-LM7DokH97e-L-bcaTsnhst5n7WOfxevpcKd5nLA&oe=690D346F"
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438362/avalon2012-1_rcobqc.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438362/avalon2012-4_bwrceh.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438362/avalon2012-2_lvazti.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438362/avalon2012-3_swyba5.jpg"
 ],
 
   video: "../assets/images/avalon2012.mp4",
@@ -374,7 +374,7 @@ gallery: [
   location: "Calabar",
   availability: "Available",
   mainImg:
-    "https://images.hgmsites.net/med/2014-lexus-rx-350-fwd-4-door-angular-front-exterior-view_100445929_m.jpg",
+    "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438592/lexus3502014_j4vopv.jpg",
   description:
     "Luxurious 2014 Lexus RX 350 with smooth V6 engine, stylish design, and a refined interior. Offers powerful performance, advanced comfort features, and Lexus’ legendary reliability — perfect for both city drives and long trips.",
   features: [
@@ -388,13 +388,13 @@ gallery: [
     "Alloy Wheels",
   ],
  gallery: [
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/572529789_122153225708741789_6048281955376560974_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGcpBLoOC9u0pLz0p3eNI6t-sM-qTQcbWL6wz6pNBxtYpvYmrsrwTVS-gZEiAYjcGYV5Y82D7-puYOa4MA9acJV&_nc_ohc=Y9HKYkjKqwQQ7kNvwEVbNVu&_nc_oc=AdmylW6NmCeU31LucDZ_BTjFnYgx3OCnLE8ArY70BBDBh58zF9Qhcdsk3t5HtKiCFG8&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=tB7e6s3qXdLat237fHernw&oh=00_AfjwzbtbAaPJ4pBdf61r9Dh0LmU-mPVZfs4aU7W8A3yHvw&oe=690D547D",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571161000_122153225594741789_85845629509783920_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeELXytKxvfxyYj8Wt9-z5vtLp6excDbElwunp7FwNsSXMNgY0rWU07eqgm2cotjxW3okWjIf1KlKCqXUM9mfkI4&_nc_ohc=b3R9MJVuLdgQ7kNvwGFMUY1&_nc_oc=AdlPtsCgITw8hg5UqZSRXhTfP0m69DS9RciNSxL8Y8KP5kxK6rl-B9KhINgxbHRnuf0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=og6cDDlTffaSENGwODAkfQ&oh=00_AfjG9MDPBbS1F47ElUjoXf0nqCBzrnzOtWX89ky_kKvnmg&oe=690D31A7",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569261448_122153225840741789_355780908706056409_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF-XhT2di1i4Pzx0x3TDnC8rkQ9Ebw_lY6uRD0RvD-VjsfPfGIHIQ8L3mh5pLfVnthDM3oWdIJMEVP6mxfDp8YG&_nc_ohc=ZwB4lSiXJp4Q7kNvwEywQCo&_nc_oc=AdlOXX42j9dDZ-J_4LijRYPGWpgq3Gw7p4AQilKqmo3OgmU5cvcleQo5m5Z3lWkvme4&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=d93dppo28Wfg2N-IP9W7tw&oh=00_Afh1i_7CYFFXcKXtasneFsvER40aVmOz5Grexn1zQEoDPQ&oe=690D25C9",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571138186_122153225696741789_4268946302010484970_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH210YiqdSP3ZukNNlaR2fBQNSB3VpysChA1IHdWnKwKJJwuCE0LkFceKNKCeLQgfX7E-FGNjVdVLtmM4ESvHNq&_nc_ohc=iGCzruxV2IgQ7kNvwEdadm9&_nc_oc=Adk_-JvfMZViJ1kqQ82nUoAjlKAYnDQAA3FXdMTFEQyKb6YhqGnOWNl8vtr9ry8o__Y&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=9hFf39YnLohCT4T9zyWd_w&oh=00_Afj-fdyp6Ud8Vij7waUgTOhV5rt7fl-7HWsoHwGWbx6P8Q&oe=690D24BC",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571013776_122153225624741789_5470480480941849573_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFQEkQGxO6tf-XwnpregmeqttQhmC5tiFC21CGYLm2IUEHs0jGvUUg05dkDHCSNFD9pwEf12HV0M7SKMJ4Lfel0&_nc_ohc=Eerq6ouEPkkQ7kNvwEQX1Gb&_nc_oc=Admt_w_2_F_5Y4IcWRH23ykI6HCLNFrb4QnLfuV_o7GSXvZ7sjE9gUm5iNum1G2EBZI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=zESN6UxFbl6q8nTtZrCDcg&oh=00_AfissBfNh9t-dm6YQJxB0n_svnIMNXmQR2mF17LH1_nm8A&oe=690D4FF5",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571231157_122153225786741789_5151097507276336937_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFfYUhtA5_y1FWmKQQuSWMYsq_CpYdQ20uyr8Klh1DbS7l71SiXEXq2Bw9HRnKkTkMB6R-5lGHGhOL-FFCmV78x&_nc_ohc=JYt873YoTPYQ7kNvwFF1Jeh&_nc_oc=AdnK_Cc8Z2Y-6SUhr3uN9hbyeuvNwQE46w83ooNMnhnFUccVZlv_LfaqUeJV-CSgc0A&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=rOFVutYi1x3_kBrYilIwmA&oh=00_Afj75YWL-wxelLDlXzwsPAfq9ZBsGMVkeNhapR3UTVK83A&oe=690D57D9",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571021359_122153225762741789_8148720808775248997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGdxOXnToK3dm7v33w8hMVYCU_Zf9w892EJT9l_3Dz3YWQ2Vn1Apa6SFBIFoq_to5_Om-8ygsezveWbmWFF5d4&_nc_ohc=1LWGy3h8E1IQ7kNvwFA8DVC&_nc_oc=Adn2IIGl-qVp7mtY1B02eNxTOiGZvQf70M_D5iSJUAKM5JPPJTOrRfZeGXIrXXqsjDA&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=3AHuOhqejcDyfh4D8woWpg&oh=00_AfjeefK8dXKd5UmhZt912GC6WswTgQqgoQ2GcLfWR9NKpQ&oe=690D3C71"
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438810/lexus3502014-1_zs8ubf.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438809/lexus3502014-2_iluk0m.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438810/lexus3502014-6_lv4etf.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438810/lexus3502014-5_a8j8og.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438810/lexus3502014-3_yhd7ll.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438811/lexus3502014-4_xlpjyu.jpg",
+  "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762438809/lexus3502014-7_d15yqt.jpg"
 ],
 
   video: "../assets/images/lexus3502014.mp4",
@@ -417,7 +417,7 @@ gallery: [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://file.kelleybluebookimages.com/kbb/base/evox/CP/11159/2016-Lexus-RX-front_11159_032_1843x830_223_cropped.png",
+  mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1762441183/lexus3502016_owm1mi.avif",
   description:
     "Elegant 2016 Lexus RX 350 combining bold styling with comfort and reliability. Features a powerful V6 engine and luxurious interior perfect for premium driving experience.",
   features: [
