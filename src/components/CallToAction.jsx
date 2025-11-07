@@ -12,10 +12,10 @@ const CallToAction = () => {
             here to help you make the best choice with confidence.
           </p>
           <div className="cta-buttons">
-            <a href="/inventory" className="cta-btn cta-primary">
+            <a href="/cars#inventoryMain" className="cta-btn cta-primary">
               Browse Inventory
             </a>
-            <a href="/contact" className="cta-btn cta-secondary">
+            <a href="/home#contact" className="cta-btn cta-secondary">
               Contact Us
             </a>
           </div>
