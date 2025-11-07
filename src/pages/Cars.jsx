@@ -41,7 +41,7 @@ const Cars = () => {
   // }, [filters]);
 
   return (
-    <section className="cars-page">
+    <section id="inventoryMain" className="cars-page">
       <h1>Our Inventory</h1>
       <CarFilter filters={filters} onChange={handleFilterChange} />
 
