@@ -58,7 +58,7 @@ const FeaturedInventory = () => {
         </div>
 
         <div className="cta-wrapper">
-          <Link to="/cars" className="btn view-all-btn">
+          <Link to="/cars#inventoryMain" className="btn view-all-btn">
             View All Cars
           </Link>
         </div>
