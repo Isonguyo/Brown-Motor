@@ -18,7 +18,7 @@ function AppRoutes() {
         <Header />
         <ScrollToTop />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/cars" element={<Cars />} />
           <Route path="/about" element={<About />} />
           <Route path="/cars/:id" element={<CarDetail />} />
