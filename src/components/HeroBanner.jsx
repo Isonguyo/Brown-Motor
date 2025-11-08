@@ -13,9 +13,9 @@ const HeroBanner = () => {
             Explore our wide range of certified cars with unbeatable deals.
           </p>
           <div className="hero-buttons fade-up delay-2">
-        <Link smooth to="/cars#inventoryMain" className="btn primary-btn">
+        <HashLink smooth to="/cars#inventoryMain" className="btn primary-btn">
   Browse Inventory
-</Link>
+</HashLink>
 
 <Link smooth to="/#about" className="btn secondary-btn">
   Learn More
