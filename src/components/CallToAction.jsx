@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import "../styles/components/CallToAction.css";
 
 const CallToAction = () => {
@@ -15,7 +16,7 @@ const CallToAction = () => {
             <a href="/cars#inventoryMain" className="cta-btn cta-primary">
               Browse Inventory
             </a>
-            <a href="/home#contact" className="cta-btn cta-secondary">
+            <a href="/#contact" className="cta-btn cta-secondary">
               Contact Us
             </a>
           </div>
