@@ -26,7 +26,7 @@ const Header = () => {
         <nav className="nav fade-slide">
           <ul>
             <li><HashLink smooth to="/#hero">Home</HashLink></li>
-            <li><Link to="/cars/#inventoryMain">Inventory</Link></li>
+            <li><Link to="/cars#inventoryMain">Inventory</Link></li>
             <li><HashLink smooth to="/#about">About Us</HashLink></li>
             <li><HashLink smooth to="/#contact">Contact</HashLink></li>
           </ul>
