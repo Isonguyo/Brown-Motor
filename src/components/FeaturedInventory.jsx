@@ -58,9 +58,9 @@ const FeaturedInventory = () => {
         </div>
 
         <div className="cta-wrapper">
-          <Link to="/cars#inventoryMain" className="btn view-all-btn">
+          <HashLink to="/cars#inventoryMain" className="btn view-all-btn">
             View All Cars
-          </Link>
+          </HashLink>
         </div>
       </div>
     </section>
