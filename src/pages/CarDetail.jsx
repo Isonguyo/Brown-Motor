@@ -28,12 +28,13 @@ const CarDetail = () => {
 
   return (
     <section className="car-detail">
-      <Link to="/cars" className="back-btn">← Back to Inventory</Link>
+<HashLink smooth to="/cars#inventoryMain" className="back-btn">← Back to Inventory</HashLink>
+
 
       <h1>{car.name}</h1>
 
       {/* Carousel Main Image */}
-      <div className="carousel-container">
+      <div id="mainCar" className="carousel-container">
         <button className="carousel-btn left" onClick={prevImage}>‹</button>
 
         <img
