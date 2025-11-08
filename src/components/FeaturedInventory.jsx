@@ -1,5 +1,6 @@
 // src/components/FeaturedInventory.jsx
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import carsData from "../data/CarsData";
 import "../styles/components/FeaturedInventory.css";
