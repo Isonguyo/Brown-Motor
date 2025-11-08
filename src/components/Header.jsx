@@ -26,7 +26,7 @@ const Header = () => {
         <nav className="nav fade-slide">
           <ul>
             <li><HashLink smooth to="/#hero">Home</HashLink></li>
-            <li><Link to="/cars#inventoryMain">Inventory</Link></li>
+           <li><HashLink smooth to="/cars#inventoryMain">Inventory</HashLink></li>
             <li><HashLink smooth to="/#about">About Us</HashLink></li>
             <li><HashLink smooth to="/#contact">Contact</HashLink></li>
           </ul>
@@ -48,7 +48,7 @@ const Header = () => {
       <div className={`mobile-nav ${open ? "open" : ""}`}>
         <ul>
           <li onClick={() => setOpen(false)}><HashLink smooth to="/#hero">Home</HashLink></li>
-          <li onClick={() => setOpen(false)}><Link to="/cars#inventoryMain">Inventory</Link></li>
+          <li onClick={() => setOpen(false)}><HashLink smooth to="/cars#inventoryMain">Inventory</HashLink></li>
           <li onClick={() => setOpen(false)}><HashLink smooth to="/#about">About Us</HashLink></li>
           <li onClick={() => setOpen(false)}><HashLink smooth to="/#contact">Contact</HashLink></li>
         </ul>
