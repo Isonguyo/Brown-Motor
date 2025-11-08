@@ -28,7 +28,8 @@ const CarDetail = () => {
 
   return (
     <section className="car-detail">
-<HashLink smooth to="/cars#inventoryMain" className="back-btn">← Back to Inventory</HashLink>
+<Link to="/cars" className="back-btn">← Back to Inventory</Link>
+
 
 
       <h1>{car.name}</h1>
