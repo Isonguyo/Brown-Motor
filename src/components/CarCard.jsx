@@ -26,9 +26,7 @@ const CarCard = ({ car }) => {
           </p>
 
           <div className="car-buttons">
-          <Link to={`/cars/${car.id}`} className="btn primary-btn">
-            View Details
-          </Link>
+         <HashLink smooth to={`/cars#mainCar-${car.id}`} className="btn primary-btn">View Details</HashLink>
 
           {/* 🟢 WhatsApp contact button */}
           <a
