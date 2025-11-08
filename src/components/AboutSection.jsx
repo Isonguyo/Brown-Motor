@@ -48,7 +48,7 @@ const AboutSection = () => {
 </div>
 
 
-         <HashLink className="about-btn" smooth to="/home#inventory">Explore Our Cars</HashLink>
+         <HashLink className="about-btn" smooth to="/#inventory">Explore Our Cars</HashLink>
         </div>
 
         {/* Image side */}
