@@ -18,9 +18,9 @@ const HeroBanner = () => {
   Browse Inventory
 </HashLink>
 
-<Link smooth to="/#about" className="btn secondary-btn">
+<HashLink smooth to="/#about" className="btn secondary-btn">
   Learn More
-</Link>
+</HashLink>
 
           </div>
         </div>
