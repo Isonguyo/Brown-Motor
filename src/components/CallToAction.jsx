@@ -13,12 +13,13 @@ const CallToAction = () => {
             here to help you make the best choice with confidence.
           </p>
           <div className="cta-buttons">
-            <a href="/cars#inventoryMain" className="cta-btn cta-primary">
+          <HashLink smooth to="/cars#inventoryMain" className="cta-btn cta-primary">
               Browse Inventory
-            </a>
-            <a href="/#contact" className="cta-btn cta-secondary">
-              Contact Us
-            </a>
+        </HashLink>
+           <HashLink smooth to="/#contact" className="cta-btn cta-secondary">
+            Contact Us
+          </HashLink>
+
           </div>
         </div>
       </div>
