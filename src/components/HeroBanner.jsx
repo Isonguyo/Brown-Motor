@@ -1,6 +1,6 @@
 // src/components/HeroBanner.jsx
 import React from "react";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink } from 'react-router-hash-link';
 import "../styles/components/HeroBanner.css";
 
 const HeroBanner = () => {
