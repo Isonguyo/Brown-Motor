@@ -1,6 +1,7 @@
 // src/pages/CarDetail.jsx
 import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import carsData from "../data/CarsData";
 import "../styles/pages/CarDetails.css";
 
@@ -28,7 +29,7 @@ const CarDetail = () => {
 
   return (
     <section className="car-detail">
-<Link to="/cars" className="back-btn">← Back to Inventory</Link>
+<HashLink to="/cars#inventoryMain" className="back-btn">← Back to Inventory</HashLink>
 
 
 
