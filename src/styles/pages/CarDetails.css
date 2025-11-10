@@ -18,8 +18,9 @@
    BACK BUTTON
 ================================= */
 .back-btn {
-  display: inline-block;
-  margin-bottom: 2rem;
+  position: fixed;
+  top: 90px; /* adjust below header height */
+  left: 25px;
   background: #ffb703;
   color: #0d1b2a;
   padding: 0.6rem 1.2rem;
@@ -27,11 +28,14 @@
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
+  z-index: 1000; /* ensures it stays above content */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .back-btn:hover {
   background: #e6a000;
   transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* ================================
@@ -286,3 +290,12 @@
     height: 180px;
   }
 }
+@media (max-width: 600px) {
+  .back-btn {
+    top: 80px;
+    left: 15px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
