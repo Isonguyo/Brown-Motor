@@ -28,7 +28,7 @@ const CarDetail = () => {
   };
 
   return (
-    <section className="car-detail">
+    <section id="car-details" className="car-detail">
 <HashLink to="/cars#inventoryMain" className="back-btn">← Back to Inventory</HashLink>
 
 
