@@ -1030,7 +1030,7 @@ gallery: [
         "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763582230/Toyota-Highlander2017-8_wcnfoh.jpg",
         "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763582188/Toyota-Highlander2017-9_gkddjf.jpg",
 ],
-  video: "../assets/Toyota-Highlander2017.mp4",
+  video: "https://res.cloudinary.com/dbozz4sgv/video/upload/v1763583240/Toyota-Highlander2017_zlkt40.mp4",
 },
 
 {
