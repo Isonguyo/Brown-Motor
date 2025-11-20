@@ -1051,7 +1051,7 @@ gallery: [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-   mainImg: "https://i.pinimg.com/1200x/5a/10/bd/5a10bded3a72731677e90aac0acf4fc4.jpg",
+   mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763642138/ToyotaLandCruiser-2017_mj1kio.jpg",
   description:
     "Top-tier luxury SUV built for performance and durability, perfect for both off-road and city driving.",
   features: [
@@ -1062,15 +1062,14 @@ gallery: [
     "Sunroof",
   ],
       gallery: [
-      "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571289925_122153238362741789_4513558247369426989_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEKnv3eDKt58KmGYrUlVBrMMkOq_YhLNT4yQ6r9iEs1PrNQN24CvloUlr9hj_FBCL6rXVxYzTeMmg-SjlWSgcaP&_nc_ohc=eUI6q4NSQ-QQ7kNvwFDmdok&_nc_oc=Adk4hSRjYzDEK49hsFCwYxbScONkT8Q7L7NrEsn3b4S0Dgv2epsgrk21hucvfOF_blM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=-Veh9_D9O7m1SPRmYH3FRw&oh=00_AfeqvCUJ_y4OJKDytsEqYTU0AamxZ1QQi5A1U7JueCJDDA&oe=690679BA",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569278665_122153238278741789_5332872160382226222_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEpKO-VdqO852ne0dIYKUShyOvr2PNR4JHI6-vY81HgkSKsLZv2LC8v4A2lbvXshSgOL38l2DE6fInMhjlp0xwg&_nc_ohc=XlKU8DWBBcoQ7kNvwE1kGep&_nc_oc=AdkLZi5PTAJ27dDQm1GZ7t0lOLgGlXp2yQtt-RLajRjonVfG4Paa5YaEZu8zG3p5q1Q&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=aCQQkZl3C_LcXB8a-kiNdA&oh=00_AfepmUiysz-hp2def0bs9kYh-cYb5oiOpfJ4Gd3IG8dpeg&oe=6906631C",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571217444_122153238518741789_922374907700761395_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG1D9d4UOAMIfW6K6eVdXajoJ2JHs4pWDqgnYkezilYOi6uF6ec0dvxXT1qvvdLJf4pYPf-pBOrye-XEB-pEfhA&_nc_ohc=QgI7gcyXR6UQ7kNvwH0QOp3&_nc_oc=AdnSbOXfkvC8uIt47qhJRGdkQbZjH8HPpkpphr5MDbVYSgJZamNlKwaBywF4YtXog7c&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=-ma-8lbQ4OUZNmDT1XDB0A&oh=00_AffLzwvi-cAkGDUxEBB3bTs0aCvzYro3XWjw8-S3d0fenA&oe=69066851",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571442880_122153238314741789_713399763461261642_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzsJwTaqjr9PpogzsAudISTxtdsTclEyRPG12xNyUTJKCAunWgQr3tYFVx_L8hF5Ou8CVJexq-1A93_e2IW2Qh&_nc_ohc=tipqUxwTM-sQ7kNvwGfnLM6&_nc_oc=Adl7el9dWvUO_4mr11gzu59MSlvjjkmIjQ_TTnKnqmCBKhn74AwiAFe8AtmDdOP6szk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=YKqKUqXC3O3QJzsTx96zbA&oh=00_AfdRjIiy785qkIqD4RC7w6uW_06kwLjD3fqiS7Dgx9PLYg&oe=69068D13",
-      "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571265717_122153238452741789_4504562819454460589_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGgL9_Phnf6Q_jT8g9qwHzZrV0G-6A4xUStXQb7oDjFRJ1W-2HIU9WZ1NG9iyx3Mcon-Bu274_ufSmzTNZ8iOwf&_nc_ohc=h_DlAfxnFDUQ7kNvwEisJC7&_nc_oc=AdmKHRZ4Uk3F26MwsredvE-7lfLeDq-cNZvuUci-_ZCKdcyFXUm0y4eiuJgtzvJ1ljo&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=vCMzDKNByG9OlZcKsySdvw&oh=00_AfdjUbpCIz7KkuqSWPwlXMqz_m68Z87vRyRZ9ETDE1TgtA&oe=69067D30",
-      "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/570157141_122153238236741789_7073122340771870268_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFviBpyp2-cjCQuDw_LNOMf4dk06_OkbiTh2TTr86RuJEQfdHdgAUGj0iQKq6UNhR9SxU9lz9o3GywnL72hxL3l&_nc_ohc=4sOGyHnr7XoQ7kNvwG0xiwt&_nc_oc=AdnX_orE1kkpNJVjBl0mRjB_uetUOVBsUpcuZ6ulHCYOo620eWZZOghv1sfJ5ddXq4Y&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=KQnNjqi3ij4fw_zkOUNR5g&oh=00_Afd0Fx24RMBe7ir_BRtSuPTVb_ZGYF7kcheZFF1vGTIKzQ&oe=690687EA",
-    
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763642584/ToyotaLandCruiser-2017-1_vdq4fh.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763642584/ToyotaLandCruiser-2017-2_rbum6u.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763642584/ToyotaLandCruiser-2017-3_atcxti.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763642583/ToyotaLandCruiser-2017-4_op1ssy.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763642583/ToyotaLandCruiser-2017-5_amqbu0.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763642583/ToyotaLandCruiser-2017-6_f53jwh.jpg",
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "https://res.cloudinary.com/dbozz4sgv/video/upload/v1763642919/ToyotaLandCruiser-2017_y865u6.mp4",
 },
 
 {
@@ -1091,7 +1090,7 @@ gallery: [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-    mainImg: "https://images.dealersync.com/2635/Photos/291051/20181127225720408_2016_mercedes-benz_glc-class-pic-5789636405200888194-1024x768.jpg?_=a1aafee90e5894060b909f94bcc69e43571f32c6",
+    mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643233/Mercedes-BenzGLC-300-2016_lsgseb.jpg",
   description:
     "Stylish compact luxury SUV with advanced safety, refined interior, and smooth turbocharged performance.",
   features: [
@@ -1102,20 +1101,19 @@ gallery: [
     "Reverse Camera",
   ],
       gallery: [
-   "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571454203_122153238746741789_6791400518532608851_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEI1p5lf-XhwM-IkQq4LZcJ5Pmmek2iZFXk-aZ6TaJkVRbsaKMM91yfrUsI_Samz-AI69QHJTV1W_QKmiiadHUk&_nc_ohc=mgp2eSLAaxoQ7kNvwE9GRNP&_nc_oc=AdnOVSLUOo6KnBxxYDcMYOPbIBTCgSJzKGx1Rxe09wM_KkIODnckrbFQRIgMV28Ix3U&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ns6b2_9dtHgdONRpxn2mPg&oh=00_AfeFa3al7mS-xQeUA2YUIDdCNOIfyCq7PtfX3crX9Fw3NQ&oe=6906528B",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571351932_122153239142741789_5366049458841574843_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFfI4K6oqOq3lVok0dklzvrKOgEMboUjbQo6AQxuhSNtEVV_wYKXMvdTusIUbpaS30jLeK8KEXB7mQUTu3DkO3a&_nc_ohc=xQNcFauHPvAQ7kNvwG_8d5L&_nc_oc=AdkI2HxfmVA-qd7SNL499uFrVHaMOdUYzZ6D_mrdt1hlbK6XzveLrzuLwVIitgQJWiM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=XKKeE__k8zIId-BgutoZuw&oh=00_AfdgDUZIrU_yKfLmoK1z3I-aHuLh3A92CRfRLKeaDgjaPA&oe=690678A3",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571139362_122153238818741789_1616351950607974143_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGc-Fe7t6hAnLTkZRwVvh-u5tf05P1km7bm1_Tk_WSbtiyBAYGdwt8D2hBiPVca8eYuDubMi-HqRvr4mLUOvWb4&_nc_ohc=ywXw4qlZ9HYQ7kNvwF70ukX&_nc_oc=Admboi7TkNINWbw0H1VgFx-BZHQbUpzo7V45UKulWmX8GSqS67mmbRHLoSxMExWB2Ss&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=oo6tP7A6dQgpd7Mh5xAYHg&oh=00_AfcygIjxU5wr-Xjih9Aygmma7PRXTYT-0UU5fhKXs0Y57g&oe=69066BE0",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571115632_122153238938741789_8207610854411185247_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFU3peuCsVBN1zsdjlZQj7N0HOjHXD7sTXQc6MdcPuxNQTF6B3ccMfBZAhynfcNsZAY8w6WUstWWWujo84jxCsc&_nc_ohc=FnCg8XcEnpMQ7kNvwG3RkMC&_nc_oc=AdnJyrr8XkTl4ObxIONxOzSTDUcAN82itbW62Tqam1uESXtjB1wjWduP4A3xL1tGES8&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=wHgxvlY8rISJndL20ub46Q&oh=00_AffVG1lRKxF4SlI3SGGF1rL5Na6CpBzL-0dqKDK3Lw7lbA&oe=69066C10",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571172991_122153238788741789_4808221488948404063_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEhyHPi0Gxpj7e7hmHypbqdMHyNE-AtN6AwfI0T4C03oGmP6y8mt07J5ZOGe4WlqMIuZ6CUG63Bj0d9hTuLk26p&_nc_ohc=K2FBl3df2toQ7kNvwHXmcq2&_nc_oc=AdmF79Uu4nWTeu9BGqhIG9vLR-_tOcWN0O7-91XRaiAK5elXCX3hHWnhXvWTy7HPVFE&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=1jOgibQxr0dyGzijZW99gg&oh=00_AfeGAhFtDe97qLmHnDh4SNQ_KTPcrq7MwLEeRv4KgixnLg&oe=69068024",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/570489968_122153238866741789_7931098956718785640_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH4KbHtuSWzJEu1TMmonhK2Xylbe6PccR1fKVt7o9xxHcxIn8sKf3OTwqLZZTfaWOhMCt-wI8eeXqchfuJaS9y_&_nc_ohc=RMSXpyuoUNUQ7kNvwFUdcs3&_nc_oc=AdlaFIM84WmBFljdzy2bo0GoxXBQdelz3b9oIWS-Ipsd_luwIypax31K2nzDVsqDWWI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=_k9IgelYFBgRpxQZYQM2LQ&oh=00_Afd7n08kxLgH7B4Pax529MppiyzuoMO_u88ozL4YR06UkQ&oe=690674AA",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571173001_122153239058741789_8962629010897258355_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFSRB0DoxB18h2WtGyDHj8QvbphD2gUJFS9umEPaBQkVISLJxa2_qWMohwoL3EIh5HCc4KTdgYIsr9Gu4OHMZDn&_nc_ohc=kwJm8pbM5GsQ7kNvwGNqc5O&_nc_oc=AdkVnyXC5_deqqWrtSL32m7hCoIP2xAo8CIfhdw_ZNh1ZkCFhzp30uL1izHzNJsN7lw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=3HgcmSJqZ6MiVGEJLSCyEQ&oh=00_Afda1CXJNw9xVjfz6eg9mcYhBcJpgDCKDnHVGg2UFgLj_A&oe=690677BF",
-    "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/570400674_122153238884741789_6394768716414897069_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHi4-lhAuuVu0ZyZixGsygIeesqs_wufs956yqz_C5-z5P_V5tW_7xm0_NXz7aK9gDRNwokX1lwvTXrkDzhwoC6&_nc_ohc=4KjeVlcZGr4Q7kNvwGXpD6A&_nc_oc=AdmKiE2no3l8oxGxwQ8kwSYtlEDbQFkReb2w-Ok1E-S-ZhMD-C8bNZ4y2o52o3rryZw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=u1hH8jLQMDChHQoFXtVCKQ&oh=00_AfccoJOPRZoLEm0glha_E7st7L5GvMheRCFEJ67izKIgZw&oe=69066D6C",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570057129_122153238998741789_1945123147880250923_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEF2BhOItHWWiFXyADZOccj08eJuwqfl63Tx4m7Cp-XrQCrR8B9qMDDw3OqSrUuF1cW1Ki2TMHfC8R09Aewu0AP&_nc_ohc=sDYDfYrIZt8Q7kNvwGGX3FY&_nc_oc=Adn8tnR8mKVgHavCMZoPU7EgMRXU9Yo-LsbGRxBRCJGrvFeBCbnfmfwkeUwIesBlLd4&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ejyRegLf-lyHikxj13M6aw&oh=00_AfcpNA0_1V6A9d03biRfiT-__Z7HJ0qaUjRM79fbunTVbw&oe=690694B3",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571260401_122153239064741789_7766253535240118480_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF37lKUq8TiOf-yFJPN9klBcmor1_09UUtyaivX_T1RS_GSLCWG44YRQkmZ_fLoH_xCOVfccLummM_2MF7KaibM&_nc_ohc=JWof9WOUQDMQ7kNvwGqd5mT&_nc_oc=AdmVMCp31DRmXWicZOOMJgwINYOBLqsuJ6Gcf0NOfbvPj2I_-4YdocOzYX18c5_sRxw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=DQdG46CDcX73XyMV9iFXSA&oh=00_AfeL9znHXe_W8gta_NteEXT2oQCSgUYlDC5NeNGruYqcfw&oe=69068274",
-    "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571188789_122153239004741789_8497778626949125260_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHdUZzW_XtAydRdow6HuJh4akcPB3Ro_rBqRw8HdGj-sEZ95H2dadI5tHEJb3-ZKEpa9t4NIYs6M_Nv_I8lDZh9&_nc_ohc=fT7J8Ksi0gcQ7kNvwHZry44&_nc_oc=Adk6BzF5J6s4GjfMAbPiDraViuUO1ZzdqdkT6Pmks6_tDIKNwZOo8JDjwK4mww7i36Q&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=YRbZeYDbRoGxSBulROxj2A&oh=00_Afc0b0NHHSjfU3PFCOcn_dmXBaKCTz-OMN83GNFhd0Bx3A&oe=69066166",
-    
-  ],
-  video: "../assets/Toyota-highlander2012.mp4",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643522/Mercedes-BenzGLC-300-2016-1_uz5iaf.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643521/Mercedes-BenzGLC-300-2016-2_p6sdvx.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643537/Mercedes-BenzGLC-300-2016-3_csqvgq.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643537/Mercedes-BenzGLC-300-2016-4_bf8gbg.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643532/Mercedes-BenzGLC-300-2016-5_gd3d6i.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643532/Mercedes-BenzGLC-300-2016-6_hn9zcs.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643530/Mercedes-BenzGLC-300-2016-7_l42thb.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643528/Mercedes-BenzGLC-300-2016-8_mesbki.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643527/Mercedes-BenzGLC-300-2016-9_ohcr6v.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643523/Mercedes-BenzGLC-300-2016-10_uyp8jt.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763643522/Mercedes-BenzGLC-300-2016-11_g0eikw.jpg",
+ ],
+  video: "https://res.cloudinary.com/dbozz4sgv/video/upload/v1763644037/Mercedes-BenzGLC-300-2016_saxijf.mp4",
 },
 
 {
