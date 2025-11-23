@@ -1,6 +1,6 @@
 // src/pages/CarDetail.jsx
 import React, { useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import carsData from "../data/CarsData";
 import "../styles/pages/CarDetails.css";
@@ -13,55 +13,80 @@ const CarDetail = () => {
 
   if (!car) return <p>Car not found</p>;
 
-  const images = [car.mainImg, ...(car.gallery || [])];
+  // ================================
+  // MERGE IMAGES + VIDEO INTO CAROUSEL
+  // ================================
+  const mediaItems = [
+    { type: "image", src: car.mainImg },
+    ...(car.gallery || []).map((img) => ({ type: "image", src: img })),
+    car.video ? { type: "video", src: car.video } : null
+  ].filter(Boolean);
 
-  const prevImage = () => {
+  const prevItem = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? images.length - 1 : prev - 1
+      prev === 0 ? mediaItems.length - 1 : prev - 1
     );
   };
 
-  const nextImage = () => {
+  const nextItem = () => {
     setCurrentIndex((prev) =>
-      prev === images.length - 1 ? 0 : prev + 1
+      prev === mediaItems.length - 1 ? 0 : prev + 1
     );
   };
 
   return (
     <section id="car-details" className="car-detail">
-<HashLink to="/cars#inventoryMain" className="back-btn">← Back to Inventory</HashLink>
-
-
+      <HashLink to="/cars#inventoryMain" className="back-btn">
+        ← Back to Inventory
+      </HashLink>
 
       <h1>{car.name}</h1>
 
-      {/* Carousel Main Image */}
+      {/* ================================
+          MAIN CAROUSEL
+      ================================= */}
       <div id="mainCar" className="carousel-container">
-        <button className="carousel-btn left" onClick={prevImage}>‹</button>
+        <button className="carousel-btn left" onClick={prevItem}>‹</button>
 
-        <img
-          src={images[currentIndex]}
-          alt={car.name}
-          className="main-image"
-        />
+        {mediaItems[currentIndex].type === "image" ? (
+          <img
+            src={mediaItems[currentIndex].src}
+            alt={car.name}
+            className="main-image"
+          />
+        ) : (
+          <video controls className="main-image">
+            <source src={mediaItems[currentIndex].src} type="video/mp4" />
+          </video>
+        )}
 
-        <button className="carousel-btn right" onClick={nextImage}>›</button>
+        <button className="carousel-btn right" onClick={nextItem}>›</button>
       </div>
 
-      {/* Thumbnails */}
+      {/* ================================
+          THUMBNAILS
+      ================================= */}
       <div className="carousel-thumbs">
-        {images.map((img, index) => (
-          <img
+        {mediaItems.map((item, index) => (
+          <div
             key={index}
-            src={img}
-            alt={car.name}
-            className={index === currentIndex ? "active" : ""}
+            className={`thumb-item ${index === currentIndex ? "active" : ""}`}
             onClick={() => setCurrentIndex(index)}
-          />
+          >
+            {item.type === "image" ? (
+              <img src={item.src} alt="thumb" />
+            ) : (
+              <video muted>
+                <source src={item.src} type="video/mp4" />
+              </video>
+            )}
+          </div>
         ))}
       </div>
 
-      {/* Basic Car Details */}
+      {/* ================================
+          BASIC CAR DETAILS
+      ================================= */}
       <div className="details-grid">
         <p><strong>Brand:</strong> {car.brand}</p>
         <p><strong>Model:</strong> {car.model}</p>
@@ -92,17 +117,10 @@ const CarDetail = () => {
           </ul>
         </>
       )}
-
-      {car.video && (
-        <div className="car-video">
-          <h3>Video</h3>
-          <video controls width="100%">
-            <source src={car.video} type="video/mp4" />
-          </video>
-        </div>
-      )}
     </section>
   );
 };
+
+export default CarDetail;
 
 export default CarDetail;
