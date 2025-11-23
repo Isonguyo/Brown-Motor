@@ -1156,7 +1156,7 @@ gallery: [
         "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763813466/Toyota-Highlander2010-9_plbhxp.jpg",
         "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763813465/Toyota-Highlander2010-10_mjznby.jpg",
    ],
-  video: "../assets/Toyota-Highlander2010.mp4",
+  video: "https://res.cloudinary.com/dbozz4sgv/video/upload/v1763832724/WhatsApp_Video_2025-10-30_at_8.08.25_PM_xngofx.mp4",
 },
 
 {
@@ -1177,7 +1177,7 @@ gallery: [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-   mainImg: "https://i.pinimg.com/736x/38/57/d1/3857d196cf98e9b6886a8399e8da9394.jpg",
+   mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763832830/Mercedes-BenzGLE-3502017_nhjpii.jpg",
   description:
     "Luxury midsize SUV that combines advanced technology, comfort, and performance.",
   features: [
@@ -1188,18 +1188,17 @@ gallery: [
     "Blind Spot Assist",
   ],
       gallery: [
-          "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570197101_122153240606741789_7314794850483872908_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEmWIsdtYPwD4NO6sF0kE6yHMw7i6IhR-UczDuLoiFH5a8mjV_0zeKWEkfFtDRGsnrudeRPoRAcuF7u_b7L4f44&_nc_ohc=qgXzqcvxwXAQ7kNvwHXuErb&_nc_oc=AdnmpGQSJh9RbsTUrl4F6d0imB-IURbfUvAiVAkL3oOoYLqo4iGnjYf6fNF0A137pQk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=c_oiZdUH3KmrCDK2jvbs3Q&oh=00_AfcjHu8ujubrwTVAlDn4b7ozOtyQohJdz6eFc79W-shoPg&oe=6906974E",
-          "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571035211_122153240552741789_6085865353671157659_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGvThDjuN3HogcVYAw3ButrM8zlilEEXvgzzOWKUQRe-K63hR54vUuyVDozqPQYSPYH2mxUgQv_eGBnx1n-vo_K&_nc_ohc=V3Xssg-ixAUQ7kNvwH4qtAs&_nc_oc=Admyb1O8Y55b6iVTKZ_yOqWjYWz4lruljjtNz-j9336JrvoCYhZX8XcJiftE--i_sIM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=0yv5snKra7UAEm0o5G5PZg&oh=00_AfcTLwqPrV8w6h_8pJo_X8jH_bU0F-5nFksOBzK7X46lRA&oe=69066606",
-          "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571190391_122153240966741789_4639062593104951131_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFGSxlg2Cqdfx5KsL8vvRKB7Wno3WN3zkHtaejdY3fOQVzOZPGUVcKKTQrrk1-OT2jdrwRKU0Em8GgXQlbO-rws&_nc_ohc=Nj4q-h_RXCkQ7kNvwF7hPmy&_nc_oc=AdnfDJE-0pcuuQa7rl6AB33ip833L3XbkxBn3bWyvMzN0o4BeBjhh77N9mo6UgTmNVk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=oHyYx9AYEuPVhMKeEQ4WNA&oh=00_AffJtdcGkbuG6GItH7u98uGEOHiskaF9h_fbyRNDC1dwiA&oe=69068047",
-          "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571111752_122153240744741789_7949991952091158400_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEyDy1iTJBmMPb1D7vXKKOqxEGz06un5kHEQbPTq6fmQXDiLlkgQqxU9DmtO5Ie3cPgJqTVe7X6rlfkkJw3QcyI&_nc_ohc=51bMhYsgjo4Q7kNvwFWKPRx&_nc_oc=AdlQVDjr689Dt6YPc0mUWEPGL-2zfyNSQ0oowejyuobE5LRecBAi3bupSOZitnzDvKM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=_GUkcWGuY_MDXh44ruglBQ&oh=00_AfexRZeWFtFvbIrofag2Od6LZMvpJ8I9ryqykwzf0LDbrQ&oe=69068E15",
-          "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571157845_122153240816741789_7852297365199128533_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFpJ6iP5Lu1UFv9G95_E9jeQKjAGkkyIAxAqMAaSTIgDApprlz7_iBgPjXQNw9leNQONftaMRO16wNlX4wcX9qa&_nc_ohc=wDyh63azT8oQ7kNvwHBfyg2&_nc_oc=AdltnnLT8N2wZcK5FtCeUwt347i8xS_sFcFkkaF3-HFkFr7vwsBMLps-BsfwKvX4Ebc&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=EMzpAEfLsFaklnT9JDIwpQ&oh=00_AfflckcBhOmq28AG29EvZ_P9qO4venrMU5ofdll3MeA0MQ&oe=69066656",
-          "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/569586011_122153240654741789_6978247052084850222_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFnWY6iCn_OYE2TOXj8KB0BSDKiz1cjNUNIMqLPVyM1Qy6_L7VGpzHRXQp4PcKmmvHXq5-ogMVTG0nn3dxr7eDK&_nc_ohc=qh1CwHewI-YQ7kNvwFX-gSc&_nc_oc=AdnzyoiI_ldBm46B1gKtqM_N50HkbXjKCfLZ8uLUlkYqy2DMPrPws4Gb3u7wEWdROqU&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=sLeFS3gHmyF57PwkPXXn8w&oh=00_AffxOc2j0Vbuw7V_06OFCAlttYiapMKRuzPTFXTGt7zfzQ&oe=69067A95",
-          "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/570305687_122153240702741789_5265605738194395075_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGq759RZQgxbRzvvM1Ek3rqWGaP5lQjB-tYZo_mVCMH66mLlb1c4N-PyFMEW4HuQ-jEtsZkaIE062s7PDwJjz2d&_nc_ohc=qpLx4tEd_zAQ7kNvwEAxN_g&_nc_oc=AdlQNMOY16LXA6mtLrA-xy5Ru6FZPK8Dup0Ta3FOM-KsIlHoeKCpCySQMOxxGxnl5hM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=y_3cKwmmRXQ0iIodip9w7A&oh=00_Afef5ma92z-FBzb2QW502skTifyNwDfdr0gOCnYqim4-0w&oe=69068EBD",
-          "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571123332_122153240780741789_4734411648126917365_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFP2OVI_Ro-fNnxA_EyYcUZCxjWaBccxJILGNZoFxzEkgYorgqd28S6jczgG2ZO6gk81206_zyJd164f8YGnt2C&_nc_ohc=loCvp8cuosUQ7kNvwHUjiH9&_nc_oc=Adm7bQf3_PNObDIjrpmjRmVRqHiWrwpDowpXNS6BpmsOStmtZvLvKxtUXOYNy5Mv7K4&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=XqaVLW-mLnOCp6sKTxjVsA&oh=00_Affkij98mdTDslNUPZB8PhVFc7LA8wmVyG-VzLxrammHRg&oe=69067A5C",
-          "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571553720_122153240900741789_5486416688081084559_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF-ulRJ47coQLW_DFeQJXEjlE3-bc6WlyiUTf5tzpaXKPrUyWDkfC7QzO6gT--0WtGUVHbA6GwHqKZKWvYw7Qvt&_nc_ohc=nXDUQ6c6oecQ7kNvwGK0RvS&_nc_oc=AdlQer9PkBsMDCCEbxUex8UZjCEutcC_V6N6lS1tbTgOPLHk0G8SwB6168KpNG0q4Zo&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=wvySAL7PaL9wRLKpGDn0kA&oh=00_Affuucrj27_tgthIdo1_xM4DPeewTwVeGWKm1rIkmacJeg&oe=69066C33",
-          "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571340084_122153240870741789_7624026080676663304_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGaNaR6YA-iMPF2W2Kf5-ibOwVYTXsh2Ak7BVhNeyHYCZRPf54qrJTQdVNFhlKrwm_ePD7RAm9cQLbSKsDUwYpy&_nc_ohc=Jw1oRgsa9dQQ7kNvwGAqT3O&_nc_oc=Adn5E9-9_Blhxtm5RpJVDRgYi-ciAQMStwnuz8UvvvESXx5UBo9fLjrGUWR5dl2mK9c&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=4W8RBPgAr_HhXz-5bhxFNw&oh=00_AfdnRrqPG9PhG2uCxo1F_GWxv3h3VD7sD_z-fcqdYRzG4Q&oe=690696E7",
-  ],
-  video: "../assets/Toyota-highlander2012.mp4",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833002/Mercedes-BenzGLE-3502017-1_ifiypk.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833002/Mercedes-BenzGLE-3502017-2_czjbnt.jpg",
+         "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833002/Mercedes-BenzGLE-3502017-3_y4vlhg.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833001/Mercedes-BenzGLE-3502017-4_kndght.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833000/Mercedes-BenzGLE-3502017-5_hepmmn.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763832999/Mercedes-BenzGLE-3502017-6_uyygqk.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833002/Mercedes-BenzGLE-3502017-7_s5cows.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833001/Mercedes-BenzGLE-3502017-9_tqt4za.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833002/Mercedes-BenzGLE-3502017-8_psmyvc.jpg",
+         ],
+  video: "https://res.cloudinary.com/dbozz4sgv/video/upload/v1763833283/WhatsApp_Video_2025-10-30_at_8.08.26_PM_xgrfih.mp4",
 },
 
 {
@@ -1220,7 +1219,7 @@ gallery: [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-    mainImg: "https://i.pinimg.com/736x/63/2b/d7/632bd7c6cfeeb4c464ffee9c574f18a8.jpg",
+    mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833411/ToyotaRAV4-2013_cna5ge.jpg",
   description:
     "Compact SUV offering durability, fuel efficiency, and Toyota’s trusted reliability.",
   features: [
@@ -1231,18 +1230,18 @@ gallery: [
     "Cruise Control",
   ],
       gallery: [
-      "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571679795_122153241692741789_6805664879687051640_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHgugq6LEEb2rjCH0jrNP-s18iJzW179m7XyInNbXv2bjRKwJZr6p3gJcB8C8Y8B6Pw4FVOPODuL93a6ZR5SYeo&_nc_ohc=8fv__rcud1UQ7kNvwFZyqGG&_nc_oc=AdkYXcet6xXXB8G4L2eCWmgzNhYAAkwYB2HuEUSBXYn8rdBExz1nvpIbr_MHriCxJPM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=mUXpD5roD3y_7eWLA2JFxw&oh=00_AffX8U79I4QrGxgCclmPZm74JDg97FFuL1kySUKQfPed2A&oe=690695F0",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571300217_122153241944741789_2748109397626880384_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE6gO2pAEXuL4NTfGgWW5OcUruIgKGR8Q5Su4iAoZHxDl6EpPxCeXb5w6P0goLsULdjVAoQEtFuUDR0RcVzfvpX&_nc_ohc=7triZghBSt4Q7kNvwFYoTWA&_nc_oc=AdnzZ1aSYBvzAQDDv4jAwNNvWPiLkr9EgsdZZfOiPpmAc4Y2sXsmZ62ao65lyodKQmg&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=xiRIvEVyYcfiAfi-RDcwhw&oh=00_AfdIr9kyN881w73U_bfBecZBChpqp2jssHFUF8fnvtg20w&oe=6906728C",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571791704_122153241908741789_4801642429354780191_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFqv7OrpKs9DMjcAlU79Kbo_YHZmN7oQGf9gdmY3uhAZ_uks3UHuzEss2YNX3dL4fLLLL5DtEvT4_JkLBVZkjYk&_nc_ohc=Z_Ss2CV8bwMQ7kNvwEbk-Ht&_nc_oc=AdmgFp22pgQHimqgUToHNMP9eiVA72poznqRQAy2zHpuXfOdiPtG7a7HkboO5MX0pCU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=ivb3jZUJBwsQWMDXP0uvKA&oh=00_AfdMUES1gVk5CxdbPYF1KveCN8rFYG7TJUN8mdclda3oew&oe=69067F93",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569421955_122153241818741789_3873294388341923193_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHCO-ptsRxnEfGOWpvAnvc4r354E-U0hISvfngT5TSEhG4GjNaU3L5gCtivvYYtm-Ws2A7NR78QhniwX19UuN2S&_nc_ohc=cHVLUIxMRLsQ7kNvwH5vvYg&_nc_oc=Adn-FfWzdN7xhaFETJVzP64_1bp0cbnQIdlTuBP7avLYozBbyGrC04_ZW30UsaFaUcQ&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=xiVpr7LAc29v_VrUX10h1Q&oh=00_AffsJDMHHXeH5jS37cU6X-e88lLGHqJNpsMC8xWwUH7tMg&oe=69067C20",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571276219_122153241746741789_2290536074875289166_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFGxag5nhTEfS83cF7fHm3Hqm728aUT7TKqbvbxpRPtMoBAPwcHvjZwXbfbq78pjW9s3lV11e5u4KJpAvYPSeIa&_nc_ohc=zTcr00wMw4IQ7kNvwEWHSYE&_nc_oc=AdmBZWBgZb_ENXd6Vnf9UBBkuk5Qa04A6Hx0vGMHTpQ5nf5GNxY68p8OdM32jf2n-ZU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=2oJnueU0Yj0ACMuxTt_-9A&oh=00_Afcyk6UstP9TxX5kLk2ReswIogDQsy4fJ82S_6Uz-Bt-6w&oe=69069305",
-      "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571331681_122153241866741789_6015883570933763092_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGnNKgCwX2eOiyN-TMi5LVVXKq7ZTX8rYZcqrtlNfythqyv9bWzI0bJYrMJb8AbAHV1AOZImwaYXb7GhfQ5rdO_&_nc_ohc=7qmMegLDKvgQ7kNvwEyzwgE&_nc_oc=Adle90BYjkEsJgjJi8P6AFN06QHdmfqpiyBo9bPyzM92fsFNzPuBSy3hOttr5yuDlXw&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=fm26EHDyXycdoZjFM_Bv2g&oh=00_AfcNoIQ_jXNRl9_8YyAtT13zXVOxNADBMKi_IyrspUIQ7g&oe=69066573",
-      "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571035196_122153241974741789_8854401568773924325_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFmpwloe7_yyAPvCPcrBrCk5OdLunczpd3k50u6dzOl3ZINWZdVMG5Cq_G3Rlchj66lgBz9QMEv9JsIhiDiW8ve&_nc_ohc=gnvD_Cs2up0Q7kNvwHikQYb&_nc_oc=AdmNDNGg8Gi5MAf9xwz01TSJbQAdwcJgGZHS0YSxcl2KjE9h6sA26Qq-m8k6saESxTA&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=sW5k_CU8KurtR9q32p-gEg&oh=00_AfcRJmeFa9GrTXiEeDUOSK8xE91ZGc1b3DiUUFNKV5GDLg&oe=69066DF1",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571129142_122153242070741789_8689170240732572737_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFLgpOn2LvCdI_pjF5nMUi1I7obUNS6fbojuhtQ1Lp9uiBG0v8YOwQSXPHk_wHz2DF3OtetNh7D0KsWEAQ8GKwP&_nc_ohc=bXNVoaMCWlEQ7kNvwGquDXo&_nc_oc=Adl9ABH3Ikrz9yaXuRkf00-i1wyxKZyWBHBMECBKEyC0rttyuFSb57fNfffk6kP2fsU&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=5fnjwQnajUm8F2tjfQnMPQ&oh=00_AfeAB8nRbICr61nwokMzM_5gLUqT2UPr-Wrg-924SlKv-g&oe=69066888",
-      "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571117067_122153242046741789_4538381623319067560_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEMhCBFnmGEgpmTg-yzA70YNLjVOkSIpIo0uNU6RIikipK3zIRcpLu3mNtsAHjEJQgEkeI_eHjtq02l99YFoxOx&_nc_ohc=8HaQgGpBnh4Q7kNvwHt9Kka&_nc_oc=AdlelEUdP5I8doOUAPwXNmJYgPS4wF2FXHYVpsa4xRqXEkGr6DMBQI4Dz7EdAFFq0Nw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=xLySpcCLR-xqZwTOz3RqUA&oh=00_AfdjsR-N1NcVwnnoTNl4t6qy-VpmkxiQRb1S2FPQs7tn5A&oe=69068B8A",
-
-  ],
-  video: "../assets/Toyota-highlander2012.mp4",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833588/ToyotaRAV4-2013-1_w843oo.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833585/ToyotaRAV4-2013-2_vudlyz.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833584/ToyotaRAV4-2013-3_ed47fk.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833580/ToyotaRAV4-2013-4_bpb2ek.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833578/ToyotaRAV4-2013-5_yug6qg.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833578/ToyotaRAV4-2013-6_wo64ig.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833577/ToyotaRAV4-2013-7_efwjez.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833578/ToyotaRAV4-2013-8_zbjt0f.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833576/ToyotaRAV4-2013-9_wcdkxb.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763833586/ToyotaRAV4-2013-10_wkrfgb.jpg",
+   ],
+  video: "https://res.cloudinary.com/dbozz4sgv/video/upload/v1763834403/WhatsApp_Video_2025-10-30_at_8.08.26_PM_1_mgv8oz.mp4",
 },
 
 {
@@ -1263,7 +1262,7 @@ gallery: [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-  mainImg: "https://i.pinimg.com/736x/e3/a1/4e/e3a14edaae20a2fea4cc78cb3e4d9d8d.jpg",
+  mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763834526/HyundaiSantaFe-2014_mmrfk9.jpg",
   description:
     "Stylish midsize SUV offering comfort, safety, and great value for money.",
   features: [
@@ -1274,16 +1273,15 @@ gallery: [
     "Alloy Wheels",
   ],
       gallery: [
-            "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571270432_122153242928741789_7042653396229020674_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHlnUyDADlsXBivcPwk1mWsIuLdZGQH9Uci4t1kZAf1R19aK2d6RpQR2_pDrdr2NNuwj1wJ1EoyqFNWupoPvBpe&_nc_ohc=6qOkYPmhgCoQ7kNvwEaFBQx&_nc_oc=Adnw99giAQcdOIrmcdC2mrokl4fhlxUGrXdPlanTGjruiGowC4bBYd84T8AqrhXlwUE&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=d9U6mXpyfzPITwxXQKmJaA&oh=00_AfelMCaWgSWswK_vKnCTMANDiVm7G6etGjo0JYc5mu1ztQ&oe=69068F22",
-            "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/570846565_122153242712741789_6361934327562247787_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHTN10yqB5igXq0f_JPmizIzvtIdHii_-PO-0h0eKL_46TpKDlzGUp8u5YRnmsWKt8Pq2x2CKbHaq94Wf6JpcHd&_nc_ohc=YRSjY7BLrSIQ7kNvwGG0EV7&_nc_oc=Adm248HrXc0qVUfBizdnP1gXOiYJYA_zqXLEXS0Uyi7hp4rJPyqJ6Lj3S3q7-cAq1TY&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=5vx0-uvyA1NeywITnLW6VA&oh=00_Affjjx_tRynWzMXFxIfvgjW_iyUO_jdY29ETG06KewpbTQ&oe=6906826B",
-            "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571149805_122153242958741789_9037355919460903665_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGRW1jPiLxTDgwCaOoJo9RBUHiHQG3e-cBQeIdAbd75wPJARb3NDLTUjwQYO3_08tXXlGAvNYdQDgoW4yhUUDLO&_nc_ohc=y0DaaeoVgTkQ7kNvwHT2wyj&_nc_oc=Adl7S3zslNpZMHjgNF-fhBM2OOEqcej_lC2P3cw0_CqmOz2VNP3j6HwNoHjX425fzXA&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=YYra2YTYhucmxJCP_hNrdA&oh=00_Aff8GwGpfPJvtfOwj7gvX6TTgasUEPrrMer4WYLkPBvOOg&oe=690685D5",
-            "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571688843_122153242838741789_2785827537493485553_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHWg4XTKbfqji3vQoklPWax6whqHrN994jrCGoes333iC1K4IW9RoEzTNxgECe5X6lId62TyKqoD4HtH6R1CDfL&_nc_ohc=2AhS5ysArgYQ7kNvwHXYMj6&_nc_oc=Adkl058533WS8vHAWAIB1fcL7AiyQam3oLPXt9xP1E8ZBPtHE7ZLsn63OYEZTQf0ChM&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=CG5BhEnkkUmSEzb9mIrwIw&oh=00_AfcUMzUOLO4YwhPr8m-bQKhuFsUY5v8abvusJy8YMtdkmQ&oe=69066728",
-            "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571112671_122153242640741789_2421564341160829193_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHKDQv9kiDuguHRFqQCafpHJqiesmAVB3omqJ6yYBUHemR4JZZy_CXnZ0RVWM26iUfXevK-NreA_7XVNEIxcq9n&_nc_ohc=sCT7S5cORh0Q7kNvwHXUQhp&_nc_oc=Adm0MQJ0qYsu6likNEKfhBLugIw3IpiCS2lUzjVZUZhdTGPqZEXSY1sbjmqwHEo4GoI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=LX53Mzofik-_xUNMhhnirA&oh=00_AfdfWnpbVHKVegOIPLFiXLGhnV4kb3NGbGqJWdahVo5o3w&oe=69069684",
-            "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569397065_122153242766741789_1015787729566906960_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH3btZp3LM9PooXxJAeqFM16PYGJrbj5ODo9gYmtuPk4Jl2vFMrD_d3LXeuY2nRGCqEIrTOPNcNWyOn_QBP01-E&_nc_ohc=30s9AUetHAUQ7kNvwGiEvLQ&_nc_oc=Adk3bfAvtS4yjwFgG4sdIO-dNDKmEvJ-OdGuh8a0kgSmdRr63iQ5umntGxI-Swo1dr0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=aAzCr5XQoSBYsK7oSPJv-A&oh=00_AffvG6qODALv8u-7PBmg88MmGQC-XHyK21r26gMJ8ySYhA&oe=69066885",
-            "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571264859_122153242886741789_241258018067950975_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHR628cDLdGMWZnVlKffKYkU4RC1S2tBstThELVLa0Gy6pBsnhRjg9HplZvley1VxHxuhWFzyMyy6VVFRmjOGiy&_nc_ohc=Qtn9lBw8OW4Q7kNvwGyeHM_&_nc_oc=Adl7hrV5xPSRXoHrdziBfx_HNdFSdXGOAHD-mxAoaldlT_iLeQgLJ7eOpuQg-yNbXSc&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=PSMKibMh5CgYjsYAjvLrKg&oh=00_AfezacU6A2cXPJ9Fhq6L3xdfh2TzWN6be88Q4R06WyIAoQ&oe=69069DED",
-            "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571124395_122153242808741789_6913603157103767831_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF9cxmmgAuLEEQ_XjRbpbWANKi1hnlCxAk0qLWGeULECTCdd3k4tydPq4vkXBakktAAtpFsWkwJ-Pg4wDHxNVxp&_nc_ohc=LkxX3qUfz4EQ7kNvwEUp68d&_nc_oc=Adk025pAWUYL2Lsb6uIXpMFrMQ6iSx2GNtge4JJz3xtqcTdDTNWsQgus_6SO5U6nLlI&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=RxmKIPf63bsniE98EPmzGw&oh=00_AffXvfjtbbTSXkga_EVdhAbEMkG1zKPuPuWDJj1STzeifA&oe=69067442",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763835456/HyundaiSantaFe-2014-1_jmgyd6.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763835456/HyundaiSantaFe-2014-2_jqbh8e.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763835456/HyundaiSantaFe-2014-3_fgujbe.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763835455/HyundaiSantaFe-2014-4_ohb3pt.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763835455/HyundaiSantaFe-2014-5_vygpx2.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763835454/HyundaiSantaFe-2014-6_wh87sg.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763835455/HyundaiSantaFe-2014-7_kwttyb.jpg",
       ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "https://res.cloudinary.com/dbozz4sgv/video/upload/v1763836194/WhatsApp_Video_2025-10-30_at_8.08.27_PM_oe7rzx.mp4",
 },
 
 {
@@ -1304,7 +1302,7 @@ gallery: [
   condition: "Foreign Used",
   location: "Calabar",
   availability: "Available",
-    mainImg: "https://i.pinimg.com/736x/02/d0/59/02d0598d17226541a6a34480bf127b18.jpg",
+    mainImg: "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841170/ToyotaCorolla-2020_zjq2hd.jpg",
   description:
     "Compact sedan known for excellent fuel economy, reliability, and modern interior design.",
   features: [
@@ -1315,18 +1313,17 @@ gallery: [
     "Touchscreen Display",
   ],
       gallery: [
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571274518_122153243720741789_1580033066414682578_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGDmtad36nWx_FzaHHv09TB-fzzzfKMniH5_PPN8oyeIdMMweK1K6KGg-UqJXor_qp99SoJ4YxkT3EGhs52igsT&_nc_ohc=75HlWgY9i84Q7kNvwHL9kaK&_nc_oc=Adl7fXuZ0jqjp_isNOrGl9dVTXNTevwSFxN4WdIcH5nyrKCth4s9rNTT4vYIEN3btyk&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=yQT14kzcsFXlRqr4F3O5yg&oh=00_AfcWvLMMpguYOKUx2RcGnKVJq93Yq1YBAYAv6ElnJz_eaw&oe=6906704F",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571100688_122153243786741789_4031136449038423329_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEhiL46Z7TBu1JM06XNI6nxiTHOn-qXbQ2JMc6f6pdtDW5F4kDZ93glAeLMFIL-Yo-gbkE6DzDMdeK6EZVEY5iP&_nc_ohc=gV1cTlk-0CIQ7kNvwHUPjIY&_nc_oc=AdmmQVg0zCgDVFD7RmqiiO0h5AFQrIHBT_HRcaXKMBqdqYF44QotaBuU2ia1dmRNITM&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=FufPDxRvajJepxVPvIF42g&oh=00_AfdJP4wHDBbwgzV0CeADwIpCX2Jp6ms7TIZMLNi4DpjTbg&oe=69069580",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/569261444_122153243438741789_6505340437297317484_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGxi_IUP_eHix-AP-IwT4nP5piDTrMCY8fmmINOswJjx2ly1K9k0PY2HLUcHalIOJ7iuqZcSfMbQuZYUqTGt4NM&_nc_ohc=HnHm4eJcomYQ7kNvwHcha-j&_nc_oc=Adn4f2B4jtIzY1uWUqW0lROcRwTgWKu_8JLvf6cXavS42j7Vt07xRah12DtqoKwCrKA&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=prCCAj5FoaiSRek8mLPqHg&oh=00_AfceXjXHF3redKou_GkVrJTh4j2n56aj1qlAjVU4R2IO1w&oe=69069E8A",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571277085_122153243360741789_999689448275133641_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHyRsp-NDA8IuATW6kbROSdbn0hCtHimrxufSEK0eKavAEphjyG9uS2VWAgoah7MSDb32V7nnQA9LcOeb-EWNxx&_nc_ohc=Z5qexBDBdA4Q7kNvwHk29H3&_nc_oc=Adme0f2mp_1TT3yfAHWlLKL61EHXDlM9DTNTrNHuLhehrcezaw1ln-tNrMFftshjOw0&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=x_nbkdbdRIernPN2-y5Zuw&oh=00_AfcscXsd8x9QlJiWzL7XrqGy8RihpENGIQ1lE_I9nVms9A&oe=6906994F",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/569397920_122153243606741789_7761768144966784154_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEXJILRz_lXhYvHW7bd1TyNXHp2KJJlvfRcenYokmW99J63C7Y5eSluCDTjt39HKwe4J78VqhW6VcNXEfUG1mHV&_nc_ohc=AIBoBCEFGUQQ7kNvwG5bpY7&_nc_oc=AdnVcUfj5iMp9HsLuHR84W_cenXh3CNV4JiZXRiSIhJY5gkUic-N4xoRl6VKsTn8mDw&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=iPHJt-c_VB3_WVWUzHJlPA&oh=00_AfcKpCslDqaXqDgLyLeQQbUKgsZi9hSjqmKDxnDvvgix6g&oe=69067474",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/571217684_122153243630741789_3239668924174850049_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF1b1Nz_C7-SgiNEYcF6Y0YoWo6AaWYe_GhajoBpZh78f44lPN_OK8vt50ZBU7DdrcGMJENM1iRMOTrv3Ow0kID&_nc_ohc=doa7YS0I_GUQ7kNvwGeAnj_&_nc_oc=AdmSk3IyUZ2B8u2OLTMJa_hOu3IyR_zjNcP8o8nWv7AW_mh0h2ug6QFir_7M5Tp7cM4&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=4rJwdNYmZs9FQRoEP3wqwA&oh=00_Afcr9hgOFcj0SUzTpfZBuDh-UxvCWAwyEEfaEXhGZY4PdQ&oe=69066959",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571142183_122153243522741789_3122937401273205231_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG52Ws_hNvo5K4zEyWY2g7rKJMJmgmSRY4okwmaCZJFjgsGcLfivJIIFdvXEEkLELYGrM35aQZ35e-O9UAy5RTl&_nc_ohc=xcAp1__iIFsQ7kNvwFNZXNM&_nc_oc=AdmICRjEwYdodnOdZL4zT6lpJV9XMpHxul69ClxQZP0n9RCACpqTq57m32V_CWiEh0I&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=heRJoyzqxr-x2ILv5fmyeg&oh=00_Afc5sB4YBi5RCXi4YXXb970NkNQDPTLSzRf3WX315t0SpA&oe=690681E5",
-  "https://scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/571192869_122153243738741789_5550020988397021609_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFjzOAO0oOo1ZUGuPaahtDXNWUyCTNo04w1ZTIJM2jTjLea2aiEMY8_MK1tsOzL-_bUbvzvUbAGr1usamTCRhDG&_nc_ohc=i0hKjldkX24Q7kNvwFJaDQZ&_nc_oc=AdnC7xR6f533xEYljL34ktzT3gruEye0OQisiEZ0jMfX2ZTxKk11JXX83pRdB_6mXNI&_nc_zt=23&_nc_ht=scontent.fphc2-2.fna&_nc_gid=WRIGXpnZfy691WBnBBAZHA&oh=00_AfeCXjgnBKj92GLH-Ot8YoPvMP_iz6Ya8WzMob6P4W3XEg&oe=6906733C",
-  "https://scontent.fphc2-1.fna.fbcdn.net/v/t39.30808-6/569308091_122153243690741789_8627994421085429168_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGVmnE2c4_hvkP-brR4Snb5lIttCYAwwXeUi20JgDDBdxjOz-I_N6JpnK7bo4V3htE-sk8SKiSV5YYXA-lVleoJ&_nc_ohc=HkvWdUjXkj8Q7kNvwHn-uxu&_nc_oc=AdlKZACkTs9QOZ-bgt7jGPxBqwFYECqy9362TJbpEN6znvsRwiSxMczsMiWI49KJoBg&_nc_zt=23&_nc_ht=scontent.fphc2-1.fna&_nc_gid=zsiHEC5tq78WCMoCt3ojCQ&oh=00_AffkOvyImgXlYDpQbnjFU-3AdZ5_HyvMfn7SvB-RkzOrbA&oe=690698BA",
-
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841397/ToyotaCorolla-2020-1_acnoyv.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841394/ToyotaCorolla-2020-2_rtcdsy.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841386/ToyotaCorolla-2020-3_puzg9c.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841386/ToyotaCorolla-2020-4_nosum8.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841380/ToyotaCorolla-2020-5_lg34az.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841386/ToyotaCorolla-2020-9_x2q09s.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841390/ToyotaCorolla-2020-6_ashrza.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841389/ToyotaCorolla-2020-7_fzwq0f.jpg",
+        "https://res.cloudinary.com/dbozz4sgv/image/upload/v1763841402/ToyotaCorolla-2020-8_anepef.jpg",
   ],
-  video: "../assets/Toyota-highlander2012.mp4",
+  video: "https://res.cloudinary.com/dbozz4sgv/video/upload/v1763928034/WhatsApp_Video_2025-11-23_at_8.54.36_PM_sxampd.mp4",
 }
 
 
