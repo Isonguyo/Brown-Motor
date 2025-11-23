@@ -63,26 +63,19 @@ const CarDetail = () => {
         <button className="carousel-btn right" onClick={nextItem}>›</button>
       </div>
 
-      {/* ================================
-          THUMBNAILS
-      ================================= */}
-      <div className="carousel-thumbs">
-        {mediaItems.map((item, index) => (
-          <div
-            key={index}
-            className={`thumb-item ${index === currentIndex ? "active" : ""}`}
-            onClick={() => setCurrentIndex(index)}
-          >
-            {item.type === "image" ? (
-              <img src={item.src} alt="thumb" />
-            ) : (
-              <video muted>
-                <source src={item.src} type="video/mp4" />
-              </video>
-            )}
-          </div>
-        ))}
-      </div>
+   {/* Thumbnails */}
+<div className="carousel-thumbs">
+  {images.map((img, index) => (
+    <img
+      key={index}
+      src={img}
+      alt={car.name}
+      className={index === currentIndex ? "active" : ""}
+      onClick={() => setCurrentIndex(index)}
+    />
+  ))}
+</div>
+
 
       {/* ================================
           BASIC CAR DETAILS
