@@ -123,4 +123,3 @@ const CarDetail = () => {
 
 export default CarDetail;
 
-export default CarDetail;
