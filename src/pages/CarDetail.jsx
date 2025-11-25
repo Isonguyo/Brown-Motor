@@ -9,88 +9,132 @@ const CarDetail = () => {
   const { id } = useParams();
   const car = carsData.find((c) => c.id === parseInt(id));
 
+  // States
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showVideoModal, setShowVideoModal] = useState(false);
-  const [zoomImage, setZoomImage] = useState(null);
-  const [zoomScale, setZoomScale] = useState(1);
+  const [showImageViewer, setShowImageViewer] = useState(false);
+  const [viewerImage, setViewerImage] = useState(null);
+  const [showVideoPopup, setShowVideoPopup] = useState(false);
 
   if (!car) return <p>Car not found</p>;
 
-  // Add video as FIRST slide
-  const slides = [
-    { type: "video", src: car.video },
-    ...[car.mainImg, ...(car.gallery || [])].map((img) => ({
-      type: "image",
-      src: img,
-    })),
-  ];
+  // Build media array: video first → rest of images
+  const images = [car.mainImg, ...(car.gallery || [])];
 
-  const prev = () => {
-    setCurrentIndex((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  const mediaItems = car.video
+    ? [{ type: "video", src: car.video }, ...images.map((img) => ({ type: "image", src: img }))]
+    : images.map((img) => ({ type: "image", src: img }));
+
+  const prevMedia = () => {
+    setCurrentIndex((prev) => (prev === 0 ? mediaItems.length - 1 : prev - 1));
   };
 
-  const next = () => {
-    setCurrentIndex((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+  const nextMedia = () => {
+    setCurrentIndex((prev) => (prev === mediaItems.length - 1 ? 0 : prev + 1));
   };
+
+  const openImageViewer = (img) => {
+    setViewerImage(img);
+    setShowImageViewer(true);
+  };
+
+  const closeImageViewer = () => setShowImageViewer(false);
 
   return (
     <section id="car-details" className="car-detail">
-
       <HashLink to="/cars#inventoryMain" className="back-btn">
         ← Back to Inventory
       </HashLink>
 
       <h1>{car.name}</h1>
 
-      {/* ================= CAROUSEL ================= */}
-      <div className="carousel-container">
-        <button className="carousel-btn left" onClick={prev}>‹</button>
+      {/* ================================
+          MAIN MEDIA DISPLAY (Video / Image)
+      ================================= */}
+      <div id="mainCar" className="carousel-container">
+        <button className="carousel-btn left" onClick={prevMedia}>‹</button>
 
-        {/* Slide Content */}
-        {slides[currentIndex].type === "video" ? (
-          <div
-            className="video-slide"
-            onClick={() => setShowVideoModal(true)}
-          >
-            <video src={slides[currentIndex].src} muted />
-            <div className="video-play-overlay">▶</div>
-          </div>
+        {mediaItems[currentIndex].type === "Video" || mediaItems[currentIndex].type === "video" ? (
+          <video
+            className="main-image"
+            src={mediaItems[currentIndex].src}
+            onClick={() => setShowVideoPopup(true)}
+            style={{ cursor: "pointer" }}
+          />
         ) : (
-          <div className="image-slide">
-            <img src={slides[currentIndex].src} alt={car.name} />
-            <div
-              className="img-zoom-overlay"
-              onClick={() => {
-                setZoomImage(slides[currentIndex].src);
-                setZoomScale(1);
-              }}
-            >
-              🔍
-            </div>
-          </div>
+          <img
+            src={mediaItems[currentIndex].src}
+            alt={car.name}
+            className="main-image"
+            onClick={() => openImageViewer(mediaItems[currentIndex].src)}
+            style={{ cursor: "zoom-in" }}
+          />
         )}
 
-        <button className="carousel-btn right" onClick={next}>›</button>
+        <button className="carousel-btn right" onClick={nextMedia}>›</button>
       </div>
 
-      {/* ================= THUMBNAILS ================= */}
+      {/* ================================
+              THUMBNAILS
+      ================================= */}
       <div className="carousel-thumbs">
-        {slides.map((s, index) => (
+        {mediaItems.map((m, index) => (
           <div
             key={index}
-            className={`thumb ${index === currentIndex ? "active" : ""}`}
-            onClick={() => setCurrentIndex(index)}
+            className="thumb-wrapper"
+            style={{ position: "relative" }}
+            onClick={() => {
+              setCurrentIndex(index);
+              if (m.type === "video") setShowVideoPopup(true);
+            }}
           >
-            {s.type === "video" ? (
-              <div className="thumb-video">▶</div>
+            {m.type === "video" ? (
+              <div className="thumb-video-wrapper">
+                <video src={m.src} muted />
+                <div className="thumb-overlay">
+                  <span className="play-icon">▶</span>
+                </div>
+              </div>
             ) : (
-              <img src={s.src} alt="thumb" />
+              <>
+                <img
+                  src={m.src}
+                  alt="car media"
+                  className={index === currentIndex ? "active" : ""}
+                />
+                <div className="thumb-overlay">
+                  <span className="zoom-icon">🔍</span>
+                </div>
+              </>
             )}
           </div>
         ))}
       </div>
 
-      {/* ================= BASIC DETAILS ================= */}
+      {/* ================================
+         IMAGE FULLSCREEN VIEWER
+      ================================= */}
+      {showImageViewer && (
+        <div className="image-viewer" onClick={closeImageViewer}>
+          <span className="close-viewer">✕</span>
+          <img src={viewerImage} alt="zoomed-car" />
+        </div>
+      )}
+
+      {/* ================================
+         VIDEO POPUP PLAYER
+      ================================= */}
+      {showVideoPopup && (
+        <div className="video-popup">
+          <span className="video-close-btn" onClick={() => setShowVideoPopup(false)}>✕</span>
+          <video controls autoPlay>
+            <source src={car.video} type="video/mp4" />
+          </video>
+        </div>
+      )}
+
+      {/* ================================
+            CAR DETAILS
+      ================================= */}
       <div className="details-grid">
         <p><strong>Brand:</strong> {car.brand}</p>
         <p><strong>Model:</strong> {car.model}</p>
@@ -104,7 +148,6 @@ const CarDetail = () => {
         <p><strong>Location:</strong> {car.location}</p>
       </div>
 
-      {/* ================= DESCRIPTION ================= */}
       {car.description && (
         <>
           <h3>Description</h3>
@@ -112,7 +155,6 @@ const CarDetail = () => {
         </>
       )}
 
-      {/* ================= FEATURES ================= */}
       {car.features?.length > 0 && (
         <>
           <h3>Features</h3>
@@ -122,36 +164,6 @@ const CarDetail = () => {
             ))}
           </ul>
         </>
-      )}
-
-      {/* ================= VIDEO POPUP MODAL ================= */}
-      {showVideoModal && (
-        <div className="video-modal">
-          <div className="video-modal-content">
-            <button className="close-btn" onClick={() => setShowVideoModal(false)}>✖</button>
-            <video src={car.video} controls autoPlay />
-          </div>
-        </div>
-      )}
-
-      {/* ================= ZOOM IMAGE VIEWER ================= */}
-      {zoomImage && (
-        <div className="zoom-modal">
-          <button className="zoom-close" onClick={() => setZoomImage(null)}>✖</button>
-
-          <div className="zoom-controls">
-            <button onClick={() => setZoomScale((s) => Math.min(s + 0.2, 3))}>＋</button>
-            <button onClick={() => setZoomScale((s) => Math.max(s - 0.2, 1))}>－</button>
-          </div>
-
-          <img
-            src={zoomImage}
-            alt="zoomed"
-            className="zoom-img"
-            style={{ transform: `scale(${zoomScale})` }}
-            draggable="false"
-          />
-        </div>
       )}
     </section>
   );
