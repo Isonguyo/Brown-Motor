@@ -1,202 +1,94 @@
-// src/pages/CarDetail.jsx
-import React, { useState } from "react";
-import { useParams } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
-import carsData from "../data/CarsData";
-import "../styles/pages/CarDetails.css";
+import React, { useState, useRef, useEffect } from "react";
+import "./carDetail.css";
 
-const CarDetail = () => {
-  const { id } = useParams();
-  const car = carsData.find((c) => c.id === parseInt(id));
-
-  // States
+const CarDetail = ({ car }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showImageViewer, setShowImageViewer] = useState(false);
-  const [viewerImage, setViewerImage] = useState(null);
-  const [showVideoPopup, setShowVideoPopup] = useState(false);
+  const [zoomActive, setZoomActive] = useState(false);
+  const zoomRef = useRef(null);
 
-  if (!car) return <p>Car not found</p>;
+  const media = [
+    { type: "video", src: car.video }, // first carousel item
+    ...car.images.map((img) => ({ type: "image", src: img })),
+  ];
 
-  // Build media array: video first → rest of images
-  const images = [car.mainImg, ...(car.gallery || [])];
+  const currentItem = media[currentIndex];
 
-  const mediaItems = car.video
-    ? [{ type: "video", src: car.video }, ...images.map((img) => ({ type: "image", src: img }))]
-    : images.map((img) => ({ type: "image", src: img }));
+  // Auto-play video when selected
+  useEffect(() => {
+    if (currentItem.type === "video" && zoomRef.current) {
+      zoomRef.current.play();
+    }
+  }, [currentIndex]);
 
-  const prevMedia = () => {
-    setCurrentIndex((prev) => (prev === 0 ? mediaItems.length - 1 : prev - 1));
+  // Zoom + Pan
+  const handleZoom = (e) => {
+    if (!zoomActive || currentItem.type !== "image") return;
+    const { left, top, width, height } = zoomRef.current.getBoundingClientRect();
+    const x = ((e.clientX - left) / width) * 100;
+    const y = ((e.clientY - top) / height) * 100;
+    zoomRef.current.style.transformOrigin = `${x}% ${y}%`;
   };
-
-  const nextMedia = () => {
-    setCurrentIndex((prev) => (prev === mediaItems.length - 1 ? 0 : prev + 1));
-  };
-
-  const openImageViewer = (img) => {
-    setViewerImage(img);
-    setShowImageViewer(true);
-  };
-
-  const closeImageViewer = () => setShowImageViewer(false);
-
-  // ==== ZOOM & PAN ====
-const imgContainerRef = useRef(null);
-const imgRef = useRef(null);
-const [scale, setScale] = useState(1);
-const [isDragging, setIsDragging] = useState(false);
-const [start, setStart] = useState({ x: 0, y: 0 });
-const [translate, setTranslate] = useState({ x: 0, y: 0 });
-
-const handleWheel = (e) => {
-  e.preventDefault();
-  let newScale = scale + e.deltaY * -0.001; // smooth zoom
-  newScale = Math.min(Math.max(1, newScale), 3); // limit zoom (1x–3x)
-  setScale(newScale);
-};
-
-const handleMouseDown = (e) => {
-  if (scale === 1) return; // only pan when zoomed
-  setIsDragging(true);
-  setStart({ x: e.clientX - translate.x, y: e.clientY - translate.y });
-};
-
-const handleMouseMove = (e) => {
-  if (!isDragging) return;
-  setTranslate({
-    x: e.clientX - start.x,
-    y: e.clientY - start.y,
-  });
-};
-
-const handleMouseUp = () => setIsDragging(false);
 
   return (
-    <section id="car-details" className="car-detail">
-      <HashLink to="/cars#inventoryMain" className="back-btn">
-        ← Back to Inventory
-      </HashLink>
-
-      <h1>{car.name}</h1>
-
-      {/* ================================
-          MAIN MEDIA DISPLAY (Video / Image)
-      ================================= */}
-      <div id="mainCar" className="carousel-container">
-        <button className="carousel-btn left" onClick={prevMedia}>‹</button>
-
-        {mediaItems[currentIndex].type === "Video" || mediaItems[currentIndex].type === "video" ? (
+    <div className="car-detail">
+      {/* MAIN VIEWER */}
+      <div
+        className={`carousel-viewer ${zoomActive ? "zoomed" : ""}`}
+        onMouseMove={handleZoom}
+        onClick={() => setZoomActive(!zoomActive)}
+      >
+        {currentItem.type === "video" ? (
           <video
-            className="main-image"
-            src={mediaItems[currentIndex].src}
-            onClick={() => setShowVideoPopup(true)}
-            style={{ cursor: "pointer" }}
-          />
+            ref={zoomRef}
+            src={currentItem.src}
+            controls
+            className="carousel-video"
+            muted
+            autoPlay
+          ></video>
         ) : (
-          <img
-            src={mediaItems[currentIndex].src}
-            alt={car.name}
-            className="main-image"
-            onClick={() => openImageViewer(mediaItems[currentIndex].src)}
-            style={{ cursor: "zoom-in" }}
-          />
+          <img ref={zoomRef} src={currentItem.src} alt={car.name} className="carousel-img" />
         )}
-
-        <button className="carousel-btn right" onClick={nextMedia}>›</button>
       </div>
 
-      {/* ================================
-              THUMBNAILS
-      ================================= */}
+      {/* THUMBNAILS */}
       <div className="carousel-thumbs">
-        {mediaItems.map((m, index) => (
-          <div
+        {/* Video thumbnail */}
+        <div
+          className={`thumb-video-container ${currentIndex === 0 ? "active" : ""}`}
+          onClick={() => setCurrentIndex(0)}
+        >
+          <video src={car.video} className="thumb-video"></video>
+          <span className="video-badge">Video</span>
+        </div>
+
+        {/* Image thumbnails */}
+        {car.images.map((img, index) => (
+          <img
             key={index}
-            className="thumb-wrapper"
-            style={{ position: "relative" }}
-            onClick={() => {
-              setCurrentIndex(index);
-              if (m.type === "video") setShowVideoPopup(true);
-            }}
-          >
-            {m.type === "video" ? (
-              <div className="thumb-video-wrapper">
-                <video src={m.src} muted />
-                <div className="thumb-overlay">
-                  <span className="play-icon">▶</span>
-                </div>
-              </div>
-            ) : (
-              <>
-                <img
-                  src={m.src}
-                  alt="car media"
-                  className={index === currentIndex ? "active" : ""}
-                />
-                <div className="thumb-overlay">
-                  <span className="zoom-icon">🔍</span>
-                </div>
-              </>
-            )}
-          </div>
+            src={img}
+            alt="Car thumbnail"
+            className={currentIndex === index + 1 ? "active" : ""}
+            onClick={() => setCurrentIndex(index + 1)}
+          />
         ))}
       </div>
 
-      {/* ================================
-         IMAGE FULLSCREEN VIEWER
-      ================================= */}
-      {showImageViewer && (
-        <div className="image-viewer" onClick={closeImageViewer}>
-          <span className="close-viewer">✕</span>
-          <img src={viewerImage} alt="zoomed-car" />
-        </div>
-      )}
+      {/* Car Information */}
+      <div className="car-info">
+        <h2>{car.name}</h2>
+        <p className="price">₦{car.price}</p>
 
-      {/* ================================
-         VIDEO POPUP PLAYER
-      ================================= */}
-      {showVideoPopup && (
-        <div className="video-popup">
-          <span className="video-close-btn" onClick={() => setShowVideoPopup(false)}>✕</span>
-          <video controls autoPlay>
-            <source src={car.video} type="video/mp4" />
-          </video>
-        </div>
-      )}
-
-      {/* ================================
-            CAR DETAILS
-      ================================= */}
-      <div className="details-grid">
-        <p><strong>Brand:</strong> {car.brand}</p>
-        <p><strong>Model:</strong> {car.model}</p>
-        <p><strong>Year:</strong> {car.year}</p>
-        <p><strong>Price:</strong> ₦{car.price.toLocaleString()}</p>
-        <p><strong>Fuel Type:</strong> {car.fuel}</p>
-        <p><strong>Transmission:</strong> {car.transmission}</p>
-        <p><strong>Engine:</strong> {car.engine}</p>
-        <p><strong>Body Type:</strong> {car.bodyType}</p>
-        <p><strong>Condition:</strong> {car.condition}</p>
-        <p><strong>Location:</strong> {car.location}</p>
-      </div>
-
-      {car.description && (
-        <>
-          <h3>Description</h3>
-          <p>{car.description}</p>
-        </>
-      )}
-
-      {car.features?.length > 0 && (
-        <>
+        <div className="features">
           <h3>Features</h3>
-          <ul className="features-list">
+          <ul>
             {car.features.map((f, i) => (
               <li key={i}>{f}</li>
             ))}
           </ul>
-        </>
-      )}
-    </section>
+        </div>
+      </div>
+    </div>
   );
 };
 
