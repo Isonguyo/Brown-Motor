@@ -8,78 +8,60 @@ import "../styles/pages/CarDetails.css";
 const CarDetail = () => {
   const { id } = useParams();
   const car = carsData.find((c) => c.id === parseInt(id));
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   if (!car) return <p>Car not found</p>;
 
-  // ================================
-  // MERGE IMAGES + VIDEO INTO CAROUSEL
-  // ================================
-  const mediaItems = [
-    { type: "image", src: car.mainImg },
-    ...(car.gallery || []).map((img) => ({ type: "image", src: img })),
-    car.video ? { type: "video", src: car.video } : null
-  ].filter(Boolean);
+  const images = [car.mainImg, ...(car.gallery || [])];
 
-  const prevItem = () => {
+  const prevImage = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? mediaItems.length - 1 : prev - 1
+      prev === 0 ? images.length - 1 : prev - 1
     );
   };
 
-  const nextItem = () => {
+  const nextImage = () => {
     setCurrentIndex((prev) =>
-      prev === mediaItems.length - 1 ? 0 : prev + 1
+      prev === images.length - 1 ? 0 : prev + 1
     );
   };
 
   return (
     <section id="car-details" className="car-detail">
+
       <HashLink to="/cars#inventoryMain" className="back-btn">
         ← Back to Inventory
       </HashLink>
 
       <h1>{car.name}</h1>
 
-      {/* ================================
-          MAIN CAROUSEL
-      ================================= */}
+      {/* Carousel Main Image */}
       <div id="mainCar" className="carousel-container">
-        <button className="carousel-btn left" onClick={prevItem}>‹</button>
+        <button className="carousel-btn left" onClick={prevImage}>‹</button>
 
-        {mediaItems[currentIndex].type === "image" ? (
-          <img
-            src={mediaItems[currentIndex].src}
-            alt={car.name}
-            className="main-image"
-          />
-        ) : (
-          <video controls className="main-image">
-            <source src={mediaItems[currentIndex].src} type="video/mp4" />
-          </video>
-        )}
+        <img
+          src={images[currentIndex]}
+          alt={car.name}
+          className="main-image"
+        />
 
-        <button className="carousel-btn right" onClick={nextItem}>›</button>
+        <button className="carousel-btn right" onClick={nextImage}>›</button>
       </div>
 
-   {/* Thumbnails */}
-<div className="carousel-thumbs">
-  {images.map((img, index) => (
-    <img
-      key={index}
-      src={img}
-      alt={car.name}
-      className={index === currentIndex ? "active" : ""}
-      onClick={() => setCurrentIndex(index)}
-    />
-  ))}
-</div>
+      {/* Thumbnails */}
+      <div className="carousel-thumbs">
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt={car.name}
+            className={index === currentIndex ? "active" : ""}
+            onClick={() => setCurrentIndex(index)}
+          />
+        ))}
+      </div>
 
-
-      {/* ================================
-          BASIC CAR DETAILS
-      ================================= */}
+      {/* Basic Car Details */}
       <div className="details-grid">
         <p><strong>Brand:</strong> {car.brand}</p>
         <p><strong>Model:</strong> {car.model}</p>
@@ -93,6 +75,7 @@ const CarDetail = () => {
         <p><strong>Location:</strong> {car.location}</p>
       </div>
 
+      {/* Description */}
       {car.description && (
         <>
           <h3>Description</h3>
@@ -100,6 +83,7 @@ const CarDetail = () => {
         </>
       )}
 
+      {/* Features */}
       {car.features?.length > 0 && (
         <>
           <h3>Features</h3>
@@ -110,9 +94,18 @@ const CarDetail = () => {
           </ul>
         </>
       )}
+
+      {/* Video */}
+      {car.video && (
+        <div className="car-video">
+          <h3>Video</h3>
+          <video controls width="100%">
+            <source src={car.video} type="video/mp4" />
+          </video>
+        </div>
+      )}
     </section>
   );
 };
 
 export default CarDetail;
-
