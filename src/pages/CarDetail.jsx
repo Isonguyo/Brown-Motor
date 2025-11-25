@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import ".styles/pages/carDetail.css";
+import "../styles/pages/carDetail.css";
 
 const CarDetail = ({ car }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
