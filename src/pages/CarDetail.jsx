@@ -39,6 +39,37 @@ const CarDetail = () => {
 
   const closeImageViewer = () => setShowImageViewer(false);
 
+  // ==== ZOOM & PAN ====
+const imgContainerRef = useRef(null);
+const imgRef = useRef(null);
+const [scale, setScale] = useState(1);
+const [isDragging, setIsDragging] = useState(false);
+const [start, setStart] = useState({ x: 0, y: 0 });
+const [translate, setTranslate] = useState({ x: 0, y: 0 });
+
+const handleWheel = (e) => {
+  e.preventDefault();
+  let newScale = scale + e.deltaY * -0.001; // smooth zoom
+  newScale = Math.min(Math.max(1, newScale), 3); // limit zoom (1x–3x)
+  setScale(newScale);
+};
+
+const handleMouseDown = (e) => {
+  if (scale === 1) return; // only pan when zoomed
+  setIsDragging(true);
+  setStart({ x: e.clientX - translate.x, y: e.clientY - translate.y });
+};
+
+const handleMouseMove = (e) => {
+  if (!isDragging) return;
+  setTranslate({
+    x: e.clientX - start.x,
+    y: e.clientY - start.y,
+  });
+};
+
+const handleMouseUp = () => setIsDragging(false);
+
   return (
     <section id="car-details" className="car-detail">
       <HashLink to="/cars#inventoryMain" className="back-btn">
