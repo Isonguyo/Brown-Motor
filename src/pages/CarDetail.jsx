@@ -8,22 +8,29 @@ import "../styles/pages/CarDetails.css";
 const CarDetail = () => {
   const { id } = useParams();
   const car = carsData.find((c) => c.id === parseInt(id));
+
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [showVideoModal, setShowVideoModal] = useState(false);
+  const [zoomImage, setZoomImage] = useState(null);
+  const [zoomScale, setZoomScale] = useState(1);
 
   if (!car) return <p>Car not found</p>;
 
-  const images = [car.mainImg, ...(car.gallery || [])];
+  // Add video as FIRST slide
+  const slides = [
+    { type: "video", src: car.video },
+    ...[car.mainImg, ...(car.gallery || [])].map((img) => ({
+      type: "image",
+      src: img,
+    })),
+  ];
 
-  const prevImage = () => {
-    setCurrentIndex((prev) =>
-      prev === 0 ? images.length - 1 : prev - 1
-    );
+  const prev = () => {
+    setCurrentIndex((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
-  const nextImage = () => {
-    setCurrentIndex((prev) =>
-      prev === images.length - 1 ? 0 : prev + 1
-    );
+  const next = () => {
+    setCurrentIndex((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
 
   return (
@@ -35,33 +42,55 @@ const CarDetail = () => {
 
       <h1>{car.name}</h1>
 
-      {/* Carousel Main Image */}
-      <div id="mainCar" className="carousel-container">
-        <button className="carousel-btn left" onClick={prevImage}>‹</button>
+      {/* ================= CAROUSEL ================= */}
+      <div className="carousel-container">
+        <button className="carousel-btn left" onClick={prev}>‹</button>
 
-        <img
-          src={images[currentIndex]}
-          alt={car.name}
-          className="main-image"
-        />
+        {/* Slide Content */}
+        {slides[currentIndex].type === "video" ? (
+          <div
+            className="video-slide"
+            onClick={() => setShowVideoModal(true)}
+          >
+            <video src={slides[currentIndex].src} muted />
+            <div className="video-play-overlay">▶</div>
+          </div>
+        ) : (
+          <div className="image-slide">
+            <img src={slides[currentIndex].src} alt={car.name} />
+            <div
+              className="img-zoom-overlay"
+              onClick={() => {
+                setZoomImage(slides[currentIndex].src);
+                setZoomScale(1);
+              }}
+            >
+              🔍
+            </div>
+          </div>
+        )}
 
-        <button className="carousel-btn right" onClick={nextImage}>›</button>
+        <button className="carousel-btn right" onClick={next}>›</button>
       </div>
 
-      {/* Thumbnails */}
+      {/* ================= THUMBNAILS ================= */}
       <div className="carousel-thumbs">
-        {images.map((img, index) => (
-          <img
+        {slides.map((s, index) => (
+          <div
             key={index}
-            src={img}
-            alt={car.name}
-            className={index === currentIndex ? "active" : ""}
+            className={`thumb ${index === currentIndex ? "active" : ""}`}
             onClick={() => setCurrentIndex(index)}
-          />
+          >
+            {s.type === "video" ? (
+              <div className="thumb-video">▶</div>
+            ) : (
+              <img src={s.src} alt="thumb" />
+            )}
+          </div>
         ))}
       </div>
 
-      {/* Basic Car Details */}
+      {/* ================= BASIC DETAILS ================= */}
       <div className="details-grid">
         <p><strong>Brand:</strong> {car.brand}</p>
         <p><strong>Model:</strong> {car.model}</p>
@@ -75,7 +104,7 @@ const CarDetail = () => {
         <p><strong>Location:</strong> {car.location}</p>
       </div>
 
-      {/* Description */}
+      {/* ================= DESCRIPTION ================= */}
       {car.description && (
         <>
           <h3>Description</h3>
@@ -83,7 +112,7 @@ const CarDetail = () => {
         </>
       )}
 
-      {/* Features */}
+      {/* ================= FEATURES ================= */}
       {car.features?.length > 0 && (
         <>
           <h3>Features</h3>
@@ -95,13 +124,33 @@ const CarDetail = () => {
         </>
       )}
 
-      {/* Video */}
-      {car.video && (
-        <div className="car-video">
-          <h3>Video</h3>
-          <video controls width="100%">
-            <source src={car.video} type="video/mp4" />
-          </video>
+      {/* ================= VIDEO POPUP MODAL ================= */}
+      {showVideoModal && (
+        <div className="video-modal">
+          <div className="video-modal-content">
+            <button className="close-btn" onClick={() => setShowVideoModal(false)}>✖</button>
+            <video src={car.video} controls autoPlay />
+          </div>
+        </div>
+      )}
+
+      {/* ================= ZOOM IMAGE VIEWER ================= */}
+      {zoomImage && (
+        <div className="zoom-modal">
+          <button className="zoom-close" onClick={() => setZoomImage(null)}>✖</button>
+
+          <div className="zoom-controls">
+            <button onClick={() => setZoomScale((s) => Math.min(s + 0.2, 3))}>＋</button>
+            <button onClick={() => setZoomScale((s) => Math.max(s - 0.2, 1))}>－</button>
+          </div>
+
+          <img
+            src={zoomImage}
+            alt="zoomed"
+            className="zoom-img"
+            style={{ transform: `scale(${zoomScale})` }}
+            draggable="false"
+          />
         </div>
       )}
     </section>
