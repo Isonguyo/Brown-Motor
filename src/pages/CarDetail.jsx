@@ -2,22 +2,20 @@ import React, { useState, useRef, useEffect } from "react";
 import "../styles/pages/CarDetails.css";
 
 const CarDetail = ({ car }) => {
+  // Prevent crash if car not loaded
+  if (!car) return <h2>Loading car details...</h2>;
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [zoomActive, setZoomActive] = useState(false);
   const zoomRef = useRef(null);
 
   const media = [
-    { type: "video", src: car.video }, // first carousel item
+    { type: "video", src: car.video },
     ...car.gallery.map((img) => ({ type: "image", src: img }))
   ];
 
   const currentItem = media[currentIndex];
 
-  useEffect(() => {
-    if (currentItem.type === "video" && zoomRef.current) {
-      zoomRef.current.play();
-    }
-  }, [currentIndex]);
 
   const handleZoom = (e) => {
     if (!zoomActive || currentItem.type !== "image") return;
