@@ -1,96 +1,171 @@
-import React, { useState, useRef, useEffect } from "react";
+// src/pages/CarDetail.jsx
+import React, { useState } from "react";
+import { useParams } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import carsData from "../data/CarsData";
 import "../styles/pages/CarDetails.css";
 
-const CarDetail = ({ car }) => {
-  // Prevent crash if car not loaded
-  if (!car) return <h2>Loading car details...</h2>;
+const CarDetail = () => {
+  const { id } = useParams();
+  const car = carsData.find((c) => c.id === parseInt(id));
 
+  // States
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [zoomActive, setZoomActive] = useState(false);
-  const zoomRef = useRef(null);
+  const [showImageViewer, setShowImageViewer] = useState(false);
+  const [viewerImage, setViewerImage] = useState(null);
+  const [showVideoPopup, setShowVideoPopup] = useState(false);
 
-  const media = [
-    { type: "video", src: car.video },
-    ...car.gallery.map((img) => ({ type: "image", src: img }))
-  ];
+  if (!car) return <p>Car not found</p>;
 
-  const currentItem = media[currentIndex];
+  // Build media array: video first → rest of images
+  const images = [car.mainImg, ...(car.gallery || [])];
 
+  const mediaItems = car.video
+    ? [{ type: "video", src: car.video }, ...images.map((img) => ({ type: "image", src: img }))]
+    : images.map((img) => ({ type: "image", src: img }));
 
-  const handleZoom = (e) => {
-    if (!zoomActive || currentItem.type !== "image") return;
-    const { left, top, width, height } = zoomRef.current.getBoundingClientRect();
-    const x = ((e.clientX - left) / width) * 100;
-    const y = ((e.clientY - top) / height) * 100;
-    zoomRef.current.style.transformOrigin = `${x}% ${y}%`;
+  const prevMedia = () => {
+    setCurrentIndex((prev) => (prev === 0 ? mediaItems.length - 1 : prev - 1));
   };
 
+  const nextMedia = () => {
+    setCurrentIndex((prev) => (prev === mediaItems.length - 1 ? 0 : prev + 1));
+  };
+
+  const openImageViewer = (img) => {
+    setViewerImage(img);
+    setShowImageViewer(true);
+  };
+
+  const closeImageViewer = () => setShowImageViewer(false);
+
   return (
-    <div className="car-detail">
-      {/* MAIN VIEWER */}
-      <div
-        className={`carousel-viewer ${zoomActive ? "zoomed" : ""}`}
-        onMouseMove={handleZoom}
-        onClick={() => setZoomActive(!zoomActive)}
-      >
-        {currentItem.type === "video" ? (
+    <section id="car-details" className="car-detail">
+      <HashLink to="/cars#inventoryMain" className="back-btn">
+        ← Back to Inventory
+      </HashLink>
+
+      <h1>{car.name}</h1>
+
+      {/* ================================
+          MAIN MEDIA DISPLAY (Video / Image)
+      ================================= */}
+      <div id="mainCar" className="carousel-container">
+        <button className="carousel-btn left" onClick={prevMedia}>‹</button>
+
+        {mediaItems[currentIndex].type === "Video" || mediaItems[currentIndex].type === "video" ? (
           <video
-            ref={zoomRef}
-            src={currentItem.src}
-            controls
-            className="carousel-video"
-            muted
-            autoPlay
-          ></video>
+            className="main-image"
+            src={mediaItems[currentIndex].src}
+            onClick={() => setShowVideoPopup(true)}
+            style={{ cursor: "pointer" }}
+          />
         ) : (
           <img
-            ref={zoomRef}
-            src={currentItem.src}
+            src={mediaItems[currentIndex].src}
             alt={car.name}
-            className="carousel-img"
+            className="main-image"
+            onClick={() => openImageViewer(mediaItems[currentIndex].src)}
+            style={{ cursor: "zoom-in" }}
           />
         )}
+
+        <button className="carousel-btn right" onClick={nextMedia}>›</button>
       </div>
 
-      {/* THUMBNAILS */}
+      {/* ================================
+              THUMBNAILS
+      ================================= */}
       <div className="carousel-thumbs">
-
-        {/* Video thumbnail */}
-        <div
-          className={`thumb-video-container ${currentIndex === 0 ? "active" : ""}`}
-          onClick={() => setCurrentIndex(0)}
-        >
-          <video src={car.video} className="thumb-video"></video>
-          <span className="video-badge">Video</span>
-        </div>
-
-        {/* Image thumbnails */}
-        {car.gallery.map((img, index) => (
-          <img
+        {mediaItems.map((m, index) => (
+          <div
             key={index}
-            src={img}
-            alt="Car thumbnail"
-            className={currentIndex === index + 1 ? "active" : ""}
-            onClick={() => setCurrentIndex(index + 1)}
-          />
+            className="thumb-wrapper"
+            style={{ position: "relative" }}
+            onClick={() => {
+              setCurrentIndex(index);
+              if (m.type === "video") setShowVideoPopup(true);
+            }}
+          >
+            {m.type === "video" ? (
+              <div className="thumb-video-wrapper">
+                <video src={m.src} muted />
+                <div className="thumb-overlay">
+                  <span className="play-icon">▶</span>
+                </div>
+              </div>
+            ) : (
+              <>
+                <img
+                  src={m.src}
+                  alt="car media"
+                  className={index === currentIndex ? "active" : ""}
+                />
+                <div className="thumb-overlay">
+                  <span className="zoom-icon">🔍</span>
+                </div>
+              </>
+            )}
+          </div>
         ))}
       </div>
 
-      {/* Car Information */}
-      <div className="car-info">
-        <h2>{car.name}</h2>
-        <p className="price">₦{car.price}</p>
+      {/* ================================
+         IMAGE FULLSCREEN VIEWER
+      ================================= */}
+      {showImageViewer && (
+        <div className="image-viewer" onClick={closeImageViewer}>
+          <span className="close-viewer">✕</span>
+          <img src={viewerImage} alt="zoomed-car" />
+        </div>
+      )}
 
-        <div className="features">
+      {/* ================================
+         VIDEO POPUP PLAYER
+      ================================= */}
+      {showVideoPopup && (
+        <div className="video-popup">
+          <span className="video-close-btn" onClick={() => setShowVideoPopup(false)}>✕</span>
+          <video controls autoPlay>
+            <source src={car.video} type="video/mp4" />
+          </video>
+        </div>
+      )}
+
+      {/* ================================
+            CAR DETAILS
+      ================================= */}
+      <div className="details-grid">
+        <p><strong>Brand:</strong> {car.brand}</p>
+        <p><strong>Model:</strong> {car.model}</p>
+        <p><strong>Year:</strong> {car.year}</p>
+        <p><strong>Price:</strong> ₦{car.price.toLocaleString()}</p>
+        <p><strong>Fuel Type:</strong> {car.fuel}</p>
+        <p><strong>Transmission:</strong> {car.transmission}</p>
+        <p><strong>Engine:</strong> {car.engine}</p>
+        <p><strong>Body Type:</strong> {car.bodyType}</p>
+        <p><strong>Condition:</strong> {car.condition}</p>
+        <p><strong>Location:</strong> {car.location}</p>
+      </div>
+
+      {car.description && (
+        <>
+          <h3>Description</h3>
+          <p>{car.description}</p>
+        </>
+      )}
+
+      {car.features?.length > 0 && (
+        <>
           <h3>Features</h3>
-          <ul>
+          <ul className="features-list">
             {car.features.map((f, i) => (
               <li key={i}>{f}</li>
             ))}
           </ul>
-        </div>
-      </div>
-    </div>
+        </>
+      )}
+    </section>
   );
 };
 
