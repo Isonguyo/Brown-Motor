@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../styles/pages/CarDetails.css";
+
 const CarDetail = ({ car }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [zoomActive, setZoomActive] = useState(false);
@@ -7,19 +8,17 @@ const CarDetail = ({ car }) => {
 
   const media = [
     { type: "video", src: car.video }, // first carousel item
-    ...car.images.map((img) => ({ type: "image", src: img })),
+    ...car.gallery.map((img) => ({ type: "image", src: img }))
   ];
 
   const currentItem = media[currentIndex];
 
-  // Auto-play video when selected
   useEffect(() => {
     if (currentItem.type === "video" && zoomRef.current) {
       zoomRef.current.play();
     }
   }, [currentIndex]);
 
-  // Zoom + Pan
   const handleZoom = (e) => {
     if (!zoomActive || currentItem.type !== "image") return;
     const { left, top, width, height } = zoomRef.current.getBoundingClientRect();
@@ -46,12 +45,18 @@ const CarDetail = ({ car }) => {
             autoPlay
           ></video>
         ) : (
-          <img ref={zoomRef} src={currentItem.src} alt={car.name} className="carousel-img" />
+          <img
+            ref={zoomRef}
+            src={currentItem.src}
+            alt={car.name}
+            className="carousel-img"
+          />
         )}
       </div>
 
       {/* THUMBNAILS */}
       <div className="carousel-thumbs">
+
         {/* Video thumbnail */}
         <div
           className={`thumb-video-container ${currentIndex === 0 ? "active" : ""}`}
@@ -62,7 +67,7 @@ const CarDetail = ({ car }) => {
         </div>
 
         {/* Image thumbnails */}
-        {car.images.map((img, index) => (
+        {car.gallery.map((img, index) => (
           <img
             key={index}
             src={img}
