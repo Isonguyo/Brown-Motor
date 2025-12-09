@@ -39,11 +39,31 @@ const CarDetail = () => {
 
   const closeImageViewer = () => setShowImageViewer(false);
 
+    // WhatsApp setup
+  const whatsappNumber = "2348034080299";
+
+  const whatsappMessage = `Hello! I'm interested in the ${car.name} (${car.year}) listed for NGN ${car.price.toLocaleString()}. Is it still available?`;
+
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+    whatsappMessage
+  )}`;
+
+
   return (
     <section id="car-details" className="car-detail">
       <HashLink to="/cars#inventoryMain" className="back-btn">
         ← Back to Inventory
       </HashLink>
+
+            {/* Floating WhatsApp Button */}
+      <a
+        href={whatsappLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-float-btn"
+      >
+        Chat Dealer
+      </a>
 
       <h1>{car.name}</h1>
 
