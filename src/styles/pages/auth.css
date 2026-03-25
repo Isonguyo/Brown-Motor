@@ -1,0 +1,84 @@
+/* Background */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+      rgba(10, 25, 47, 0.85),
+      rgba(10, 25, 47, 0.95)
+    ),
+    url("/car-bg.jpg") center/cover no-repeat;
+}
+
+/* Card */
+.auth-card {
+  background: #0f172a;
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  text-align: center;
+  color: #fff;
+}
+
+/* Headings */
+.auth-card h2 {
+  margin-bottom: 5px;
+}
+
+.auth-card p {
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  background: #020617;
+  color: #fff;
+  outline: none;
+
+  transition: 0.3s;
+}
+
+.auth-card input:focus {
+  border-color: #facc15;
+}
+
+/* Button */
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+
+  background: #facc15;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-card button:hover {
+  background: #eab308;
+}
+
+/* Links */
+.auth-link {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.auth-link a {
+  color: #facc15;
+  text-decoration: none;
+}
