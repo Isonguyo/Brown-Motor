@@ -87,6 +87,48 @@
 }
 
 
+/* Auth buttons (desktop) */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Login */
+.login-btn {
+  padding: 8px 16px;
+  border: 1px solid #facc15;
+  color: #facc15;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #facc15;
+  color: #000;
+}
+
+/* Signup (primary CTA) */
+.signup-btn {
+  padding: 8px 16px;
+  background: #facc15;
+  color: #000;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.signup-btn:hover {
+  background: #eab308;
+}
+
+/* Mobile signup highlight */
+.mobile-signup {
+  color: #facc15;
+  font-weight: bold;
+}
+
 .nav ul {
   display: flex;
   list-style: none;
