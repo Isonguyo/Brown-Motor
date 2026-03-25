@@ -16,6 +16,7 @@ const Header = () => {
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
       <div className="header-inner">
+
         {/* Logo */}
         <div className="logo fade-slide">
           <img src="./assets/images/car-logo.png" alt="Brown Motors Logo" />
@@ -26,11 +27,17 @@ const Header = () => {
         <nav className="nav fade-slide">
           <ul>
             <li><HashLink smooth to="/#hero">Home</HashLink></li>
-           <li><HashLink smooth to="/cars#inventoryMain">Inventory</HashLink></li>
+            <li><HashLink smooth to="/cars#inventoryMain">Inventory</HashLink></li>
             <li><HashLink smooth to="/#about">About Us</HashLink></li>
             <li><HashLink smooth to="/#contact">Contact</HashLink></li>
           </ul>
         </nav>
+
+        {/* Auth Buttons */}
+        <div className="auth-buttons fade-slide">
+          <Link to="/login" className="login-btn">Login</Link>
+          <Link to="/signup" className="signup-btn">Sign Up</Link>
+        </div>
 
         {/* Mobile Hamburger */}
         <button
@@ -47,10 +54,26 @@ const Header = () => {
       {/* Mobile Dropdown */}
       <div className={`mobile-nav ${open ? "open" : ""}`}>
         <ul>
-          <li onClick={() => setOpen(false)}><HashLink smooth to="/#hero">Home</HashLink></li>
-          <li onClick={() => setOpen(false)}><HashLink smooth to="/cars#inventoryMain">Inventory</HashLink></li>
-          <li onClick={() => setOpen(false)}><HashLink smooth to="/#about">About Us</HashLink></li>
-          <li onClick={() => setOpen(false)}><HashLink smooth to="/#contact">Contact</HashLink></li>
+          <li onClick={() => setOpen(false)}>
+            <HashLink smooth to="/#hero">Home</HashLink>
+          </li>
+          <li onClick={() => setOpen(false)}>
+            <HashLink smooth to="/cars#inventoryMain">Inventory</HashLink>
+          </li>
+          <li onClick={() => setOpen(false)}>
+            <HashLink smooth to="/#about">About Us</HashLink>
+          </li>
+          <li onClick={() => setOpen(false)}>
+            <HashLink smooth to="/#contact">Contact</HashLink>
+          </li>
+
+          {/* Auth links in mobile */}
+          <li onClick={() => setOpen(false)}>
+            <Link to="/login">Login</Link>
+          </li>
+          <li onClick={() => setOpen(false)}>
+            <Link to="/signup" className="mobile-signup">Sign Up</Link>
+          </li>
         </ul>
       </div>
     </header>
