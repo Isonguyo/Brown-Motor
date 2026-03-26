@@ -9,11 +9,32 @@ export default function Signup() {
     confirmPassword: ""
   });
 
+  const [strength, setStrength] = useState("");
+
+  // Password strength checker
+  const checkStrength = (password) => {
+    if (password.length < 6) return "Weak";
+
+    const strongRegex =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$/;
+
+    if (strongRegex.test(password)) return "Strong";
+
+    return "Medium";
+  };
+
   const handleChange = (e) => {
+    const { name, value } = e.target;
+
     setForm({
       ...form,
-      [e.target.name]: e.target.value
+      [name]: value
     });
+
+    // Check password strength
+    if (name === "password") {
+      setStrength(checkStrength(value));
+    }
   };
 
   const handleSubmit = (e) => {
@@ -24,7 +45,6 @@ export default function Signup() {
       return;
     }
 
-    // Connect backend here later
     console.log(form);
   };
 
@@ -55,6 +75,7 @@ export default function Signup() {
             />
           </div>
 
+          {/* Password */}
           <div className="input-group">
             <input
               type="password"
@@ -64,6 +85,13 @@ export default function Signup() {
               required
             />
           </div>
+
+          {/* Strength Indicator */}
+          {form.password && (
+            <div className={`strength ${strength.toLowerCase()}`}>
+              {strength} Password
+            </div>
+          )}
 
           <div className="input-group">
             <input
