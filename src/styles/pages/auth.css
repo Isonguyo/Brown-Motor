@@ -1,5 +1,6 @@
 /* Background */
 .auth-container {
+ padding-top: 110px;
  height: calc(100vh - 80px);
   display: flex;
   justify-content: center;
