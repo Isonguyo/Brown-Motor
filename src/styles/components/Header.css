@@ -228,6 +228,31 @@
   font-weight: 600;
 }
 
+/* =========================
+   MOBILE AUTH BUTTONS
+========================= */
+.mobile-nav .login-btn,
+.mobile-nav .signup-btn {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Login button (outlined) */
+.mobile-nav .login-btn {
+  border: 1px solid #facc15;
+  color: #facc15;
+}
+
+/* Signup button (filled) */
+.mobile-nav .signup-btn {
+  background: #facc15;
+  color: #000;
+  font-weight: 600;
+}
+
 /* Highlight signup in mobile */
 .mobile-signup {
   color: #facc15;
