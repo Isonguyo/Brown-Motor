@@ -67,7 +67,7 @@ const Header = () => {
             <HashLink smooth to="/#contact">Contact</HashLink>
           </li>
           <li onClick={() => setOpen(false)}>
-            <Link to="/login">Login</Link>
+            <Link to="/login" className="log-in">Login</Link>
           </li>
           <li onClick={() => setOpen(false)}>
             <Link to="/signup" className="mobile-signup">Sign Up</Link>
