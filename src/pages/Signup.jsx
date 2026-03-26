@@ -1,45 +1,85 @@
 import { useState } from "react";
-import "../styles/pages/auth.css";
+import "../styles/pages/signup.css";
 
-export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+export default function Signup() {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    password: "",
+    confirmPassword: ""
+  });
+
+  const handleChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (form.password !== form.confirmPassword) {
+      alert("Passwords do not match");
+      return;
+    }
+
     // Connect backend here later
-    console.log({ email, password });
+    console.log(form);
   };
 
   return (
-    <div className="auth-container">
-      <div className="auth-card">
-        <h2>Welcome Back</h2>
-        <p>Login to continue</p>
+    <div className="signup-container">
+      <div className="signup-card">
+        <h2>Create Your Account</h2>
+        <p>Get started with Brown Motors</p>
 
         <form onSubmit={handleSubmit}>
-          <input
-            type="email"
-            placeholder="Email Address"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
+          <div className="input-group">
+            <input
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              onChange={handleChange}
+              required
+            />
+          </div>
 
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
+          <div className="input-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              onChange={handleChange}
+              required
+            />
+          </div>
 
-          <button type="submit">Login</button>
+          <div className="input-group">
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <div className="input-group">
+            <input
+              type="password"
+              name="confirmPassword"
+              placeholder="Confirm Password"
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <button type="submit">Create Account</button>
         </form>
 
-        <span className="auth-link">
-          Don’t have an account? <a href="/signup">Sign up</a>
+        <span className="signup-link">
+          Already have an account? <a href="/login">Login</a>
         </span>
       </div>
     </div>
