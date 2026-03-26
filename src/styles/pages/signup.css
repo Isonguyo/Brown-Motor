@@ -91,3 +91,26 @@
   text-decoration: none;
   font-weight: 500;
 }
+
+/* Password strength text */
+.strength {
+  text-align: left;
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Weak */
+.strength.weak {
+  color: #ef4444;
+}
+
+/* Medium */
+.strength.medium {
+  color: #facc15;
+}
+
+/* Strong */
+.strength.strong {
+  color: #22c55e;
+}
