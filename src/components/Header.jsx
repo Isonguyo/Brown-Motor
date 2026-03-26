@@ -66,8 +66,6 @@ const Header = () => {
           <li onClick={() => setOpen(false)}>
             <HashLink smooth to="/#contact">Contact</HashLink>
           </li>
-
-          {/* Auth links in mobile */}
           <li onClick={() => setOpen(false)}>
             <Link to="/login">Login</Link>
           </li>
