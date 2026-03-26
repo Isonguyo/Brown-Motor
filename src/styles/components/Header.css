@@ -17,7 +17,6 @@
   transition: all 0.5s ease-in-out;
 }
 
-
 .header.scrolled {
   background: linear-gradient(90deg, #09111c 0%, #1b263b 100%);
   height: 70px;
@@ -25,14 +24,12 @@
   box-shadow: 0 3px 10px rgba(0,0,0,0.35);
 }
 
-
 @keyframes headerDrop {
   to {
     transform: translateY(0);
     opacity: 1;
   }
 }
-
 
 .fade-slide {
   animation: fadeSlide 1s ease forwards;
@@ -50,7 +47,6 @@
   }
 }
 
-
 .header-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -61,7 +57,6 @@
   padding: 12px 24px;
   min-height: calc(var(--header-height) - 4px);
 }
-
 
 .logo {
   display: flex;
@@ -86,8 +81,9 @@
   letter-spacing: 1px;
 }
 
-
-/* Auth buttons (desktop) */
+/* =========================
+   AUTH BUTTONS (DESKTOP)
+========================= */
 .auth-buttons {
   display: flex;
   gap: 10px;
@@ -108,7 +104,7 @@
   color: #000;
 }
 
-/* Signup (primary CTA) */
+/* Signup */
 .signup-btn {
   padding: 8px 16px;
   background: #facc15;
@@ -123,12 +119,9 @@
   background: #eab308;
 }
 
-/* Mobile signup highlight */
-.mobile-signup {
-  color: #facc15;
-  font-weight: bold;
-}
-
+/* =========================
+   NAVIGATION
+========================= */
 .nav ul {
   display: flex;
   list-style: none;
@@ -143,7 +136,6 @@
   position: relative;
   transition: color 0.3s ease;
 }
-
 
 .nav ul li a::after {
   content: "";
@@ -164,7 +156,9 @@
   width: 100%;
 }
 
-
+/* =========================
+   HAMBURGER
+========================= */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -198,7 +192,9 @@
   transform: translateY(-6px) rotate(-45deg);
 }
 
-
+/* =========================
+   MOBILE NAV
+========================= */
 .mobile-nav {
   display: none;
   background: #0d1b2a;
@@ -232,19 +228,49 @@
   font-weight: 600;
 }
 
+/* Highlight signup in mobile */
+.mobile-signup {
+  color: #facc15;
+  font-weight: bold;
+}
 
+/* =========================
+   RESPONSIVE FIX
+========================= */
 @media (max-width: 900px) {
+
   .header-inner {
     padding: 8px 12px;
     min-height: 52px;
   }
+
   .logo img {
     width: 44px;
   }
+
   .logo-text {
     font-size: 1rem;
   }
-  .nav { display: none; }
-  .hamburger { display: flex; }
+
+  /* Hide desktop nav */
+  .nav {
+    display: none;
+  }
+
+  /* SHOW hamburger */
+  .hamburger {
+    display: flex;
+  }
+
+  /* 🔥 KEY FIX: Hide auth buttons on mobile */
+  .auth-buttons {
+    display: none;
+  }
 }
 
+/* Ensure auth buttons return on desktop */
+@media (min-width: 901px) {
+  .auth-buttons {
+    display: flex;
+  }
+}
