@@ -231,8 +231,8 @@
 /* =========================
    MOBILE AUTH BUTTONS
 ========================= */
-.mobile-nav .login-btn,
-.mobile-nav .signup-btn {
+.mobile-nav .log-in,
+.mobile-nav .mobile-signup {
   display: block;
   text-align: center;
   margin-top: 10px;
@@ -241,13 +241,13 @@
 }
 
 /* Login button (outlined) */
-.mobile-nav .login-btn {
+.mobile-nav .log-in {
   border: 1px solid #facc15;
   color: #facc15;
 }
 
 /* Signup button (filled) */
-.mobile-nav .signup-btn {
+.mobile-nav .mobile-signup {
   background: #facc15;
   color: #000;
   font-weight: 600;
